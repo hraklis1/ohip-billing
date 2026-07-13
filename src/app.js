@@ -195,26 +195,6 @@ const BILLING_SEARCH_LIMIT = 40;
 const ANESTHESIOLOGIST_UNIT_FEE = 15.96;
 const QUICK_ADD_GROUPS = [
   {
-    title: "Nerve Blocks",
-    options: [
-      { code: "G118", label: "Thoracic epidural with catheter" },
-      { code: "G125", label: "Caudal/lumbar epidural with catheter" },
-      { code: "G260", label: "Major plexus block" },
-      { code: "G060", label: "Peripheral nerve block, major" },
-      { code: "G061", label: "Peripheral nerve block, minor" }
-    ]
-  },
-  {
-    title: "Additional Procedures",
-    options: [
-      { code: "G268", label: "Arterial cannulation" },
-      { code: "G269", label: "Cannulation of central vein" },
-      { code: "Z459", label: "Arterial puncture (ABGs)" },
-      { code: "G322", label: "Nasogastric tube" },
-      { code: "G489", label: "Venipuncture, adolescent or adult" }
-    ]
-  },
-  {
     title: "ASA Physical Status",
     exclusive: true,
     options: [
@@ -240,6 +220,26 @@ const QUICK_ADD_GROUPS = [
     options: [
       { code: "E400C", label: "Evenings (17:00-24:00) Mon-Fri, or days/evenings Sat/Sun/Hol" },
       { code: "E401C", label: "Nights (00:00-07:00)" }
+    ]
+  },
+  {
+    title: "Additional Procedures",
+    options: [
+      { code: "G268", label: "Arterial cannulation" },
+      { code: "G269", label: "Cannulation of central vein" },
+      { code: "Z459", label: "Arterial puncture (ABGs)" },
+      { code: "G322", label: "Nasogastric tube" },
+      { code: "G489", label: "Venipuncture, adolescent or adult" }
+    ]
+  },
+  {
+    title: "Nerve Blocks",
+    options: [
+      { code: "G118", label: "Thoracic epidural with catheter" },
+      { code: "G125", label: "Caudal/lumbar epidural with catheter" },
+      { code: "G260", label: "Major plexus block" },
+      { code: "G060", label: "Peripheral nerve block, major" },
+      { code: "G061", label: "Peripheral nerve block, minor" }
     ]
   },
   {
