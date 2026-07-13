@@ -1180,9 +1180,14 @@ function premiumBaseFor(item, totals) {
     };
   }
   if (code === "E400C" || code === "E400" || code === "E401C" || code === "E401") {
+    // Deliberate simplification: strictly, E400/E401 (GP94) cover only the
+    // anaesthetic fee and eligible procedure fees take E409/E410 (GP104) at the
+    // same rates. Since both premiums share the same after-hours windows, this
+    // app folds the procedural premium into E400/E401 rather than requiring a
+    // separate E409/E410 line.
     return {
       amount: totals.anesthesiaSubtotal + totals.afterHoursProcedureSubtotal,
-      label: "Total anesthesia + eligible procedure fees"
+      label: "Total anaesthetic fee + eligible procedure fees"
     };
   }
   if (["E409", "E410", "E412", "E413"].includes(code.replace(/C$/, ""))) {
