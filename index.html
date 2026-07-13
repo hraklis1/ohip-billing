@@ -1,0 +1,541 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>OHIP Anesthesia Code Lookup</title>
+    <link rel="stylesheet" href="src/styles.css" />
+  </head>
+  <body>
+    <main class="app-shell">
+      <header class="topbar">
+        <div>
+          <p class="eyebrow">OHIP Schedule of Benefits</p>
+          <h1>Anesthesia Code Lookup</h1>
+        </div>
+        <div class="source-pill" id="sourceMeta">Loading schedule data</div>
+      </header>
+
+      <nav class="view-tabs" aria-label="App sections" role="tablist">
+        <button class="view-tab active" id="lookupTab" type="button" role="tab" aria-selected="true" aria-controls="lookupPanel" data-view="lookup">Lookup</button>
+        <button class="view-tab" id="shortlistTab" type="button" role="tab" aria-selected="false" aria-controls="shortlistPanel" data-view="shortlist">Shortlist</button>
+        <button class="view-tab" id="calculatorsTab" type="button" role="tab" aria-selected="false" aria-controls="calculatorsPanel" data-view="calculators">Calculators</button>
+        <button class="view-tab" id="billingTab" type="button" role="tab" aria-selected="false" aria-controls="billingPanel" data-view="billing">Billing<span class="tab-word"> Card</span> <span class="tab-badge" id="billingTabBadge" hidden>0</span></button>
+      </nav>
+
+      <section class="view-panel active" id="lookupPanel" role="tabpanel" aria-labelledby="lookupTab" data-view-panel="lookup">
+        <section class="tool-grid" aria-label="Lookup tools">
+          <aside class="filters" aria-label="Filters">
+            <label class="search-box">
+              <span>Search</span>
+              <input id="searchInput" type="search" placeholder="Code, procedure, category" autocomplete="off" />
+            </label>
+
+            <div class="filter-block">
+              <div class="filter-heading">
+                <span>Major Category</span>
+                <button class="ghost-button" id="clearFilters" type="button">Clear</button>
+              </div>
+              <select id="categorySelect" aria-label="Major category"></select>
+            </div>
+
+            <label class="filter-block">
+              <span class="select-label">Subcategory</span>
+              <select id="subcategorySelect"></select>
+            </label>
+          </aside>
+
+          <section class="results-panel" aria-label="Anesthesia billing code results">
+            <div class="results-toolbar">
+              <div>
+                <p class="result-count" id="resultCount">0 codes</p>
+                <p class="active-context" id="activeContext">All anesthesia-related listings</p>
+              </div>
+            </div>
+            <div class="table-wrap">
+              <table>
+                <thead>
+                  <tr>
+                    <th>Code</th>
+                    <th>Description</th>
+                    <th>Value</th>
+                    <th></th>
+                  </tr>
+                </thead>
+                <tbody id="codesBody"></tbody>
+              </table>
+              <button class="show-more-button" id="showMoreButton" type="button" hidden>Show more</button>
+            </div>
+            <div class="empty-state" id="emptyState" hidden>No matching anesthesia listings.</div>
+          </section>
+        </section>
+      </section>
+
+      <section class="view-panel" id="shortlistPanel" role="tabpanel" aria-labelledby="shortlistTab" data-view-panel="shortlist" hidden>
+        <div class="shortlist-tabs" aria-label="Shortlist pages" role="tablist">
+          <button class="shortlist-tab active" id="generalSubtab" type="button" role="tab" aria-selected="true" aria-controls="generalPanel" data-shortlist-view="general">General</button>
+          <button class="shortlist-tab" id="procedureSubtab" type="button" role="tab" aria-selected="false" aria-controls="procedurePanel" data-shortlist-view="procedure">Procedure Fees</button>
+          <button class="shortlist-tab" id="miscSubtab" type="button" role="tab" aria-selected="false" aria-controls="miscPanel" data-shortlist-view="misc">Misc</button>
+        </div>
+
+        <section class="shortlist-panel active" id="generalPanel" role="tabpanel" aria-labelledby="generalSubtab" data-shortlist-panel="general">
+          <section class="general-panel" aria-labelledby="generalTitle">
+            <div class="general-header">
+              <p class="eyebrow">Shortlist</p>
+              <h2 id="generalTitle">General</h2>
+              <div class="general-filters" id="generalFilters" aria-label="General category filter"></div>
+            </div>
+            <div class="general-groups" id="generalGroups"></div>
+          </section>
+        </section>
+
+        <section class="shortlist-panel" id="procedurePanel" role="tabpanel" aria-labelledby="procedureSubtab" data-shortlist-panel="procedure" hidden>
+          <section class="general-panel" aria-labelledby="procedureTitle">
+            <div class="general-header">
+              <p class="eyebrow">Shortlist</p>
+              <h2 id="procedureTitle">Procedure Fees</h2>
+              <div class="general-filters" id="procedureFilters" aria-label="Procedure fees category filter"></div>
+            </div>
+            <div class="general-groups" id="procedureGroups"></div>
+          </section>
+        </section>
+
+        <section class="shortlist-panel" id="miscPanel" role="tabpanel" aria-labelledby="miscSubtab" data-shortlist-panel="misc" hidden>
+          <section class="general-panel" aria-labelledby="miscTitle">
+            <div class="general-header">
+              <p class="eyebrow">Shortlist</p>
+              <h2 id="miscTitle">Misc</h2>
+              <div class="general-filters" id="miscFilters" aria-label="Misc category filter"></div>
+            </div>
+            <div class="general-groups" id="miscGroups"></div>
+          </section>
+        </section>
+      </section>
+
+      <section class="view-panel" id="calculatorsPanel" role="tabpanel" aria-labelledby="calculatorsTab" data-view-panel="calculators" hidden>
+        <section class="calculators-panel" aria-labelledby="calculatorsTitle">
+          <div class="general-header">
+            <div class="general-header-title">
+              <p class="eyebrow">Tools</p>
+              <h2 id="calculatorsTitle">Calculators</h2>
+            </div>
+            <div class="general-filters" id="calculatorFilters" aria-label="Calculator filter"></div>
+          </div>
+
+          <div class="calculator-grid">
+            <section class="calculator" aria-label="Anesthesia time unit calculator" data-calculator="time">
+              <div class="calculator-header">
+                <p class="eyebrow">Time Units</p>
+                <h2>Calculator</h2>
+              </div>
+
+              <label>
+                <span>Calculation</span>
+                <select id="calcMode">
+                  <option value="general">General anesthesia time units</option>
+                  <option value="p016">P016C epidural maintenance</option>
+                  <option value="e100">E100C attendance at delivery</option>
+                </select>
+              </label>
+
+              <div class="time-inputs">
+                <label>
+                  <span>Start</span>
+                  <input id="startTime" type="text" inputmode="numeric" autocomplete="off" maxlength="5" placeholder="00:00" aria-describedby="timeFormatHint" />
+                </label>
+                <label>
+                  <span>End</span>
+                  <input id="endTime" type="text" inputmode="numeric" autocomplete="off" maxlength="5" placeholder="00:00" aria-describedby="timeFormatHint" />
+                </label>
+              </div>
+              <p class="time-format-hint" id="timeFormatHint">Use 24-hour time. Type HH:MM or HHMM.</p>
+
+              <div class="calc-output">
+                <div>
+                  <span class="metric-label">Elapsed</span>
+                  <strong id="elapsedTime">--</strong>
+                </div>
+                <div>
+                  <span class="metric-label">Units</span>
+                  <strong id="timeUnits">--</strong>
+                </div>
+                <div>
+                  <span class="metric-label">EU</span>
+                  <strong id="euUnits" title="Extra units: time units after 15:00 for pooled cases starting before 15:00">--</strong>
+                </div>
+              </div>
+              <p class="calc-note" id="calcNote">Enter a start and end time to calculate anesthesia time units.</p>
+            </section>
+
+            <section class="calculator" aria-label="Weight converter" data-calculator="weight">
+              <div class="calculator-header">
+                <p class="eyebrow">Weight</p>
+                <h2>Converter</h2>
+              </div>
+
+              <div class="converter-inputs">
+                <label>
+                  <span>Kilograms</span>
+                  <input id="weightKg" type="number" inputmode="decimal" min="0" step="any" placeholder="kg" autocomplete="off" />
+                </label>
+                <label>
+                  <span>Pounds</span>
+                  <input id="weightLbs" type="number" inputmode="decimal" min="0" step="any" placeholder="lbs" autocomplete="off" />
+                </label>
+              </div>
+              <p class="calc-note">Type in either field to convert. 1 kg = 2.2 lbs.</p>
+            </section>
+
+            <section class="calculator" aria-label="Height converter" data-calculator="height">
+              <div class="calculator-header">
+                <p class="eyebrow">Height</p>
+                <h2>Converter</h2>
+              </div>
+
+              <div class="converter-inputs">
+                <label>
+                  <span>Feet</span>
+                  <input id="heightFeet" type="number" inputmode="decimal" min="0" step="any" placeholder="ft" autocomplete="off" />
+                </label>
+                <label>
+                  <span>Inches</span>
+                  <input id="heightInches" type="number" inputmode="decimal" min="0" step="any" placeholder="in" autocomplete="off" />
+                </label>
+              </div>
+
+              <div class="calc-output calc-output-single">
+                <div>
+                  <span class="metric-label">Centimetres</span>
+                  <strong id="heightCm">--</strong>
+                </div>
+              </div>
+              <p class="calc-note">Enter feet and inches to convert to centimetres. 1 in = 2.54 cm.</p>
+            </section>
+
+            <section class="calculator" aria-label="BMI calculator" data-calculator="bmi">
+              <div class="calculator-header">
+                <p class="eyebrow">BMI</p>
+                <h2>Body Mass Index</h2>
+              </div>
+
+              <div class="converter-inputs">
+                <label>
+                  <span>Weight (kg)</span>
+                  <input id="bmiWeight" type="number" inputmode="decimal" min="0" step="any" placeholder="kg" autocomplete="off" />
+                </label>
+                <label>
+                  <span>Height (cm)</span>
+                  <input id="bmiHeight" type="number" inputmode="decimal" min="0" step="any" placeholder="cm" autocomplete="off" />
+                </label>
+              </div>
+
+              <div class="calc-output iss-output">
+                <div>
+                  <span class="metric-label">BMI</span>
+                  <strong id="bmiValue">--</strong>
+                </div>
+                <div>
+                  <span class="metric-label">E010</span>
+                  <strong id="bmiE010" title="E010: 2 units when BMI is greater than 40">No</strong>
+                </div>
+              </div>
+              <p class="calc-note" id="bmiNote">BMI is weight (kg) divided by height (m) squared. E010: 2 units when BMI &gt; 40.</p>
+            </section>
+
+            <section class="calculator iss-calculator" aria-label="ISS calculator" data-calculator="iss">
+              <div class="calculator-header">
+                <p class="eyebrow">ISS</p>
+                <h2>Injury Severity Score</h2>
+              </div>
+
+              <div class="iss-inputs">
+                <label>
+                  <span>Head / Neck</span>
+                  <select class="iss-score-input" data-region="Head / Neck">
+                    <option value="0">0</option>
+                    <option value="1">1 Minor</option>
+                    <option value="2">2 Moderate</option>
+                    <option value="3">3 Serious</option>
+                    <option value="4">4 Severe</option>
+                    <option value="5">5 Critical</option>
+                  </select>
+                </label>
+                <label>
+                  <span>Face</span>
+                  <select class="iss-score-input" data-region="Face">
+                    <option value="0">0</option>
+                    <option value="1">1 Minor</option>
+                    <option value="2">2 Moderate</option>
+                    <option value="3">3 Serious</option>
+                    <option value="4">4 Severe</option>
+                    <option value="5">5 Critical</option>
+                  </select>
+                </label>
+                <label>
+                  <span>Chest</span>
+                  <select class="iss-score-input" data-region="Chest">
+                    <option value="0">0</option>
+                    <option value="1">1 Minor</option>
+                    <option value="2">2 Moderate</option>
+                    <option value="3">3 Serious</option>
+                    <option value="4">4 Severe</option>
+                    <option value="5">5 Critical</option>
+                  </select>
+                </label>
+                <label>
+                  <span>Abdomen</span>
+                  <select class="iss-score-input" data-region="Abdomen / Pelvic contents">
+                    <option value="0">0</option>
+                    <option value="1">1 Minor</option>
+                    <option value="2">2 Moderate</option>
+                    <option value="3">3 Serious</option>
+                    <option value="4">4 Severe</option>
+                    <option value="5">5 Critical</option>
+                  </select>
+                </label>
+                <label>
+                  <span>Extremities</span>
+                  <select class="iss-score-input" data-region="Extremities / Pelvic girdle">
+                    <option value="0">0</option>
+                    <option value="1">1 Minor</option>
+                    <option value="2">2 Moderate</option>
+                    <option value="3">3 Serious</option>
+                    <option value="4">4 Severe</option>
+                    <option value="5">5 Critical</option>
+                  </select>
+                </label>
+                <label>
+                  <span>External</span>
+                  <select class="iss-score-input" data-region="External">
+                    <option value="0">0</option>
+                    <option value="1">1 Minor</option>
+                    <option value="2">2 Moderate</option>
+                    <option value="3">3 Serious</option>
+                    <option value="4">4 Severe</option>
+                    <option value="5">5 Critical</option>
+                  </select>
+                </label>
+              </div>
+
+              <div class="calc-output iss-output">
+                <div>
+                  <span class="metric-label">ISS</span>
+                  <strong id="issScore">0</strong>
+                </div>
+                <div>
+                  <span class="metric-label">E420</span>
+                  <strong id="issE420">No</strong>
+                </div>
+              </div>
+              <p class="calc-note" id="issNote">ISS is the sum of squares of the three highest AIS body-region scores.</p>
+
+              <details class="iss-reference">
+                <summary>Scoring reference</summary>
+                <div class="iss-reference-body">
+                  <p>E420: 50% premium within 24 hr when ISS &gt;15. Applies to basic/time units and consult/assessment fees. Any single score of 4 qualifies.</p>
+                  <div class="iss-reference-list">
+                    <section>
+                      <h3>Head / Neck</h3>
+                      <p><strong>4</strong> Brain stem herniation, DAI, contusion/epidural/subdural &gt;30 cc; unconscious &gt;6 hrs; pharyngeal perforation; complete/incomplete cord injury.</p>
+                      <p><strong>3</strong> Unconscious &gt;1 hr or GCS &lt;9; carotid injury; laryngeal perforation; pharyngeal tear; cervical fracture.</p>
+                      <p><strong>2</strong> Unconscious &lt;1 hr or GCS 9-14.</p>
+                    </section>
+                    <section>
+                      <h3>Face</h3>
+                      <p><strong>3</strong> LeFort 3.</p>
+                      <p><strong>2</strong> LeFort 1 or 2; zygoma/orbit fracture.</p>
+                    </section>
+                    <section>
+                      <h3>Chest</h3>
+                      <p><strong>4</strong> Open chest wound; aortic tear; bilateral pulmonary contusion; tension pneumothorax; flail chest.</p>
+                      <p><strong>3</strong> Hemo/pneumothorax; ruptured diaphragm; cardiac/pulmonary contusion; tamponade; &gt;3 unilateral rib fractures; T-spine fracture.</p>
+                    </section>
+                    <section>
+                      <h3>Abdomen</h3>
+                      <p><strong>4</strong> Aortic tear; bladder rupture; renal hilum; liver/spleen burst or disruption.</p>
+                      <p><strong>3</strong> Bowel perforation; kidney laceration; liver/spleen laceration &gt;3 cm; L-spine fracture.</p>
+                    </section>
+                    <section>
+                      <h3>Extremity / Pelvis</h3>
+                      <p><strong>4</strong> Major pelvis with retroperitoneal hematoma.</p>
+                      <p><strong>3</strong> Closed femur; open longbone; SI or symphysis separation; tibial plateau.</p>
+                      <p><strong>2</strong> Any longbone fracture.</p>
+                    </section>
+                    <section>
+                      <h3>External</h3>
+                      <p><strong>4</strong> Burn &gt;30%; &gt;20% on face/hand/genitalia; COHb &gt;20%; rectal temp &lt;30.</p>
+                      <p><strong>3</strong> Burn &gt;20%; &gt;10% on face/hand/genitalia; COHb &lt;20%; rectal temp &lt;32.</p>
+                    </section>
+                  </div>
+                </div>
+              </details>
+            </section>
+          </div>
+        </section>
+      </section>
+
+      <section class="view-panel" id="billingPanel" role="tabpanel" aria-labelledby="billingTab" data-view-panel="billing" hidden>
+        <section class="billing-panel" aria-labelledby="billingTitle">
+          <div class="billing-header">
+            <div>
+              <p class="eyebrow">Billing Card</p>
+              <h2 id="billingTitle">Anesthesia Billing Calculator</h2>
+            </div>
+            <button class="ghost-button billing-clear-top" id="clearBillingCardTop" type="button">Clear Card</button>
+            <div class="billing-totals">
+              <div>
+                <span class="metric-label">Total Units</span>
+                <strong id="billingTotalUnits">0</strong>
+              </div>
+              <div>
+                <span class="metric-label">EU</span>
+                <strong id="billingHeaderEu" title="Extra units: time units after 15:00 for pooled cases starting before 15:00">--</strong>
+              </div>
+              <div>
+                <span class="metric-label">Estimated Total</span>
+                <strong id="billingGrandTotal">$0.00</strong>
+              </div>
+            </div>
+          </div>
+
+          <div class="billing-layout">
+            <section class="billing-controls" aria-label="Billing inputs">
+              <div class="billing-section">
+                <div class="billing-section-heading">
+                  <p class="eyebrow">Quick Add</p>
+                  <h3>Common Codes</h3>
+                </div>
+                <button class="quick-add-button" id="billingQuickAddOpen" type="button">+ Add Codes</button>
+                <button class="quick-add-button quick-add-button-outline" id="billingSearchOpen" type="button">Search Codes</button>
+                <div class="quick-add-summary" id="billingQuickAddSummary"></div>
+              </div>
+
+              <div class="billing-section">
+                <div class="billing-section-heading">
+                  <p class="eyebrow">Case</p>
+                  <h3>Time & Fee</h3>
+                </div>
+                <div class="time-inputs">
+                  <label>
+                    <span>Start</span>
+                    <input id="billingStartTime" type="text" inputmode="numeric" autocomplete="off" maxlength="5" placeholder="00:00" />
+                  </label>
+                  <label>
+                    <span>Stop</span>
+                    <input id="billingEndTime" type="text" inputmode="numeric" autocomplete="off" maxlength="5" placeholder="00:00" />
+                  </label>
+                </div>
+                <div class="billing-mini-summary">
+                  <div>
+                    <span class="metric-label">Elapsed</span>
+                    <strong id="billingElapsedTime">--</strong>
+                  </div>
+                  <div>
+                    <span class="metric-label">Time Units</span>
+                    <strong id="billingTimeUnits">--</strong>
+                  </div>
+                  <div>
+                    <span class="metric-label">EU</span>
+                    <strong id="billingEuUnits" title="Extra units: time units after 15:00 for pooled cases starting before 15:00">--</strong>
+                  </div>
+                </div>
+                <p class="calc-note" id="billingTimeNote">Enter start and stop times to add time units to the card.</p>
+                <p class="calc-note unit-fee-note">Anaesthesiologist unit fee: <strong id="billingUnitFee">$15.96</strong> &middot; Schedule GP92, effective April 1, 2026</p>
+              </div>
+
+            </section>
+
+            <section class="billing-card" id="billingCard" aria-label="Itemized billing card">
+              <button class="billing-card-bar" id="billingSheetToggle" type="button" aria-expanded="false" aria-controls="billingCardContent">
+                <span class="bar-metric">
+                  <span>Total Units</span>
+                  <strong id="billingStickyUnits">0</strong>
+                </span>
+                <span class="bar-chevron" aria-hidden="true"></span>
+                <span class="bar-metric bar-metric-right">
+                  <span>Estimated Total</span>
+                  <strong id="billingStickyTotal">$0.00</strong>
+                </span>
+              </button>
+              <div class="billing-card-content" id="billingCardContent">
+              <div class="billing-card-toolbar">
+                <div>
+                  <p class="result-count">Itemized card</p>
+                  <p class="active-context" id="billingCardContext">No codes added yet</p>
+                </div>
+                <button class="ghost-button" id="clearBillingCard" type="button">Clear Card</button>
+              </div>
+              <div class="paper-card">
+                <div class="paper-strip">
+                  <div class="paper-box"><span class="paper-label">Start</span><strong class="paper-value" id="billingPaperStart">&nbsp;</strong></div>
+                  <div class="paper-box"><span class="paper-label">Finish</span><strong class="paper-value" id="billingPaperFinish">&nbsp;</strong></div>
+                  <div class="paper-box"><span class="paper-label">Total Units</span><strong class="paper-value" id="billingPaperTotalUnits">&nbsp;</strong></div>
+                  <div class="paper-box"><span class="paper-label">FFS/EU=</span><strong class="paper-value" id="billingPaperEu">&nbsp;</strong></div>
+                  <div class="paper-box"><span class="paper-label">Time</span><strong class="paper-value" id="billingPaperTime">&nbsp;</strong></div>
+                  <div class="paper-box"><span class="paper-label">Basic Units</span><strong class="paper-value" id="billingPaperBasicUnits">&nbsp;</strong></div>
+                </div>
+                <div class="paper-ledger">
+                  <div class="paper-ledger-head">
+                    <span class="paper-label">Proc. Code</span>
+                    <span class="paper-label paper-col-units">Total Units</span>
+                    <span aria-hidden="true"></span>
+                  </div>
+                  <div id="billingCardBody" class="paper-ledger-body"></div>
+                </div>
+                <div class="empty-state paper-hint" id="billingEmptyState">Search or add codes from any table to build the billing card.</div>
+                <div class="billing-summary" id="billingSummary"></div>
+              </div>
+              </div>
+            </section>
+          </div>
+
+          <div class="billing-sheet-backdrop" id="billingSheetBackdrop" hidden></div>
+        </section>
+      </section>
+    </main>
+
+    <dialog class="info-dialog quick-add-dialog" id="quickAddDialog" aria-labelledby="quickAddDialogTitle">
+      <div class="info-dialog-panel">
+        <div class="info-dialog-header">
+          <h2 id="quickAddDialogTitle">Add Common Codes</h2>
+          <button class="info-dialog-close" id="quickAddDialogClose" type="button" aria-label="Close add codes">&times;</button>
+        </div>
+        <div class="info-dialog-body quick-add-body" id="quickAddDialogBody"></div>
+        <div class="quick-add-footer">
+          <button class="ghost-button" id="quickAddDialogDone" type="button">Done</button>
+        </div>
+      </div>
+    </dialog>
+
+    <dialog class="info-dialog quick-add-dialog code-search-dialog" id="codeSearchDialog" aria-labelledby="codeSearchDialogTitle">
+      <div class="info-dialog-panel">
+        <div class="info-dialog-header">
+          <h2 id="codeSearchDialogTitle">Search Codes</h2>
+          <button class="info-dialog-close" id="codeSearchDialogClose" type="button" aria-label="Close code search">&times;</button>
+        </div>
+        <div class="info-dialog-body code-search-body">
+          <label>
+            <span>Code or description</span>
+            <input id="billingCodeSearch" type="search" placeholder="e.g. E010, G489, cholecystectomy" autocomplete="off" />
+          </label>
+          <div class="billing-search-results" id="billingSearchResults"></div>
+        </div>
+        <div class="quick-add-footer">
+          <button class="ghost-button" id="codeSearchDialogDone" type="button">Done</button>
+        </div>
+      </div>
+    </dialog>
+
+    <dialog class="info-dialog" id="infoDialog" aria-labelledby="infoDialogTitle">
+      <div class="info-dialog-panel">
+        <div class="info-dialog-header">
+          <h2 id="infoDialogTitle">Payment rules</h2>
+          <button class="info-dialog-close" id="infoDialogClose" type="button" aria-label="Close payment rules">&times;</button>
+        </div>
+        <div class="info-dialog-body" id="infoDialogBody"></div>
+      </div>
+    </dialog>
+
+    <script type="module" src="src/app.js"></script>
+  </body>
+</html>
