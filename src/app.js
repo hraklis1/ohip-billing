@@ -700,6 +700,18 @@ function renderAll() {
 
 function parseTime(value) {
   const cleaned = value.trim();
+  const meridiem = /\s*([ap])\.?m?\.?$/i.exec(cleaned);
+  if (meridiem) {
+    const rest = cleaned.slice(0, meridiem.index);
+    const match = /^(\d{1,2})(?::?([0-5]\d))?$/.exec(rest);
+    if (!match) return null;
+    const [, hours, minutes] = match;
+    const hourValue = Number(hours);
+    if (hourValue < 1 || hourValue > 12) return null;
+    const isPm = meridiem[1].toLowerCase() === "p";
+    const hour24 = (hourValue % 12) + (isPm ? 12 : 0);
+    return hour24 * 60 + Number(minutes || 0);
+  }
   const compact = /^(\d{1,2})([0-5]\d)$/.exec(cleaned);
   const match = /^(\d{1,2}):([0-5]\d)$/.exec(cleaned) || compact;
   if (!match) return null;
@@ -786,7 +798,7 @@ function updateCalculator() {
     els.timeUnits.textContent = "--";
     els.euUnits.textContent = "--";
     els.calcNote.textContent = startInvalid || endInvalid
-      ? "Enter both times in 24-hour HH:MM format, for example 08:30 or 17:45."
+      ? "Enter times like 08:30, 0830, or 8:30am."
       : "Enter a start and end time to calculate anesthesia time units.";
     return;
   }
@@ -1137,7 +1149,7 @@ function getBillingTime() {
       units: null,
       eu: null,
       note: startInvalid || endInvalid
-        ? "Enter both times in 24-hour HH:MM format."
+        ? "Enter times like 09:00, 0900, or 9am."
         : "Enter start and stop times to add time units to the card."
     };
   }

@@ -141,14 +141,14 @@
               <div class="time-inputs">
                 <label>
                   <span>Start</span>
-                  <input id="startTime" type="text" inputmode="numeric" autocomplete="off" maxlength="5" placeholder="00:00" aria-describedby="timeFormatHint" />
+                  <input id="startTime" type="text" inputmode="text" autocomplete="off" maxlength="8" placeholder="00:00" aria-describedby="timeFormatHint" />
                 </label>
                 <label>
                   <span>End</span>
-                  <input id="endTime" type="text" inputmode="numeric" autocomplete="off" maxlength="5" placeholder="00:00" aria-describedby="timeFormatHint" />
+                  <input id="endTime" type="text" inputmode="text" autocomplete="off" maxlength="8" placeholder="00:00" aria-describedby="timeFormatHint" />
                 </label>
               </div>
-              <p class="time-format-hint" id="timeFormatHint">Use 24-hour time. Type HH:MM or HHMM.</p>
+              <p class="time-format-hint" id="timeFormatHint">Type HH:MM or HHMM in 24-hour time, or add am/pm (9am, 9:30pm).</p>
 
               <div class="calc-output">
                 <div>
@@ -418,11 +418,11 @@
                 <div class="time-inputs">
                   <label>
                     <span>Start</span>
-                    <input id="billingStartTime" type="text" inputmode="numeric" autocomplete="off" maxlength="5" placeholder="00:00" />
+                    <input id="billingStartTime" type="text" inputmode="text" autocomplete="off" maxlength="8" placeholder="00:00" />
                   </label>
                   <label>
                     <span>Stop</span>
-                    <input id="billingEndTime" type="text" inputmode="numeric" autocomplete="off" maxlength="5" placeholder="00:00" />
+                    <input id="billingEndTime" type="text" inputmode="text" autocomplete="off" maxlength="8" placeholder="00:00" />
                   </label>
                 </div>
                 <div class="billing-mini-summary">
