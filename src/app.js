@@ -252,6 +252,9 @@ const QUICK_ADD_GROUPS = [
   {
     title: "Special Visit Premiums",
     options: [
+      { code: "C998", label: "1st pt seen, anaesthesia travel, Mon-Fri, 17:00-24:00" },
+      { code: "C985", label: "1st pt seen, anaesthesia travel, Sat/Sun/Hol, 07:00-24:00" },
+      { code: "C999", label: "1st pt seen, anaesthesia travel, 24:00-07:00" },
       { code: "C994", label: "1st pt seen with C013, Mon-Fri, 17:00-24:00" },
       { code: "C995", label: "Next pts seen with C013, Mon-Fri, 17:00-24:00" },
       { code: "C986", label: "1st pt seen with C013, Sat/Sun/Hol, 07:00-24:00" },
