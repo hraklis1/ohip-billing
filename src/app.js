@@ -303,6 +303,7 @@ function matchesItemQuery(item, query) {
     displayCode(item),
     item.category,
     item.subcategory,
+    item.context,
     item.valueType,
     item.sourceRef
   ].map(normalize).join(" ");
@@ -414,11 +415,15 @@ function renderRows() {
   }
   els.emptyState.hidden = visible.length > 0;
   els.emptyState.textContent = idle ? "No lookup filter selected." : "No matching anesthesia listings.";
-  const showRowContext = state.category === "All";
   els.codesBody.innerHTML = displayed.map((item) => {
     const codeIndex = codes.indexOf(item);
-    const rowContext = showRowContext
-      ? `<span class="row-context">${escapeHtml(item.category)} &middot; ${escapeHtml(item.subcategory)}</span>`
+    const rowContextParts = [
+      state.category === "All" ? item.category : null,
+      state.subcategory === "All" ? item.subcategory : null,
+      item.context
+    ].filter(Boolean);
+    const rowContext = rowContextParts.length
+      ? `<span class="row-context">${rowContextParts.map(escapeHtml).join(" &middot; ")}</span>`
       : "";
     return `<tr>
     <td class="code-cell">${escapeHtml(displayCode(item))}</td>
@@ -1246,10 +1251,15 @@ function renderBillingSearch() {
 
   els.billingSearchResults.innerHTML = results.map((item) => {
     const index = codes.indexOf(item);
+    const contextParts = [item.subcategory, item.context].filter(Boolean);
+    const contextLine = contextParts.length
+      ? `<span class="billing-search-context">${contextParts.map(escapeHtml).join(" &middot; ")}</span>`
+      : "";
     return `<button class="billing-search-row" type="button" data-billing-source="codes" data-billing-index="${index}" title="${escapeAttr(item.description)}">
       <span class="billing-search-code">${escapeHtml(displayCode(item))}</span>
       <span class="billing-search-description">${escapeHtml(item.description)}</span>
       <span>${valueHtml(item)}</span>
+      ${contextLine}
     </button>`;
   }).join("");
 }

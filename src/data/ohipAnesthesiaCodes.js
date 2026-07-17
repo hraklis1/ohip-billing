@@ -59,7 +59,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 6,
       "fee": null,
       "sourceRef": "Y15",
-      "pdfPage": 781
+      "pdfPage": 781,
+      "context": "External"
     },
     {
       "code": "E305",
@@ -81,7 +82,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 7,
       "fee": null,
       "sourceRef": "Y14",
-      "pdfPage": 780
+      "pdfPage": 780,
+      "context": "Incision"
     },
     {
       "code": "E307",
@@ -125,7 +127,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 7,
       "fee": null,
       "sourceRef": "Y15",
-      "pdfPage": 781
+      "pdfPage": 781,
+      "context": "External"
     },
     {
       "code": "E311",
@@ -169,7 +172,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 7,
       "fee": null,
       "sourceRef": "Y15",
-      "pdfPage": 781
+      "pdfPage": 781,
+      "context": "External"
     },
     {
       "code": "E317",
@@ -191,7 +195,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 2,
       "fee": null,
       "sourceRef": "Y15",
-      "pdfPage": 781
+      "pdfPage": 781,
+      "context": "External"
     },
     {
       "code": "Z846",
@@ -246,7 +251,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 8,
       "fee": null,
       "sourceRef": "Y18",
-      "pdfPage": 784
+      "pdfPage": 784,
+      "context": "Repair"
     },
     {
       "code": "E331",
@@ -257,7 +263,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 6,
       "fee": null,
       "sourceRef": "Y18",
-      "pdfPage": 784
+      "pdfPage": 784,
+      "context": "Repair"
     },
     {
       "code": "E332",
@@ -268,7 +275,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 10,
       "fee": null,
       "sourceRef": "Y18",
-      "pdfPage": 784
+      "pdfPage": 784,
+      "context": "Incision"
     },
     {
       "code": "E335",
@@ -279,7 +287,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 10,
       "fee": null,
       "sourceRef": "Y18",
-      "pdfPage": 784
+      "pdfPage": 784,
+      "context": "Repair"
     },
     {
       "code": "E339",
@@ -290,7 +299,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 10,
       "fee": null,
       "sourceRef": "Y18",
-      "pdfPage": 784
+      "pdfPage": 784,
+      "context": "Repair"
     },
     {
       "code": "E341",
@@ -301,7 +311,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 9,
       "fee": null,
       "sourceRef": "Y18",
-      "pdfPage": 784
+      "pdfPage": 784,
+      "context": "Permanent Cochlear Prosthesis Insertion"
     },
     {
       "code": "E345",
@@ -312,7 +323,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 15,
       "fee": null,
       "sourceRef": "Y18",
-      "pdfPage": 784
+      "pdfPage": 784,
+      "context": "Repair"
     },
     {
       "code": "E346",
@@ -345,7 +357,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 10,
       "fee": null,
       "sourceRef": "Y17",
-      "pdfPage": 783
+      "pdfPage": 783,
+      "context": "Tympanoplasty"
     },
     {
       "code": "E319",
@@ -356,7 +369,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 6,
       "fee": null,
       "sourceRef": "Y16",
-      "pdfPage": 782
+      "pdfPage": 782,
+      "context": "Mastoidectomy"
     },
     {
       "code": "E320",
@@ -389,7 +403,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 6,
       "fee": null,
       "sourceRef": "Y16",
-      "pdfPage": 782
+      "pdfPage": 782,
+      "context": "Repair"
     },
     {
       "code": "E325",
@@ -400,7 +415,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 10,
       "fee": null,
       "sourceRef": "Y17",
-      "pdfPage": 783
+      "pdfPage": 783,
+      "context": "Tympanoplasty"
     },
     {
       "code": "E326",
@@ -411,7 +427,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 10,
       "fee": null,
       "sourceRef": "Y17",
-      "pdfPage": 783
+      "pdfPage": 783,
+      "context": "Tympanoplasty"
     },
     {
       "code": "E327",
@@ -422,7 +439,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 10,
       "fee": null,
       "sourceRef": "Y17",
-      "pdfPage": 783
+      "pdfPage": 783,
+      "context": "Tympanoplasty"
     },
     {
       "code": "E328",
@@ -433,7 +451,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 10,
       "fee": null,
       "sourceRef": "Y17",
-      "pdfPage": 783
+      "pdfPage": 783,
+      "context": "Tympanoplasty"
     },
     {
       "code": "E329",
@@ -444,7 +463,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 10,
       "fee": null,
       "sourceRef": "Y17",
-      "pdfPage": 783
+      "pdfPage": 783,
+      "context": "Tympanoplasty"
     },
     {
       "code": "E333",
@@ -455,7 +475,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 10,
       "fee": null,
       "sourceRef": "Y17",
-      "pdfPage": 783
+      "pdfPage": 783,
+      "context": "Tympanoplasty"
     },
     {
       "code": "E336",
@@ -466,7 +487,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 7,
       "fee": null,
       "sourceRef": "Y17",
-      "pdfPage": 783
+      "pdfPage": 783,
+      "context": "Tympanoplasty"
     },
     {
       "code": "E337",
@@ -477,7 +499,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 10,
       "fee": null,
       "sourceRef": "Y17",
-      "pdfPage": 783
+      "pdfPage": 783,
+      "context": "Tympanoplasty"
     },
     {
       "code": "Z908",
@@ -499,7 +522,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 6,
       "fee": null,
       "sourceRef": "Y16",
-      "pdfPage": 782
+      "pdfPage": 782,
+      "context": "Incision"
     },
     {
       "code": "Z914",
@@ -510,7 +534,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 6,
       "fee": null,
       "sourceRef": "Y16",
-      "pdfPage": 782
+      "pdfPage": 782,
+      "context": "Incision"
     },
     {
       "code": "Z916",
@@ -521,7 +546,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 6,
       "fee": null,
       "sourceRef": "Y16",
-      "pdfPage": 782
+      "pdfPage": 782,
+      "context": "Incision"
     },
     {
       "code": "R708",
@@ -532,7 +558,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 10,
       "fee": null,
       "sourceRef": "Q11",
-      "pdfPage": 669
+      "pdfPage": 669,
+      "context": "Ligation"
     },
     {
       "code": "R760",
@@ -543,7 +570,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 10,
       "fee": null,
       "sourceRef": "Q11",
-      "pdfPage": 669
+      "pdfPage": 669,
+      "context": "Cannulation for infusion chemotherapy"
     },
     {
       "code": "R764",
@@ -554,7 +582,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 10,
       "fee": null,
       "sourceRef": "Q11",
-      "pdfPage": 669
+      "pdfPage": 669,
+      "context": "Cannulation for infusion chemotherapy"
     },
     {
       "code": "R766",
@@ -631,7 +660,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 10,
       "fee": null,
       "sourceRef": "Q16",
-      "pdfPage": 674
+      "pdfPage": 674,
+      "context": "* Arterial reconstruction extra"
     },
     {
       "code": "R787",
@@ -653,7 +683,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 10,
       "fee": null,
       "sourceRef": "Q11",
-      "pdfPage": 669
+      "pdfPage": 669,
+      "context": "Ligation"
     },
     {
       "code": "R789",
@@ -664,7 +695,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 7,
       "fee": null,
       "sourceRef": "Q11",
-      "pdfPage": 669
+      "pdfPage": 669,
+      "context": "Ligation"
     },
     {
       "code": "R790",
@@ -675,7 +707,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 10,
       "fee": null,
       "sourceRef": "Q11",
-      "pdfPage": 669
+      "pdfPage": 669,
+      "context": "Traumatic"
     },
     {
       "code": "R791",
@@ -719,7 +752,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 10,
       "fee": null,
       "sourceRef": "Q11",
-      "pdfPage": 669
+      "pdfPage": 669,
+      "context": "Traumatic"
     },
     {
       "code": "R796",
@@ -785,7 +819,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 17,
       "fee": null,
       "sourceRef": "Q14",
-      "pdfPage": 672
+      "pdfPage": 672,
+      "context": "Two Surgeon"
     },
     {
       "code": "R803",
@@ -796,7 +831,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 30,
       "fee": null,
       "sourceRef": "Q14",
-      "pdfPage": 672
+      "pdfPage": 672,
+      "context": "Thoraco-abdominal aneurysm - repair or excision with graft"
     },
     {
       "code": "R804",
@@ -818,7 +854,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 10,
       "fee": null,
       "sourceRef": "Q16",
-      "pdfPage": 674
+      "pdfPage": 674,
+      "context": "* Arterial reconstruction extra"
     },
     {
       "code": "R806",
@@ -829,7 +866,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 10,
       "fee": null,
       "sourceRef": "Q16",
-      "pdfPage": 674
+      "pdfPage": 674,
+      "context": "* Arterial reconstruction extra"
     },
     {
       "code": "R807",
@@ -840,7 +878,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 10,
       "fee": null,
       "sourceRef": "Q16",
-      "pdfPage": 674
+      "pdfPage": 674,
+      "context": "* Arterial reconstruction extra"
     },
     {
       "code": "R808",
@@ -851,7 +890,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 10,
       "fee": null,
       "sourceRef": "Q16",
-      "pdfPage": 674
+      "pdfPage": 674,
+      "context": "Profundoplasty"
     },
     {
       "code": "R809",
@@ -873,7 +913,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 10,
       "fee": null,
       "sourceRef": "Q17",
-      "pdfPage": 675
+      "pdfPage": 675,
+      "context": "Femoro-anterior/posterial tibial/peroneal bypass graft"
     },
     {
       "code": "R811",
@@ -895,7 +936,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 10,
       "fee": null,
       "sourceRef": "Q17",
-      "pdfPage": 675
+      "pdfPage": 675,
+      "context": "Femoro-anterior/posterial tibial/peroneal bypass graft"
     },
     {
       "code": "R813",
@@ -906,7 +948,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 10,
       "fee": null,
       "sourceRef": "Q17",
-      "pdfPage": 675
+      "pdfPage": 675,
+      "context": "Femoro-anterior/posterial tibial/peroneal bypass graft"
     },
     {
       "code": "R814",
@@ -928,7 +971,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 10,
       "fee": null,
       "sourceRef": "Q13",
-      "pdfPage": 671
+      "pdfPage": 671,
+      "context": "Abdominal surgical exposure"
     },
     {
       "code": "R817",
@@ -983,7 +1027,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 10,
       "fee": null,
       "sourceRef": "Q16",
-      "pdfPage": 674
+      "pdfPage": 674,
+      "context": "Profundoplasty"
     },
     {
       "code": "R856",
@@ -1005,7 +1050,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 17,
       "fee": null,
       "sourceRef": "Q16",
-      "pdfPage": 674
+      "pdfPage": 674,
+      "context": "Aorto-Iliac repair"
     },
     {
       "code": "R860",
@@ -1038,7 +1084,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 10,
       "fee": null,
       "sourceRef": "Q11",
-      "pdfPage": 669
+      "pdfPage": 669,
+      "context": "Traumatic"
     },
     {
       "code": "R864",
@@ -1049,7 +1096,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 10,
       "fee": null,
       "sourceRef": "Q16",
-      "pdfPage": 674
+      "pdfPage": 674,
+      "context": "Profundoplasty"
     },
     {
       "code": "R866",
@@ -1060,7 +1108,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 10,
       "fee": null,
       "sourceRef": "Q17",
-      "pdfPage": 675
+      "pdfPage": 675,
+      "context": "Femoro-anterior/posterial tibial/peroneal bypass graft"
     },
     {
       "code": "R867",
@@ -1071,7 +1120,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 10,
       "fee": null,
       "sourceRef": "Q17",
-      "pdfPage": 675
+      "pdfPage": 675,
+      "context": "Femoro-anterior/posterial tibial/peroneal bypass graft"
     },
     {
       "code": "R873",
@@ -1082,7 +1132,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 6,
       "fee": null,
       "sourceRef": "Q16",
-      "pdfPage": 674
+      "pdfPage": 674,
+      "context": "Profundoplasty"
     },
     {
       "code": "R875",
@@ -1148,7 +1199,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 25,
       "fee": null,
       "sourceRef": "Q13",
-      "pdfPage": 671
+      "pdfPage": 671,
+      "context": "Abdominal surgical exposure"
     },
     {
       "code": "R883",
@@ -1236,7 +1288,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 30,
       "fee": null,
       "sourceRef": "Q14",
-      "pdfPage": 672
+      "pdfPage": 672,
+      "context": "Two Surgeon"
     },
     {
       "code": "R932",
@@ -1247,7 +1300,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 10,
       "fee": null,
       "sourceRef": "Q16",
-      "pdfPage": 674
+      "pdfPage": 674,
+      "context": "Profundoplasty"
     },
     {
       "code": "R933",
@@ -1258,7 +1312,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 10,
       "fee": null,
       "sourceRef": "Q16",
-      "pdfPage": 674
+      "pdfPage": 674,
+      "context": "Profundoplasty"
     },
     {
       "code": "R934",
@@ -1269,7 +1324,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 17,
       "fee": null,
       "sourceRef": "Q16",
-      "pdfPage": 674
+      "pdfPage": 674,
+      "context": "Profundoplasty"
     },
     {
       "code": "R935",
@@ -1302,7 +1358,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 10,
       "fee": null,
       "sourceRef": "Q16",
-      "pdfPage": 674
+      "pdfPage": 674,
+      "context": "* Arterial reconstruction extra"
     },
     {
       "code": "R940",
@@ -1313,7 +1370,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 28,
       "fee": null,
       "sourceRef": "Q16",
-      "pdfPage": 674
+      "pdfPage": 674,
+      "context": "Mesenteric or celiac artery repair"
     },
     {
       "code": "Z402",
@@ -1324,7 +1382,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 6,
       "fee": null,
       "sourceRef": "Q11",
-      "pdfPage": 669
+      "pdfPage": 669,
+      "context": "Incision"
     },
     {
       "code": "E645",
@@ -1379,7 +1438,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 8,
       "fee": null,
       "sourceRef": "Q8",
-      "pdfPage": 666
+      "pdfPage": 666,
+      "context": "Percutaneous transluminal catheter assisted closure for Secundum atrial septal defect"
     },
     {
       "code": "R700",
@@ -1456,7 +1516,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 20,
       "fee": null,
       "sourceRef": "Q5",
-      "pdfPage": 663
+      "pdfPage": 663,
+      "context": "Cardiotomy"
     },
     {
       "code": "R707",
@@ -1467,7 +1528,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 13,
       "fee": null,
       "sourceRef": "Q5",
-      "pdfPage": 663
+      "pdfPage": 663,
+      "context": "Pericardiotomy for Drainage"
     },
     {
       "code": "R709",
@@ -1478,7 +1540,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 20,
       "fee": null,
       "sourceRef": "Q5",
-      "pdfPage": 663
+      "pdfPage": 663,
+      "context": "Cardiotomy"
     },
     {
       "code": "R710",
@@ -1577,7 +1640,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 28,
       "fee": null,
       "sourceRef": "Q7",
-      "pdfPage": 665
+      "pdfPage": 665,
+      "context": "Closure of atrial septal defect"
     },
     {
       "code": "R720",
@@ -1610,7 +1674,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 28,
       "fee": null,
       "sourceRef": "Q9",
-      "pdfPage": 667
+      "pdfPage": 667,
+      "context": "Repair"
     },
     {
       "code": "R723",
@@ -1621,7 +1686,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 28,
       "fee": null,
       "sourceRef": "Q9",
-      "pdfPage": 667
+      "pdfPage": 667,
+      "context": "Repair"
     },
     {
       "code": "R740",
@@ -1643,7 +1709,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 20,
       "fee": null,
       "sourceRef": "Q6",
-      "pdfPage": 664
+      "pdfPage": 664,
+      "context": "Excision"
     },
     {
       "code": "R742",
@@ -1676,7 +1743,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 28,
       "fee": null,
       "sourceRef": "Q6",
-      "pdfPage": 664
+      "pdfPage": 664,
+      "context": "Excision"
     },
     {
       "code": "R747",
@@ -1687,7 +1755,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 28,
       "fee": null,
       "sourceRef": "Q6",
-      "pdfPage": 664
+      "pdfPage": 664,
+      "context": "Excision"
     },
     {
       "code": "R748",
@@ -1720,7 +1789,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 13,
       "fee": null,
       "sourceRef": "Q5",
-      "pdfPage": 663
+      "pdfPage": 663,
+      "context": "Thoracotomy"
     },
     {
       "code": "R751",
@@ -1819,7 +1889,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 20,
       "fee": null,
       "sourceRef": "Q7",
-      "pdfPage": 665
+      "pdfPage": 665,
+      "context": "Resection coarctation"
     },
     {
       "code": "R761",
@@ -1874,7 +1945,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 20,
       "fee": null,
       "sourceRef": "Q9",
-      "pdfPage": 667
+      "pdfPage": 667,
+      "context": "Repair"
     },
     {
       "code": "R769",
@@ -1885,7 +1957,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 6,
       "fee": null,
       "sourceRef": "Q9",
-      "pdfPage": 667
+      "pdfPage": 667,
+      "context": "Repair"
     },
     {
       "code": "R770",
@@ -1896,7 +1969,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 20,
       "fee": null,
       "sourceRef": "Q9",
-      "pdfPage": 667
+      "pdfPage": 667,
+      "context": "Repair"
     },
     {
       "code": "R771",
@@ -1907,7 +1981,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 20,
       "fee": null,
       "sourceRef": "Q9",
-      "pdfPage": 667
+      "pdfPage": 667,
+      "context": "Repair"
     },
     {
       "code": "R857",
@@ -1929,7 +2004,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 28,
       "fee": null,
       "sourceRef": "Q8",
-      "pdfPage": 666
+      "pdfPage": 666,
+      "context": "Percutaneous transluminal catheter assisted closure for Secundum atrial septal defect"
     },
     {
       "code": "R872",
@@ -1940,7 +2016,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 8,
       "fee": null,
       "sourceRef": "Q8",
-      "pdfPage": 666
+      "pdfPage": 666,
+      "context": "Percutaneous transluminal catheter assisted closure for Secundum atrial septal defect"
     },
     {
       "code": "R874",
@@ -1951,7 +2028,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 28,
       "fee": null,
       "sourceRef": "Q8",
-      "pdfPage": 666
+      "pdfPage": 666,
+      "context": "Percutaneous transluminal catheter assisted closure for Secundum atrial septal defect"
     },
     {
       "code": "R920",
@@ -1962,7 +2040,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 28,
       "fee": null,
       "sourceRef": "Q6",
-      "pdfPage": 664
+      "pdfPage": 664,
+      "context": "Excision"
     },
     {
       "code": "R921",
@@ -1973,7 +2052,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 28,
       "fee": null,
       "sourceRef": "Q9",
-      "pdfPage": 667
+      "pdfPage": 667,
+      "context": "Repair"
     },
     {
       "code": "R922",
@@ -1984,7 +2064,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 28,
       "fee": null,
       "sourceRef": "Q9",
-      "pdfPage": 667
+      "pdfPage": 667,
+      "context": "Repair"
     },
     {
       "code": "R923",
@@ -1995,7 +2076,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 28,
       "fee": null,
       "sourceRef": "Q9",
-      "pdfPage": 667
+      "pdfPage": 667,
+      "context": "Repair"
     },
     {
       "code": "R924",
@@ -2006,7 +2088,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 28,
       "fee": null,
       "sourceRef": "Q9",
-      "pdfPage": 667
+      "pdfPage": 667,
+      "context": "Repair"
     },
     {
       "code": "R925",
@@ -2017,7 +2100,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 28,
       "fee": null,
       "sourceRef": "Q9",
-      "pdfPage": 667
+      "pdfPage": 667,
+      "context": "Repair"
     },
     {
       "code": "R926",
@@ -2028,7 +2112,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 28,
       "fee": null,
       "sourceRef": "Q9",
-      "pdfPage": 667
+      "pdfPage": 667,
+      "context": "Repair"
     },
     {
       "code": "R927",
@@ -2039,7 +2124,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 28,
       "fee": null,
       "sourceRef": "Q9",
-      "pdfPage": 667
+      "pdfPage": 667,
+      "context": "Repair"
     },
     {
       "code": "R928",
@@ -2050,7 +2136,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 28,
       "fee": null,
       "sourceRef": "Q9",
-      "pdfPage": 667
+      "pdfPage": 667,
+      "context": "Repair"
     },
     {
       "code": "R929",
@@ -2061,7 +2148,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 28,
       "fee": null,
       "sourceRef": "Q9",
-      "pdfPage": 667
+      "pdfPage": 667,
+      "context": "Repair"
     },
     {
       "code": "Z412",
@@ -2072,7 +2160,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 7,
       "fee": null,
       "sourceRef": "Q4",
-      "pdfPage": 662
+      "pdfPage": 662,
+      "context": "14 days"
     },
     {
       "code": "Z415",
@@ -2083,7 +2172,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 7,
       "fee": null,
       "sourceRef": "Q4",
-      "pdfPage": 662
+      "pdfPage": 662,
+      "context": "Diagnostic and Therapeutic Procedures"
     },
     {
       "code": "Z428",
@@ -2094,7 +2184,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 7,
       "fee": null,
       "sourceRef": "Q4",
-      "pdfPage": 662
+      "pdfPage": 662,
+      "context": "14 days"
     },
     {
       "code": "Z429",
@@ -2314,7 +2405,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 28,
       "fee": null,
       "sourceRef": "Q10",
-      "pdfPage": 668
+      "pdfPage": 668,
+      "context": "Mitral valve reconstruction"
     },
     {
       "code": "R733",
@@ -2358,7 +2450,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 20,
       "fee": null,
       "sourceRef": "Q10",
-      "pdfPage": 668
+      "pdfPage": 668,
+      "context": "Mitral valve reconstruction"
     },
     {
       "code": "R737",
@@ -2369,7 +2462,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 28,
       "fee": null,
       "sourceRef": "Q10",
-      "pdfPage": 668
+      "pdfPage": 668,
+      "context": "Mitral valve reconstruction"
     },
     {
       "code": "R739",
@@ -2380,7 +2474,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 28,
       "fee": null,
       "sourceRef": "Q10",
-      "pdfPage": 668
+      "pdfPage": 668,
+      "context": "Mitral valve reconstruction"
     },
     {
       "code": "R772",
@@ -2424,7 +2519,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 28,
       "fee": null,
       "sourceRef": "Q10",
-      "pdfPage": 668
+      "pdfPage": 668,
+      "context": "Mitral valve reconstruction"
     },
     {
       "code": "R876",
@@ -2435,7 +2531,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 28,
       "fee": null,
       "sourceRef": "Q10",
-      "pdfPage": 668
+      "pdfPage": 668,
+      "context": "Mitral valve reconstruction"
     },
     {
       "code": "R930",
@@ -2446,7 +2543,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 28,
       "fee": null,
       "sourceRef": "Q10",
-      "pdfPage": 668
+      "pdfPage": 668,
+      "context": "Mitral valve reconstruction"
     },
     {
       "code": "R818",
@@ -2501,7 +2599,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 10,
       "fee": null,
       "sourceRef": "Q21",
-      "pdfPage": 679
+      "pdfPage": 679,
+      "context": "Anastomosis"
     },
     {
       "code": "R823",
@@ -2523,7 +2622,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 10,
       "fee": null,
       "sourceRef": "Q21",
-      "pdfPage": 679
+      "pdfPage": 679,
+      "context": "Spleno-renal"
     },
     {
       "code": "R825",
@@ -2556,7 +2656,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 7,
       "fee": null,
       "sourceRef": "Q21",
-      "pdfPage": 679
+      "pdfPage": 679,
+      "context": "Spleno-renal"
     },
     {
       "code": "R828",
@@ -2567,7 +2668,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 10,
       "fee": null,
       "sourceRef": "Q21",
-      "pdfPage": 679
+      "pdfPage": 679,
+      "context": "Repair"
     },
     {
       "code": "R829",
@@ -2578,7 +2680,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 10,
       "fee": null,
       "sourceRef": "Q21",
-      "pdfPage": 679
+      "pdfPage": 679,
+      "context": "Repair"
     },
     {
       "code": "R833",
@@ -2589,7 +2692,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 6,
       "fee": null,
       "sourceRef": "Q21",
-      "pdfPage": 679
+      "pdfPage": 679,
+      "context": "Spleno-renal"
     },
     {
       "code": "R834",
@@ -2600,7 +2704,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 10,
       "fee": null,
       "sourceRef": "Q19",
-      "pdfPage": 677
+      "pdfPage": 677,
+      "context": "Ligation/Stripping"
     },
     {
       "code": "R835",
@@ -2611,7 +2716,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 17,
       "fee": null,
       "sourceRef": "Q21",
-      "pdfPage": 679
+      "pdfPage": 679,
+      "context": "Repair"
     },
     {
       "code": "R836",
@@ -2622,7 +2728,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 20,
       "fee": null,
       "sourceRef": "Q21",
-      "pdfPage": 679
+      "pdfPage": 679,
+      "context": "Repair"
     },
     {
       "code": "R837",
@@ -2633,7 +2740,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 7,
       "fee": null,
       "sourceRef": "Q19",
-      "pdfPage": 677
+      "pdfPage": 677,
+      "context": "Ligation/Stripping"
     },
     {
       "code": "R838",
@@ -2655,7 +2763,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 10,
       "fee": null,
       "sourceRef": "Q19",
-      "pdfPage": 677
+      "pdfPage": 677,
+      "context": "Ligation/Stripping"
     },
     {
       "code": "R841",
@@ -2666,7 +2775,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 7,
       "fee": null,
       "sourceRef": "Q21",
-      "pdfPage": 679
+      "pdfPage": 679,
+      "context": "Spleno-renal"
     },
     {
       "code": "R842",
@@ -2677,7 +2787,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 7,
       "fee": null,
       "sourceRef": "Q19",
-      "pdfPage": 677
+      "pdfPage": 677,
+      "context": "Ligation/Stripping"
     },
     {
       "code": "R844",
@@ -2688,7 +2799,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 7,
       "fee": null,
       "sourceRef": "Q19",
-      "pdfPage": 677
+      "pdfPage": 677,
+      "context": "Ligation/Stripping"
     },
     {
       "code": "R865",
@@ -2699,7 +2811,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 10,
       "fee": null,
       "sourceRef": "Q21",
-      "pdfPage": 679
+      "pdfPage": 679,
+      "context": "Repair"
     },
     {
       "code": "R868",
@@ -2710,7 +2823,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 7,
       "fee": null,
       "sourceRef": "Q19",
-      "pdfPage": 677
+      "pdfPage": 677,
+      "context": "Ligation/Stripping"
     },
     {
       "code": "R869",
@@ -2721,7 +2835,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 7,
       "fee": null,
       "sourceRef": "Q19",
-      "pdfPage": 677
+      "pdfPage": 677,
+      "context": "Ligation/Stripping"
     },
     {
       "code": "Z745",
@@ -2732,7 +2847,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 6,
       "fee": null,
       "sourceRef": "Q19",
-      "pdfPage": 677
+      "pdfPage": 677,
+      "context": "Ligation/Stripping"
     },
     {
       "code": "Z746",
@@ -2743,7 +2859,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 7,
       "fee": null,
       "sourceRef": "Q19",
-      "pdfPage": 677
+      "pdfPage": 677,
+      "context": "Ligation/Stripping"
     },
     {
       "code": "Z747",
@@ -2754,7 +2871,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 7,
       "fee": null,
       "sourceRef": "Q19",
-      "pdfPage": 677
+      "pdfPage": 677,
+      "context": "Ligation/Stripping"
     },
     {
       "code": "Z748",
@@ -2765,7 +2883,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 7,
       "fee": null,
       "sourceRef": "Q19",
-      "pdfPage": 677
+      "pdfPage": 677,
+      "context": "Ligation/Stripping"
     },
     {
       "code": "Z430",
@@ -2776,7 +2895,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 6,
       "fee": null,
       "sourceRef": "J6",
-      "pdfPage": 420
+      "pdfPage": 420,
+      "context": "Examination under anaesthesia (EUA) (when sole procedure performed)"
     },
     {
       "code": "Z432",
@@ -2787,7 +2907,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": null,
       "fee": "54.10",
       "sourceRef": "J6",
-      "pdfPage": 420
+      "pdfPage": 420,
+      "context": "Examination under anaesthesia (EUA) (when sole procedure performed)"
     },
     {
       "code": "E684",
@@ -2798,7 +2919,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": null,
       "fee": "233.65",
       "sourceRef": "J7",
-      "pdfPage": 421
+      "pdfPage": 421,
+      "context": "Swan-Ganz catheter in a cardiac catheterization laboratory.]"
     },
     {
       "code": "G115",
@@ -2809,7 +2931,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": null,
       "fee": "46.30",
       "sourceRef": "J13",
-      "pdfPage": 427
+      "pdfPage": 427,
+      "context": "Electrophysiologic pacing, mapping and ablation"
     },
     {
       "code": "G176",
@@ -2864,7 +2987,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": null,
       "fee": "231.65",
       "sourceRef": "J12",
-      "pdfPage": 426
+      "pdfPage": 426,
+      "context": "Electrophysiology/Arrhythmias"
     },
     {
       "code": "G259",
@@ -2919,7 +3043,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": null,
       "fee": "31.25",
       "sourceRef": "J7",
-      "pdfPage": 421
+      "pdfPage": 421,
+      "context": "Vascular cannulation"
     },
     {
       "code": "G269",
@@ -2930,7 +3055,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": null,
       "fee": "31.25",
       "sourceRef": "J7",
-      "pdfPage": 421
+      "pdfPage": 421,
+      "context": "Vascular cannulation"
     },
     {
       "code": "G270",
@@ -2941,7 +3067,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": null,
       "fee": "23.90",
       "sourceRef": "J7",
-      "pdfPage": 421
+      "pdfPage": 421,
+      "context": "Vascular cannulation"
     },
     {
       "code": "G271",
@@ -2963,7 +3090,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": null,
       "fee": "205.45",
       "sourceRef": "J9",
-      "pdfPage": 423
+      "pdfPage": 423,
+      "context": "Blood Transfusions"
     },
     {
       "code": "G276",
@@ -2974,7 +3102,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": null,
       "fee": "15.35",
       "sourceRef": "J9",
-      "pdfPage": 423
+      "pdfPage": 423,
+      "context": "Blood Transfusions"
     },
     {
       "code": "G277",
@@ -3007,7 +3136,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": null,
       "fee": "186.90",
       "sourceRef": "J9",
-      "pdfPage": 423
+      "pdfPage": 423,
+      "context": "Blood Transfusions"
     },
     {
       "code": "G282",
@@ -3018,7 +3148,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": null,
       "fee": "43.60",
       "sourceRef": "J7",
-      "pdfPage": 421
+      "pdfPage": 421,
+      "context": "Venipuncture"
     },
     {
       "code": "G285",
@@ -3029,7 +3160,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": null,
       "fee": "32.90",
       "sourceRef": "J9",
-      "pdfPage": 423
+      "pdfPage": 423,
+      "context": "Left heart"
     },
     {
       "code": "G286",
@@ -3040,7 +3172,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": null,
       "fee": "32.90",
       "sourceRef": "J9",
-      "pdfPage": 423
+      "pdfPage": 423,
+      "context": "Left heart"
     },
     {
       "code": "G287",
@@ -3106,7 +3239,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": null,
       "fee": "110.95",
       "sourceRef": "J9",
-      "pdfPage": 423
+      "pdfPage": 423,
+      "context": "Left heart"
     },
     {
       "code": "G297",
@@ -3117,7 +3251,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": null,
       "fee": "117.55",
       "sourceRef": "J11",
-      "pdfPage": 425
+      "pdfPage": 425,
+      "context": "Angiography"
     },
     {
       "code": "G298",
@@ -3128,7 +3263,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": null,
       "fee": "78.95",
       "sourceRef": "J11",
-      "pdfPage": 425
+      "pdfPage": 425,
+      "context": "Transluminal coronary angioplasty"
     },
     {
       "code": "G299",
@@ -3183,7 +3319,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": null,
       "fee": "45.55",
       "sourceRef": "J7",
-      "pdfPage": 421
+      "pdfPage": 421,
+      "context": "Vascular cannulation"
     },
     {
       "code": "G314",
@@ -3205,7 +3342,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": null,
       "fee": "148.50",
       "sourceRef": "J13",
-      "pdfPage": 427
+      "pdfPage": 427,
+      "context": "Electrophysiologic pacing, mapping and ablation"
     },
     {
       "code": "G480",
@@ -3238,7 +3376,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": null,
       "fee": "9.70",
       "sourceRef": "J7",
-      "pdfPage": 421
+      "pdfPage": 421,
+      "context": "Venipuncture"
     },
     {
       "code": "G489",
@@ -3304,7 +3443,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 6,
       "fee": null,
       "sourceRef": "J13",
-      "pdfPage": 427
+      "pdfPage": 427,
+      "context": "Electrophysiologic pacing, mapping and ablation"
     },
     {
       "code": "Z434",
@@ -3337,7 +3477,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 6,
       "fee": null,
       "sourceRef": "J7",
-      "pdfPage": 421
+      "pdfPage": 421,
+      "context": "Venipuncture"
     },
     {
       "code": "Z439",
@@ -3392,7 +3533,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 6,
       "fee": null,
       "sourceRef": "J13",
-      "pdfPage": 427
+      "pdfPage": 427,
+      "context": "Electrophysiologic pacing, mapping and ablation"
     },
     {
       "code": "Z446",
@@ -3403,7 +3545,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 6,
       "fee": null,
       "sourceRef": "J7",
-      "pdfPage": 421
+      "pdfPage": 421,
+      "context": "Swan-Ganz catheter in a cardiac catheterization laboratory.]"
     },
     {
       "code": "Z447",
@@ -3414,7 +3557,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 6,
       "fee": null,
       "sourceRef": "J7",
-      "pdfPage": 421
+      "pdfPage": 421,
+      "context": "Swan-Ganz catheter in a cardiac catheterization laboratory.]"
     },
     {
       "code": "Z448",
@@ -3447,7 +3591,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 6,
       "fee": null,
       "sourceRef": "J7",
-      "pdfPage": 421
+      "pdfPage": 421,
+      "context": "Swan-Ganz catheter in a cardiac catheterization laboratory.]"
     },
     {
       "code": "Z457",
@@ -3458,7 +3603,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 6,
       "fee": null,
       "sourceRef": "J7",
-      "pdfPage": 421
+      "pdfPage": 421,
+      "context": "Swan-Ganz catheter in a cardiac catheterization laboratory.]"
     },
     {
       "code": "Z459",
@@ -3469,7 +3615,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": null,
       "fee": "10.20",
       "sourceRef": "J7",
-      "pdfPage": 421
+      "pdfPage": 421,
+      "context": "Vascular cannulation"
     },
     {
       "code": "Z460",
@@ -3502,7 +3649,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 7,
       "fee": null,
       "sourceRef": "J37",
-      "pdfPage": 451
+      "pdfPage": 451,
+      "context": "Slow continuous ultrafiltration"
     },
     {
       "code": "R840",
@@ -3524,7 +3672,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 7,
       "fee": null,
       "sourceRef": "J37",
-      "pdfPage": 451
+      "pdfPage": 451,
+      "context": "Slow continuous ultrafiltration"
     },
     {
       "code": "R848",
@@ -3535,7 +3684,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 6,
       "fee": null,
       "sourceRef": "J37",
-      "pdfPage": 451
+      "pdfPage": 451,
+      "context": "Subclavian or jugular catheter for haemodialysis"
     },
     {
       "code": "R851",
@@ -3557,7 +3707,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 6,
       "fee": null,
       "sourceRef": "J38",
-      "pdfPage": 452
+      "pdfPage": 452,
+      "context": "Peritoneal dialysis"
     },
     {
       "code": "R853",
@@ -3579,7 +3730,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 6,
       "fee": null,
       "sourceRef": "J38",
-      "pdfPage": 452
+      "pdfPage": 452,
+      "context": "Peritoneal dialysis"
     },
     {
       "code": "R941",
@@ -3590,7 +3742,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 10,
       "fee": null,
       "sourceRef": "J38",
-      "pdfPage": 452
+      "pdfPage": 452,
+      "context": "Revision or repair of arterio-venous (AV) fistula or graft for haemodialysis"
     },
     {
       "code": "R942",
@@ -3601,7 +3754,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 6,
       "fee": null,
       "sourceRef": "J38",
-      "pdfPage": 452
+      "pdfPage": 452,
+      "context": "Revision or repair of arterio-venous (AV) fistula or graft for haemodialysis"
     },
     {
       "code": "R943",
@@ -3612,7 +3766,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 6,
       "fee": null,
       "sourceRef": "J38",
-      "pdfPage": 452
+      "pdfPage": 452,
+      "context": "Revision or repair of arterio-venous (AV) fistula or graft for haemodialysis"
     },
     {
       "code": "R944",
@@ -3623,7 +3778,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 6,
       "fee": null,
       "sourceRef": "J38",
-      "pdfPage": 452
+      "pdfPage": 452,
+      "context": "Revision or repair of arterio-venous (AV) fistula or graft for haemodialysis"
     },
     {
       "code": "R945",
@@ -3634,7 +3790,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 6,
       "fee": null,
       "sourceRef": "J38",
-      "pdfPage": 452
+      "pdfPage": 452,
+      "context": "Revision or repair of arterio-venous (AV) fistula or graft for haemodialysis"
     },
     {
       "code": "R946",
@@ -3645,7 +3802,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 17,
       "fee": null,
       "sourceRef": "J38",
-      "pdfPage": 452
+      "pdfPage": 452,
+      "context": "Revision or repair of arterio-venous (AV) fistula or graft for haemodialysis"
     },
     {
       "code": "Z455",
@@ -3668,6 +3826,7 @@ export const ohipAnesthesiaData = {
       "fee": "55.00",
       "sourceRef": "J71",
       "pdfPage": 485,
+      "context": "Neuraxial",
       "paymentRules": [
         "The G060 service must consist of one of the following: (a) a block of one of: radial, median, ulnar, musculocutaneous, femoral, sciatic, common peroneal and/or tibial, obturator, suprascapular, pudendal (uni or bilateral), trigeminal or facial nerve; (b) a paravertebral block - first injection only; (c) an ankle block (must include 2 or more of the following: deep peroneal, superficial peroneal, posterior tibial, saphenous or sural nerve); or (d) a fascia iliaca block.",
         "G060 is limited to a maximum of 4 services per patient per physician per day.",
@@ -3699,7 +3858,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": null,
       "fee": "160.00",
       "sourceRef": "J71",
-      "pdfPage": 485
+      "pdfPage": 485,
+      "context": "Neuraxial"
     },
     {
       "code": "G063",
@@ -3741,7 +3901,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": null,
       "fee": "62.50",
       "sourceRef": "J72",
-      "pdfPage": 486
+      "pdfPage": 486,
+      "context": "Percutaneous nerve block catheter insertion for continuous infusion analgesia"
     },
     {
       "code": "G066",
@@ -3752,7 +3913,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": null,
       "fee": "55.00",
       "sourceRef": "J72",
-      "pdfPage": 486
+      "pdfPage": 486,
+      "context": "Percutaneous nerve block catheter insertion for continuous infusion analgesia"
     },
     {
       "code": "G067",
@@ -3763,7 +3925,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": null,
       "fee": "80.00",
       "sourceRef": "J72",
-      "pdfPage": 486
+      "pdfPage": 486,
+      "context": "Percutaneous nerve block catheter insertion for continuous infusion analgesia"
     },
     {
       "code": "G068",
@@ -3774,7 +3937,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": null,
       "fee": "125.00",
       "sourceRef": "J72",
-      "pdfPage": 486
+      "pdfPage": 486,
+      "context": "Percutaneous nerve block catheter insertion for continuous infusion analgesia"
     },
     {
       "code": "G118",
@@ -3785,7 +3949,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": null,
       "fee": "130.00",
       "sourceRef": "J71",
-      "pdfPage": 485
+      "pdfPage": 485,
+      "context": "Neuraxial"
     },
     {
       "code": "G125",
@@ -3796,7 +3961,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": null,
       "fee": "100.00",
       "sourceRef": "J71",
-      "pdfPage": 485
+      "pdfPage": 485,
+      "context": "Neuraxial"
     },
     {
       "code": "G224",
@@ -3807,7 +3973,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": null,
       "fee": "15.55",
       "sourceRef": "J72",
-      "pdfPage": 486
+      "pdfPage": 486,
+      "context": "Percutaneous nerve block catheter insertion for continuous infusion analgesia"
     },
     {
       "code": "G247",
@@ -3819,6 +3986,7 @@ export const ohipAnesthesiaData = {
       "fee": "30.10",
       "sourceRef": "J72",
       "pdfPage": 486,
+      "context": "Percutaneous nerve block catheter insertion for continuous infusion analgesia",
       "paymentRules": [
         "G247 is only eligible for payment to the physician most responsible, or to a physician substituting for the physician most responsible, for providing management and supervision of a: (1) continuous catheter infusion for analgesia for a hospital in-patient; or (2) lumbar sub-arachnoid drainage catheter placed in association with a surgical procedure where there is increased risk of spinal cord ischemia."
       ],
@@ -3835,7 +4003,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": null,
       "fee": "55.00",
       "sourceRef": "J71",
-      "pdfPage": 485
+      "pdfPage": 485,
+      "context": "Neuraxial"
     },
     {
       "code": "G260",
@@ -3847,6 +4016,7 @@ export const ohipAnesthesiaData = {
       "fee": "80.00",
       "sourceRef": "J71",
       "pdfPage": 485,
+      "context": "Neuraxial",
       "paymentRules": [
         "The G260 service is a block of one of the following: brachial plexus, lumbar plexus, sacral plexus, deep cervical plexus, or a combined 3-in-1 block which must include the femoral, obturator and lateral femoral cutaneous nerves.",
         "When a major plexus block is rendered, additional blocks of one or more nerves within the same nerve distribution are not eligible for payment.",
@@ -3867,6 +4037,7 @@ export const ohipAnesthesiaData = {
       "fee": "80.00",
       "sourceRef": "J72",
       "pdfPage": 486,
+      "context": "Percutaneous nerve block catheter insertion for continuous infusion analgesia",
       "paymentRules": [
         "G279 is eligible for payment in addition to the applicable peripheral nerve or plexus block.",
         "G260 is not eligible for payment in addition to G279 when rendered for a continuous combined 3-in-1 block; G060 is eligible for payment in addition to G279 in this circumstance.",
@@ -3937,7 +4108,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 6,
       "fee": null,
       "sourceRef": "S35",
-      "pdfPage": 717
+      "pdfPage": 717,
+      "context": "Insertion of peritoneo-jugular shunt for ascites"
     },
     {
       "code": "S311",
@@ -3948,7 +4120,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 6,
       "fee": null,
       "sourceRef": "S35",
-      "pdfPage": 717
+      "pdfPage": 717,
+      "context": "Peritoneal abscess"
     },
     {
       "code": "S312",
@@ -3959,7 +4132,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 7,
       "fee": null,
       "sourceRef": "S34",
-      "pdfPage": 716
+      "pdfPage": 716,
+      "context": "Incision"
     },
     {
       "code": "S313",
@@ -3992,7 +4166,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 6,
       "fee": null,
       "sourceRef": "S35",
-      "pdfPage": 717
+      "pdfPage": 717,
+      "context": "Insertion of peritoneo-jugular shunt for ascites"
     },
     {
       "code": "S316",
@@ -4014,7 +4189,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 7,
       "fee": null,
       "sourceRef": "S35",
-      "pdfPage": 717
+      "pdfPage": 717,
+      "context": "Excision"
     },
     {
       "code": "S318",
@@ -4080,7 +4256,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 7,
       "fee": null,
       "sourceRef": "S34",
-      "pdfPage": 716
+      "pdfPage": 716,
+      "context": "Incision"
     },
     {
       "code": "S325",
@@ -4091,7 +4268,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 7,
       "fee": null,
       "sourceRef": "S37",
-      "pdfPage": 719
+      "pdfPage": 719,
+      "context": "Repair"
     },
     {
       "code": "S326",
@@ -4168,7 +4346,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 7,
       "fee": null,
       "sourceRef": "S37",
-      "pdfPage": 719
+      "pdfPage": 719,
+      "context": "Ventral or Incisional hernia"
     },
     {
       "code": "S342",
@@ -4179,7 +4358,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 6,
       "fee": null,
       "sourceRef": "S38",
-      "pdfPage": 720
+      "pdfPage": 720,
+      "context": "Congenital diaphragmatic hernia"
     },
     {
       "code": "S343",
@@ -4190,7 +4370,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 7,
       "fee": null,
       "sourceRef": "S38",
-      "pdfPage": 720
+      "pdfPage": 720,
+      "context": "Suture"
     },
     {
       "code": "S344",
@@ -4201,7 +4382,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 7,
       "fee": null,
       "sourceRef": "S37",
-      "pdfPage": 719
+      "pdfPage": 719,
+      "context": "Ventral or Incisional hernia"
     },
     {
       "code": "S345",
@@ -4212,7 +4394,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 7,
       "fee": null,
       "sourceRef": "S37",
-      "pdfPage": 719
+      "pdfPage": 719,
+      "context": "Strangulated or incarcerated"
     },
     {
       "code": "S346",
@@ -4223,7 +4406,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 13,
       "fee": null,
       "sourceRef": "S38",
-      "pdfPage": 720
+      "pdfPage": 720,
+      "context": "Congenital diaphragmatic hernia"
     },
     {
       "code": "S347",
@@ -4234,7 +4418,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 13,
       "fee": null,
       "sourceRef": "S38",
-      "pdfPage": 720
+      "pdfPage": 720,
+      "context": "Congenital diaphragmatic hernia"
     },
     {
       "code": "S348",
@@ -4245,7 +4430,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 7,
       "fee": null,
       "sourceRef": "S38",
-      "pdfPage": 720
+      "pdfPage": 720,
+      "context": "Omphalocele and gastroschisis"
     },
     {
       "code": "S349",
@@ -4256,7 +4442,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 7,
       "fee": null,
       "sourceRef": "S38",
-      "pdfPage": 720
+      "pdfPage": 720,
+      "context": "Omphalocele and gastroschisis"
     },
     {
       "code": "Z552",
@@ -4289,7 +4476,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 7,
       "fee": null,
       "sourceRef": "S34",
-      "pdfPage": 716
+      "pdfPage": 716,
+      "context": "Incision"
     },
     {
       "code": "Z569",
@@ -4300,7 +4488,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 7,
       "fee": null,
       "sourceRef": "S35",
-      "pdfPage": 717
+      "pdfPage": 717,
+      "context": "Peritoneal abscess"
     },
     {
       "code": "Z574",
@@ -4311,7 +4500,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 7,
       "fee": null,
       "sourceRef": "S35",
-      "pdfPage": 717
+      "pdfPage": 717,
+      "context": "Peritoneal abscess"
     },
     {
       "code": "Z591",
@@ -4333,7 +4523,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 6,
       "fee": null,
       "sourceRef": "S34",
-      "pdfPage": 716
+      "pdfPage": 716,
+      "context": "Aspiration"
     },
     {
       "code": "E722",
@@ -4344,7 +4535,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 1,
       "fee": null,
       "sourceRef": "S31",
-      "pdfPage": 713
+      "pdfPage": 713,
+      "context": "Excision"
     },
     {
       "code": "S276",
@@ -4355,7 +4547,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 8,
       "fee": null,
       "sourceRef": "S31",
-      "pdfPage": 713
+      "pdfPage": 713,
+      "context": "Incision"
     },
     {
       "code": "S278",
@@ -4366,7 +4559,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 7,
       "fee": null,
       "sourceRef": "S31",
-      "pdfPage": 713
+      "pdfPage": 713,
+      "context": "Incision"
     },
     {
       "code": "S280",
@@ -4377,7 +4571,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 9,
       "fee": null,
       "sourceRef": "S31",
-      "pdfPage": 713
+      "pdfPage": 713,
+      "context": "Incision"
     },
     {
       "code": "S281",
@@ -4388,7 +4583,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 9,
       "fee": null,
       "sourceRef": "S31",
-      "pdfPage": 713
+      "pdfPage": 713,
+      "context": "Incision"
     },
     {
       "code": "S282",
@@ -4399,7 +4595,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 7,
       "fee": null,
       "sourceRef": "S31",
-      "pdfPage": 713
+      "pdfPage": 713,
+      "context": "Incision"
     },
     {
       "code": "S283",
@@ -4410,7 +4607,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 7,
       "fee": null,
       "sourceRef": "S31",
-      "pdfPage": 713
+      "pdfPage": 713,
+      "context": "Incision"
     },
     {
       "code": "S285",
@@ -4421,7 +4619,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 12,
       "fee": null,
       "sourceRef": "S31",
-      "pdfPage": 713
+      "pdfPage": 713,
+      "context": "Incision"
     },
     {
       "code": "S287",
@@ -4432,7 +4631,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 7,
       "fee": null,
       "sourceRef": "S31",
-      "pdfPage": 713
+      "pdfPage": 713,
+      "context": "Excision"
     },
     {
       "code": "S291",
@@ -4443,7 +4643,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 8,
       "fee": null,
       "sourceRef": "S31",
-      "pdfPage": 713
+      "pdfPage": 713,
+      "context": "Excision"
     },
     {
       "code": "S292",
@@ -4454,7 +4655,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 10,
       "fee": null,
       "sourceRef": "S31",
-      "pdfPage": 713
+      "pdfPage": 713,
+      "context": "Repair"
     },
     {
       "code": "S293",
@@ -4465,7 +4667,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 12,
       "fee": null,
       "sourceRef": "S31",
-      "pdfPage": 713
+      "pdfPage": 713,
+      "context": "Repair"
     },
     {
       "code": "Z558",
@@ -4509,7 +4712,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 6,
       "fee": null,
       "sourceRef": "S31",
-      "pdfPage": 713
+      "pdfPage": 713,
+      "context": "Repair"
     },
     {
       "code": "Z760",
@@ -4553,7 +4757,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 7,
       "fee": null,
       "sourceRef": "S19",
-      "pdfPage": 701
+      "pdfPage": 701,
+      "context": "Enterotomy"
     },
     {
       "code": "S150",
@@ -4685,7 +4890,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 7,
       "fee": null,
       "sourceRef": "S20",
-      "pdfPage": 702
+      "pdfPage": 702,
+      "context": "Small intestine"
     },
     {
       "code": "S167",
@@ -4696,7 +4902,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 7,
       "fee": null,
       "sourceRef": "S20",
-      "pdfPage": 702
+      "pdfPage": 702,
+      "context": "Small intestine"
     },
     {
       "code": "S168",
@@ -4718,7 +4925,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 9,
       "fee": null,
       "sourceRef": "S20",
-      "pdfPage": 702
+      "pdfPage": 702,
+      "context": "Small intestine"
     },
     {
       "code": "S170",
@@ -4740,7 +4948,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 8,
       "fee": null,
       "sourceRef": "S20",
-      "pdfPage": 702
+      "pdfPage": 702,
+      "context": "Small intestine"
     },
     {
       "code": "S172",
@@ -4751,7 +4960,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 10,
       "fee": null,
       "sourceRef": "S20",
-      "pdfPage": 702
+      "pdfPage": 702,
+      "context": "Small intestine"
     },
     {
       "code": "S173",
@@ -4806,7 +5016,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 7,
       "fee": null,
       "sourceRef": "S21",
-      "pdfPage": 703
+      "pdfPage": 703,
+      "context": "One stage"
     },
     {
       "code": "S179",
@@ -4817,7 +5028,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 7,
       "fee": null,
       "sourceRef": "S21",
-      "pdfPage": 703
+      "pdfPage": 703,
+      "context": "One stage"
     },
     {
       "code": "S180",
@@ -4861,7 +5073,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 6,
       "fee": null,
       "sourceRef": "S21",
-      "pdfPage": 703
+      "pdfPage": 703,
+      "context": "Revision of ileostomy or colostomy"
     },
     {
       "code": "S184",
@@ -4927,7 +5140,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 7,
       "fee": null,
       "sourceRef": "S21",
-      "pdfPage": 703
+      "pdfPage": 703,
+      "context": "Revision of ileostomy or colostomy"
     },
     {
       "code": "S192",
@@ -4938,7 +5152,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 7,
       "fee": null,
       "sourceRef": "S21",
-      "pdfPage": 703
+      "pdfPage": 703,
+      "context": "Revision of ileostomy or colostomy"
     },
     {
       "code": "S193",
@@ -4949,7 +5164,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 7,
       "fee": null,
       "sourceRef": "S21",
-      "pdfPage": 703
+      "pdfPage": 703,
+      "context": "Revision of ileostomy or colostomy"
     },
     {
       "code": "Z491",
@@ -4971,7 +5187,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 5,
       "fee": null,
       "sourceRef": "S16",
-      "pdfPage": 698
+      "pdfPage": 698,
+      "context": "Ontario generally accepted clinical practice guidelines\u2013"
     },
     {
       "code": "Z493",
@@ -4982,7 +5199,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 5,
       "fee": null,
       "sourceRef": "S16",
-      "pdfPage": 698
+      "pdfPage": 698,
+      "context": "Ontario generally accepted clinical practice guidelines\u2013"
     },
     {
       "code": "Z495",
@@ -5004,7 +5222,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 5,
       "fee": null,
       "sourceRef": "S17",
-      "pdfPage": 699
+      "pdfPage": 699,
+      "context": "Colonoscopy - For diagnosis or ongoing management"
     },
     {
       "code": "Z497",
@@ -5015,7 +5234,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 5,
       "fee": null,
       "sourceRef": "S16",
-      "pdfPage": 698
+      "pdfPage": 698,
+      "context": "Colonoscopy for Risk Evaluation"
     },
     {
       "code": "Z498",
@@ -5092,7 +5312,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 6,
       "fee": null,
       "sourceRef": "S22",
-      "pdfPage": 704
+      "pdfPage": 704,
+      "context": "Manipulation"
     },
     {
       "code": "Z539",
@@ -5103,7 +5324,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 6,
       "fee": null,
       "sourceRef": "S22",
-      "pdfPage": 704
+      "pdfPage": 704,
+      "context": "Manipulation"
     },
     {
       "code": "Z555",
@@ -5125,7 +5347,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 4,
       "fee": null,
       "sourceRef": "S15",
-      "pdfPage": 697
+      "pdfPage": 697,
+      "context": "Endoscopy"
     },
     {
       "code": "Z571",
@@ -5158,7 +5381,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 4,
       "fee": null,
       "sourceRef": "S15",
-      "pdfPage": 697
+      "pdfPage": 697,
+      "context": "Endoscopy"
     },
     {
       "code": "Z750",
@@ -5169,7 +5393,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 7,
       "fee": null,
       "sourceRef": "S20",
-      "pdfPage": 702
+      "pdfPage": 702,
+      "context": "Excision"
     },
     {
       "code": "S010",
@@ -5202,7 +5427,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 6,
       "fee": null,
       "sourceRef": "S5",
-      "pdfPage": 687
+      "pdfPage": 687,
+      "context": "Wedge resection of lip"
     },
     {
       "code": "S013",
@@ -5224,7 +5450,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 8,
       "fee": null,
       "sourceRef": "S5",
-      "pdfPage": 687
+      "pdfPage": 687,
+      "context": "Cleft lip"
     },
     {
       "code": "Z503",
@@ -5235,7 +5462,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 6,
       "fee": null,
       "sourceRef": "S5",
-      "pdfPage": 687
+      "pdfPage": 687,
+      "context": "Incision"
     },
     {
       "code": "Z504",
@@ -5246,7 +5474,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 6,
       "fee": null,
       "sourceRef": "S5",
-      "pdfPage": 687
+      "pdfPage": 687,
+      "context": "Wedge resection of lip"
     },
     {
       "code": "S265",
@@ -5257,7 +5486,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 35,
       "fee": null,
       "sourceRef": "S29",
-      "pdfPage": 711
+      "pdfPage": 711,
+      "context": "Liver transplant"
     },
     {
       "code": "S266",
@@ -5290,7 +5520,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 7,
       "fee": null,
       "sourceRef": "S29",
-      "pdfPage": 711
+      "pdfPage": 711,
+      "context": "Biopsy"
     },
     {
       "code": "S269",
@@ -5334,7 +5565,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 7,
       "fee": null,
       "sourceRef": "S29",
-      "pdfPage": 711
+      "pdfPage": 711,
+      "context": "Hepatectomy"
     },
     {
       "code": "S273",
@@ -5345,7 +5577,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 7,
       "fee": null,
       "sourceRef": "S29",
-      "pdfPage": 711
+      "pdfPage": 711,
+      "context": "Repair"
     },
     {
       "code": "S274",
@@ -5356,7 +5589,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 8,
       "fee": null,
       "sourceRef": "S29",
-      "pdfPage": 711
+      "pdfPage": 711,
+      "context": "Liver transplant"
     },
     {
       "code": "S275",
@@ -5411,7 +5645,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 10,
       "fee": null,
       "sourceRef": "S23",
-      "pdfPage": 705
+      "pdfPage": 705,
+      "context": "Small Intestine"
     },
     {
       "code": "S159",
@@ -5422,7 +5657,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 7,
       "fee": null,
       "sourceRef": "S23",
-      "pdfPage": 705
+      "pdfPage": 705,
+      "context": "Meckel'S Diverticulum"
     },
     {
       "code": "S194",
@@ -5433,7 +5669,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 7,
       "fee": null,
       "sourceRef": "S23",
-      "pdfPage": 705
+      "pdfPage": 705,
+      "context": "Meckel'S Diverticulum"
     },
     {
       "code": "S195",
@@ -5444,7 +5681,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 7,
       "fee": null,
       "sourceRef": "S23",
-      "pdfPage": 705
+      "pdfPage": 705,
+      "context": "Mesentery"
     },
     {
       "code": "S196",
@@ -5510,7 +5748,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 7,
       "fee": null,
       "sourceRef": "S23",
-      "pdfPage": 705
+      "pdfPage": 705,
+      "context": "Appendix"
     },
     {
       "code": "S207",
@@ -5521,7 +5760,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 7,
       "fee": null,
       "sourceRef": "S23",
-      "pdfPage": 705
+      "pdfPage": 705,
+      "context": "Appendix"
     },
     {
       "code": "S073",
@@ -5587,7 +5827,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 17,
       "fee": null,
       "sourceRef": "S8",
-      "pdfPage": 690
+      "pdfPage": 690,
+      "context": "Excision"
     },
     {
       "code": "S090",
@@ -5598,7 +5839,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 13,
       "fee": null,
       "sourceRef": "S8",
-      "pdfPage": 690
+      "pdfPage": 690,
+      "context": "Excision"
     },
     {
       "code": "Z399",
@@ -5631,7 +5873,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 6,
       "fee": null,
       "sourceRef": "S8",
-      "pdfPage": 690
+      "pdfPage": 690,
+      "context": "Excision"
     },
     {
       "code": "Z515",
@@ -5642,7 +5885,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 4,
       "fee": null,
       "sourceRef": "S7",
-      "pdfPage": 689
+      "pdfPage": 689,
+      "context": "Endoscopy"
     },
     {
       "code": "S002",
@@ -5653,7 +5897,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 8,
       "fee": null,
       "sourceRef": "S2",
-      "pdfPage": 684
+      "pdfPage": 684,
+      "context": "Closure of fistula"
     },
     {
       "code": "S003",
@@ -5675,7 +5920,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 6,
       "fee": null,
       "sourceRef": "S1",
-      "pdfPage": 683
+      "pdfPage": 683,
+      "context": "Lesion"
     },
     {
       "code": "S005",
@@ -5730,7 +5976,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 6,
       "fee": null,
       "sourceRef": "S1",
-      "pdfPage": 683
+      "pdfPage": 683,
+      "context": "Glossectomy"
     },
     {
       "code": "S023",
@@ -5752,7 +5999,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 6,
       "fee": null,
       "sourceRef": "S3",
-      "pdfPage": 685
+      "pdfPage": 685,
+      "context": "Secondary suture or cauterization following tonsillectomy and/or adenoidectomy"
     },
     {
       "code": "S028",
@@ -5763,7 +6011,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 6,
       "fee": null,
       "sourceRef": "S1",
-      "pdfPage": 683
+      "pdfPage": 683,
+      "context": "Extraction of tooth (complete care)"
     },
     {
       "code": "S030",
@@ -5785,7 +6034,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 6,
       "fee": null,
       "sourceRef": "S1",
-      "pdfPage": 683
+      "pdfPage": 683,
+      "context": "Incision"
     },
     {
       "code": "S032",
@@ -5840,7 +6090,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 6,
       "fee": null,
       "sourceRef": "S2",
-      "pdfPage": 684
+      "pdfPage": 684,
+      "context": "Closure of fistula"
     },
     {
       "code": "S050",
@@ -5884,7 +6135,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 7,
       "fee": null,
       "sourceRef": "S2",
-      "pdfPage": 684
+      "pdfPage": 684,
+      "context": "Branchial"
     },
     {
       "code": "S062",
@@ -5895,7 +6147,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 6,
       "fee": null,
       "sourceRef": "S2",
-      "pdfPage": 684
+      "pdfPage": 684,
+      "context": "Branchial"
     },
     {
       "code": "S063",
@@ -5906,7 +6159,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 6,
       "fee": null,
       "sourceRef": "S2",
-      "pdfPage": 684
+      "pdfPage": 684,
+      "context": "Branchial"
     },
     {
       "code": "S065",
@@ -5917,7 +6171,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 6,
       "fee": null,
       "sourceRef": "S2",
-      "pdfPage": 684
+      "pdfPage": 684,
+      "context": "Branchial"
     },
     {
       "code": "S066",
@@ -5939,7 +6194,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 11,
       "fee": null,
       "sourceRef": "S2",
-      "pdfPage": 684
+      "pdfPage": 684,
+      "context": "Closure of fistula"
     },
     {
       "code": "S068",
@@ -5950,7 +6206,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 14,
       "fee": null,
       "sourceRef": "S2",
-      "pdfPage": 684
+      "pdfPage": 684,
+      "context": "Closure of fistula"
     },
     {
       "code": "S069",
@@ -5961,7 +6218,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 8,
       "fee": null,
       "sourceRef": "S2",
-      "pdfPage": 684
+      "pdfPage": 684,
+      "context": "Closure of fistula"
     },
     {
       "code": "S900",
@@ -5972,7 +6230,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 8,
       "fee": null,
       "sourceRef": "S1",
-      "pdfPage": 683
+      "pdfPage": 683,
+      "context": "Extraction of tooth (complete care)"
     },
     {
       "code": "Z112",
@@ -5983,7 +6242,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 6,
       "fee": null,
       "sourceRef": "S1",
-      "pdfPage": 683
+      "pdfPage": 683,
+      "context": "Incision"
     },
     {
       "code": "Z502",
@@ -6005,7 +6265,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 6,
       "fee": null,
       "sourceRef": "S1",
-      "pdfPage": 683
+      "pdfPage": 683,
+      "context": "Incision"
     },
     {
       "code": "Z510",
@@ -6016,7 +6277,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 6,
       "fee": null,
       "sourceRef": "S1",
-      "pdfPage": 683
+      "pdfPage": 683,
+      "context": "Incision"
     },
     {
       "code": "Z524",
@@ -6027,7 +6289,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 7,
       "fee": null,
       "sourceRef": "S1",
-      "pdfPage": 683
+      "pdfPage": 683,
+      "context": "Incision"
     },
     {
       "code": "Z537",
@@ -6038,7 +6301,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 6,
       "fee": null,
       "sourceRef": "S1",
-      "pdfPage": 683
+      "pdfPage": 683,
+      "context": "Incision"
     },
     {
       "code": "S297",
@@ -6049,7 +6313,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 7,
       "fee": null,
       "sourceRef": "S32",
-      "pdfPage": 714
+      "pdfPage": 714,
+      "context": "Biopsy"
     },
     {
       "code": "S298",
@@ -6060,7 +6325,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 13,
       "fee": null,
       "sourceRef": "S32",
-      "pdfPage": 714
+      "pdfPage": 714,
+      "context": "Pancreatectomy"
     },
     {
       "code": "S299",
@@ -6071,7 +6337,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 11,
       "fee": null,
       "sourceRef": "S32",
-      "pdfPage": 714
+      "pdfPage": 714,
+      "context": "Pancreatectomy"
     },
     {
       "code": "S300",
@@ -6082,7 +6349,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 13,
       "fee": null,
       "sourceRef": "S32",
-      "pdfPage": 714
+      "pdfPage": 714,
+      "context": "Pancreatectomy"
     },
     {
       "code": "S301",
@@ -6093,7 +6361,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 8,
       "fee": null,
       "sourceRef": "S32",
-      "pdfPage": 714
+      "pdfPage": 714,
+      "context": "Pancreatectomy"
     },
     {
       "code": "S302",
@@ -6104,7 +6373,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 8,
       "fee": null,
       "sourceRef": "S32",
-      "pdfPage": 714
+      "pdfPage": 714,
+      "context": "Transplant"
     },
     {
       "code": "S304",
@@ -6115,7 +6385,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 10,
       "fee": null,
       "sourceRef": "S32",
-      "pdfPage": 714
+      "pdfPage": 714,
+      "context": "Pancreatic cyst"
     },
     {
       "code": "S305",
@@ -6170,7 +6441,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 11,
       "fee": null,
       "sourceRef": "S32",
-      "pdfPage": 714
+      "pdfPage": 714,
+      "context": "Pancreatectomy"
     },
     {
       "code": "Z577",
@@ -6192,7 +6464,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 10,
       "fee": null,
       "sourceRef": "S25",
-      "pdfPage": 707
+      "pdfPage": 707,
+      "context": "Transanal Total Mesorectal Excision (TaTME)"
     },
     {
       "code": "S211",
@@ -6203,7 +6476,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 10,
       "fee": null,
       "sourceRef": "S25",
-      "pdfPage": 707
+      "pdfPage": 707,
+      "context": "Two-surgeon team (for TaTME)"
     },
     {
       "code": "S213",
@@ -6214,7 +6488,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 8,
       "fee": null,
       "sourceRef": "S25",
-      "pdfPage": 707
+      "pdfPage": 707,
+      "context": "Proctectomy and Anterior Resection"
     },
     {
       "code": "S214",
@@ -6225,7 +6500,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 10,
       "fee": null,
       "sourceRef": "S25",
-      "pdfPage": 707
+      "pdfPage": 707,
+      "context": "Proctectomy and Anterior Resection"
     },
     {
       "code": "S215",
@@ -6247,7 +6523,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 9,
       "fee": null,
       "sourceRef": "S25",
-      "pdfPage": 707
+      "pdfPage": 707,
+      "context": "Hartmann Procedure and Reconstruction"
     },
     {
       "code": "S218",
@@ -6258,7 +6535,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 8,
       "fee": null,
       "sourceRef": "S25",
-      "pdfPage": 707
+      "pdfPage": 707,
+      "context": "Hartmann Procedure and Reconstruction"
     },
     {
       "code": "S222",
@@ -6280,7 +6558,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 6,
       "fee": null,
       "sourceRef": "S27",
-      "pdfPage": 709
+      "pdfPage": 709,
+      "context": "Repair"
     },
     {
       "code": "S225",
@@ -6357,7 +6636,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 6,
       "fee": null,
       "sourceRef": "S27",
-      "pdfPage": 709
+      "pdfPage": 709,
+      "context": "Incision"
     },
     {
       "code": "S247",
@@ -6368,7 +6648,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 6,
       "fee": null,
       "sourceRef": "S28",
-      "pdfPage": 710
+      "pdfPage": 710,
+      "context": "Excision"
     },
     {
       "code": "S248",
@@ -6379,7 +6660,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 6,
       "fee": null,
       "sourceRef": "S28",
-      "pdfPage": 710
+      "pdfPage": 710,
+      "context": "Manipulation"
     },
     {
       "code": "S249",
@@ -6401,7 +6683,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 6,
       "fee": null,
       "sourceRef": "S28",
-      "pdfPage": 710
+      "pdfPage": 710,
+      "context": "Excision"
     },
     {
       "code": "S251",
@@ -6412,7 +6695,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 6,
       "fee": null,
       "sourceRef": "S28",
-      "pdfPage": 710
+      "pdfPage": 710,
+      "context": "Excision"
     },
     {
       "code": "S253",
@@ -6434,7 +6718,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 6,
       "fee": null,
       "sourceRef": "S28",
-      "pdfPage": 710
+      "pdfPage": 710,
+      "context": "Repair"
     },
     {
       "code": "S257",
@@ -6445,7 +6730,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 6,
       "fee": null,
       "sourceRef": "S28",
-      "pdfPage": 710
+      "pdfPage": 710,
+      "context": "Repair"
     },
     {
       "code": "S258",
@@ -6522,7 +6808,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 6,
       "fee": null,
       "sourceRef": "S27",
-      "pdfPage": 709
+      "pdfPage": 709,
+      "context": "Manipulation"
     },
     {
       "code": "Z544",
@@ -6533,7 +6820,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 6,
       "fee": null,
       "sourceRef": "S27",
-      "pdfPage": 709
+      "pdfPage": 709,
+      "context": "Incision"
     },
     {
       "code": "Z545",
@@ -6544,7 +6832,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 6,
       "fee": null,
       "sourceRef": "S27",
-      "pdfPage": 709
+      "pdfPage": 709,
+      "context": "Incision"
     },
     {
       "code": "Z548",
@@ -6555,7 +6844,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 6,
       "fee": null,
       "sourceRef": "S28",
-      "pdfPage": 710
+      "pdfPage": 710,
+      "context": "Destruction"
     },
     {
       "code": "Z550",
@@ -6566,7 +6856,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 6,
       "fee": null,
       "sourceRef": "S28",
-      "pdfPage": 710
+      "pdfPage": 710,
+      "context": "Manipulation"
     },
     {
       "code": "Z565",
@@ -6577,7 +6868,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 6,
       "fee": null,
       "sourceRef": "S28",
-      "pdfPage": 710
+      "pdfPage": 710,
+      "context": "Excision"
     },
     {
       "code": "Z576",
@@ -6610,7 +6902,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 6,
       "fee": null,
       "sourceRef": "S25",
-      "pdfPage": 707
+      "pdfPage": 707,
+      "context": "Biopsies and Minor Excisions"
     },
     {
       "code": "Z753",
@@ -6709,7 +7002,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 7,
       "fee": null,
       "sourceRef": "S4",
-      "pdfPage": 686
+      "pdfPage": 686,
+      "context": "Excision"
     },
     {
       "code": "S043",
@@ -6764,7 +7058,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 7,
       "fee": null,
       "sourceRef": "S4",
-      "pdfPage": 686
+      "pdfPage": 686,
+      "context": "Reconstruction"
     },
     {
       "code": "S057",
@@ -6775,7 +7070,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 7,
       "fee": null,
       "sourceRef": "S4",
-      "pdfPage": 686
+      "pdfPage": 686,
+      "context": "Reconstruction"
     },
     {
       "code": "Z511",
@@ -6786,7 +7082,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 6,
       "fee": null,
       "sourceRef": "S4",
-      "pdfPage": 686
+      "pdfPage": 686,
+      "context": "Reconstruction"
     },
     {
       "code": "Z521",
@@ -6808,7 +7105,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 7,
       "fee": null,
       "sourceRef": "S4",
-      "pdfPage": 686
+      "pdfPage": 686,
+      "context": "Parotid gland"
     },
     {
       "code": "S113",
@@ -6819,7 +7117,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 10,
       "fee": null,
       "sourceRef": "S13",
-      "pdfPage": 695
+      "pdfPage": 695,
+      "context": "The second stage would be a gastric bypass with Roux-en-Y.]"
     },
     {
       "code": "S114",
@@ -6830,7 +7129,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 10,
       "fee": null,
       "sourceRef": "S13",
-      "pdfPage": 695
+      "pdfPage": 695,
+      "context": "Vagotomy"
     },
     {
       "code": "S115",
@@ -6841,7 +7141,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 10,
       "fee": null,
       "sourceRef": "S13",
-      "pdfPage": 695
+      "pdfPage": 695,
+      "context": "Vagotomy"
     },
     {
       "code": "S116",
@@ -6863,7 +7164,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 10,
       "fee": null,
       "sourceRef": "S11",
-      "pdfPage": 693
+      "pdfPage": 693,
+      "context": "Gastrotomy"
     },
     {
       "code": "S118",
@@ -6885,7 +7187,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 10,
       "fee": null,
       "sourceRef": "S13",
-      "pdfPage": 695
+      "pdfPage": 695,
+      "context": "Vagotomy"
     },
     {
       "code": "S121",
@@ -6907,7 +7210,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 7,
       "fee": null,
       "sourceRef": "S12",
-      "pdfPage": 694
+      "pdfPage": 694,
+      "context": "Gastrectomy"
     },
     {
       "code": "S123",
@@ -6962,7 +7266,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 9,
       "fee": null,
       "sourceRef": "S12",
-      "pdfPage": 694
+      "pdfPage": 694,
+      "context": "Total gastrectomy"
     },
     {
       "code": "S131",
@@ -6984,7 +7289,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 7,
       "fee": null,
       "sourceRef": "S14",
-      "pdfPage": 696
+      "pdfPage": 696,
+      "context": "Repair"
     },
     {
       "code": "S133",
@@ -6995,7 +7301,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 7,
       "fee": null,
       "sourceRef": "S14",
-      "pdfPage": 696
+      "pdfPage": 696,
+      "context": "Repair"
     },
     {
       "code": "S134",
@@ -7006,7 +7313,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 7,
       "fee": null,
       "sourceRef": "S14",
-      "pdfPage": 696
+      "pdfPage": 696,
+      "context": "Repair"
     },
     {
       "code": "S137",
@@ -7017,7 +7325,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 8,
       "fee": null,
       "sourceRef": "S14",
-      "pdfPage": 696
+      "pdfPage": 696,
+      "context": "Repair"
     },
     {
       "code": "S138",
@@ -7028,7 +7337,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 7,
       "fee": null,
       "sourceRef": "S14",
-      "pdfPage": 696
+      "pdfPage": 696,
+      "context": "Suture"
     },
     {
       "code": "S139",
@@ -7039,7 +7349,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 7,
       "fee": null,
       "sourceRef": "S14",
-      "pdfPage": 696
+      "pdfPage": 696,
+      "context": "Suture"
     },
     {
       "code": "S140",
@@ -7050,7 +7361,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 7,
       "fee": null,
       "sourceRef": "S14",
-      "pdfPage": 696
+      "pdfPage": 696,
+      "context": "Suture"
     },
     {
       "code": "Z527",
@@ -7105,7 +7417,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 8,
       "fee": null,
       "sourceRef": "W2",
-      "pdfPage": 752
+      "pdfPage": 752,
+      "context": "Excision"
     },
     {
       "code": "S795",
@@ -7116,7 +7429,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 10,
       "fee": null,
       "sourceRef": "W2",
-      "pdfPage": 752
+      "pdfPage": 752,
+      "context": "Excision"
     },
     {
       "code": "S796",
@@ -7127,7 +7441,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 13,
       "fee": null,
       "sourceRef": "W2",
-      "pdfPage": 752
+      "pdfPage": 752,
+      "context": "Excision"
     },
     {
       "code": "S797",
@@ -7138,7 +7453,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 13,
       "fee": null,
       "sourceRef": "W2",
-      "pdfPage": 752
+      "pdfPage": 752,
+      "context": "Excision"
     },
     {
       "code": "S798",
@@ -7182,7 +7498,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 6,
       "fee": null,
       "sourceRef": "W2",
-      "pdfPage": 752
+      "pdfPage": 752,
+      "context": "Adrenalectomy"
     },
     {
       "code": "S786",
@@ -7193,7 +7510,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 6,
       "fee": null,
       "sourceRef": "W1",
-      "pdfPage": 751
+      "pdfPage": 751,
+      "context": "Incision"
     },
     {
       "code": "S787",
@@ -7259,7 +7577,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 7,
       "fee": null,
       "sourceRef": "W1",
-      "pdfPage": 751
+      "pdfPage": 751,
+      "context": "Incision"
     },
     {
       "code": "S744",
@@ -7270,7 +7589,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 6,
       "fee": null,
       "sourceRef": "V6",
-      "pdfPage": 746
+      "pdfPage": 746,
+      "context": "Conization"
     },
     {
       "code": "S765",
@@ -7281,7 +7601,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 6,
       "fee": null,
       "sourceRef": "V6",
-      "pdfPage": 746
+      "pdfPage": 746,
+      "context": "Excision"
     },
     {
       "code": "S766",
@@ -7314,7 +7635,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 6,
       "fee": null,
       "sourceRef": "V6",
-      "pdfPage": 746
+      "pdfPage": 746,
+      "context": "Excision"
     },
     {
       "code": "Z725",
@@ -7468,7 +7790,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 6,
       "fee": null,
       "sourceRef": "V7",
-      "pdfPage": 747
+      "pdfPage": 747,
+      "context": "Incision Or Excision"
     },
     {
       "code": "S774",
@@ -7501,7 +7824,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 8,
       "fee": null,
       "sourceRef": "V8",
-      "pdfPage": 748
+      "pdfPage": 748,
+      "context": "Hysterectomy - with or without adnexa (unless otherwise specified)"
     },
     {
       "code": "S777",
@@ -7523,7 +7847,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 6,
       "fee": null,
       "sourceRef": "V8",
-      "pdfPage": 748
+      "pdfPage": 748,
+      "context": "Hysteroplasty"
     },
     {
       "code": "S779",
@@ -7545,7 +7870,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 8,
       "fee": null,
       "sourceRef": "V8",
-      "pdfPage": 748
+      "pdfPage": 748,
+      "context": "Hysterectomy - with or without adnexa (unless otherwise specified)"
     },
     {
       "code": "S783",
@@ -7666,7 +7992,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 8,
       "fee": null,
       "sourceRef": "V9",
-      "pdfPage": 749
+      "pdfPage": 749,
+      "context": "Ectopic pregnancy"
     },
     {
       "code": "S739",
@@ -7688,7 +8015,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 8,
       "fee": null,
       "sourceRef": "V9",
-      "pdfPage": 749
+      "pdfPage": 749,
+      "context": "Ectopic pregnancy"
     },
     {
       "code": "S743",
@@ -7743,7 +8071,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 8,
       "fee": null,
       "sourceRef": "V9",
-      "pdfPage": 749
+      "pdfPage": 749,
+      "context": "Laparoscopy"
     },
     {
       "code": "S714",
@@ -7754,7 +8083,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 8,
       "fee": null,
       "sourceRef": "V10",
-      "pdfPage": 750
+      "pdfPage": 750,
+      "context": "Oophorectomy"
     },
     {
       "code": "S727",
@@ -7765,7 +8095,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 8,
       "fee": null,
       "sourceRef": "V10",
-      "pdfPage": 750
+      "pdfPage": 750,
+      "context": "Oophorectomy"
     },
     {
       "code": "S745",
@@ -7787,7 +8118,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 8,
       "fee": null,
       "sourceRef": "V10",
-      "pdfPage": 750
+      "pdfPage": 750,
+      "context": "Oophorectomy"
     },
     {
       "code": "S750",
@@ -7798,7 +8130,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 8,
       "fee": null,
       "sourceRef": "V10",
-      "pdfPage": 750
+      "pdfPage": 750,
+      "context": "Oophorectomy"
     },
     {
       "code": "S780",
@@ -7809,7 +8142,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 8,
       "fee": null,
       "sourceRef": "V10",
-      "pdfPage": 750
+      "pdfPage": 750,
+      "context": "Excision (Unilateral Or Bilateral)"
     },
     {
       "code": "S782",
@@ -7831,7 +8165,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 6,
       "fee": null,
       "sourceRef": "V4",
-      "pdfPage": 744
+      "pdfPage": 744,
+      "context": "Closure of fistula"
     },
     {
       "code": "S523",
@@ -7842,7 +8177,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 6,
       "fee": null,
       "sourceRef": "V4",
-      "pdfPage": 744
+      "pdfPage": 744,
+      "context": "Closure of fistula"
     },
     {
       "code": "S546",
@@ -7853,7 +8189,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 7,
       "fee": null,
       "sourceRef": "V4",
-      "pdfPage": 744
+      "pdfPage": 744,
+      "context": "Retropubic Urethropexy"
     },
     {
       "code": "S549",
@@ -7864,7 +8201,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 6,
       "fee": null,
       "sourceRef": "V4",
-      "pdfPage": 744
+      "pdfPage": 744,
+      "context": "Retropubic Urethropexy"
     },
     {
       "code": "S702",
@@ -7875,7 +8213,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 6,
       "fee": null,
       "sourceRef": "V3",
-      "pdfPage": 743
+      "pdfPage": 743,
+      "context": "Biopsy(ies) - when sole procedure"
     },
     {
       "code": "S709",
@@ -7886,7 +8225,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 6,
       "fee": null,
       "sourceRef": "V4",
-      "pdfPage": 744
+      "pdfPage": 744,
+      "context": "Closure of fistula"
     },
     {
       "code": "S712",
@@ -7897,7 +8237,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 6,
       "fee": null,
       "sourceRef": "V3",
-      "pdfPage": 743
+      "pdfPage": 743,
+      "context": "Incision"
     },
     {
       "code": "S715",
@@ -7908,7 +8249,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 6,
       "fee": null,
       "sourceRef": "V3",
-      "pdfPage": 743
+      "pdfPage": 743,
+      "context": "Biopsy(ies) - when sole procedure"
     },
     {
       "code": "S716",
@@ -7974,7 +8316,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 8,
       "fee": null,
       "sourceRef": "V3",
-      "pdfPage": 743
+      "pdfPage": 743,
+      "context": "Anterior repair"
     },
     {
       "code": "S722",
@@ -8040,7 +8383,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 7,
       "fee": null,
       "sourceRef": "V5",
-      "pdfPage": 745
+      "pdfPage": 745,
+      "context": "Primary approach"
     },
     {
       "code": "S729",
@@ -8051,7 +8395,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 6,
       "fee": null,
       "sourceRef": "V4",
-      "pdfPage": 744
+      "pdfPage": 744,
+      "context": "Closure of fistula"
     },
     {
       "code": "S730",
@@ -8073,7 +8418,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 7,
       "fee": null,
       "sourceRef": "V5",
-      "pdfPage": 745
+      "pdfPage": 745,
+      "context": "Following previous failed procedure"
     },
     {
       "code": "S732",
@@ -8095,7 +8441,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 6,
       "fee": null,
       "sourceRef": "V3",
-      "pdfPage": 743
+      "pdfPage": 743,
+      "context": "Biopsy(ies) - when sole procedure"
     },
     {
       "code": "S748",
@@ -8106,7 +8453,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 7,
       "fee": null,
       "sourceRef": "V5",
-      "pdfPage": 745
+      "pdfPage": 745,
+      "context": "Following two or more failed procedures"
     },
     {
       "code": "S749",
@@ -8139,7 +8487,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 8,
       "fee": null,
       "sourceRef": "V3",
-      "pdfPage": 743
+      "pdfPage": 743,
+      "context": "Abdominal approach to vaginal vault prolapse"
     },
     {
       "code": "S811",
@@ -8150,7 +8499,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 8,
       "fee": null,
       "sourceRef": "V5",
-      "pdfPage": 745
+      "pdfPage": 745,
+      "context": "Two surgeons"
     },
     {
       "code": "S812",
@@ -8183,7 +8533,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 6,
       "fee": null,
       "sourceRef": "V4",
-      "pdfPage": 744
+      "pdfPage": 744,
+      "context": "Retropubic Urethropexy"
     },
     {
       "code": "Z478",
@@ -8194,7 +8545,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 6,
       "fee": null,
       "sourceRef": "V3",
-      "pdfPage": 743
+      "pdfPage": 743,
+      "context": "Endoscopy"
     },
     {
       "code": "Z723",
@@ -8271,7 +8623,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 6,
       "fee": null,
       "sourceRef": "V2",
-      "pdfPage": 742
+      "pdfPage": 742,
+      "context": "Excision"
     },
     {
       "code": "S707",
@@ -8282,7 +8635,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 6,
       "fee": null,
       "sourceRef": "V2",
-      "pdfPage": 742
+      "pdfPage": 742,
+      "context": "Excision"
     },
     {
       "code": "Z475",
@@ -8315,7 +8669,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 6,
       "fee": null,
       "sourceRef": "V2",
-      "pdfPage": 742
+      "pdfPage": 742,
+      "context": "Abscess of vulva, Bartholin or Skene\u2019s gland - incision and drainage"
     },
     {
       "code": "Z769",
@@ -8735,7 +9090,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 7,
       "fee": null,
       "sourceRef": "R2",
-      "pdfPage": 682
+      "pdfPage": 682,
+      "context": "Anastomosis"
     },
     {
       "code": "R907",
@@ -8768,7 +9124,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 8,
       "fee": null,
       "sourceRef": "R2",
-      "pdfPage": 682
+      "pdfPage": 682,
+      "context": "Neck lymph nodes"
     },
     {
       "code": "R913",
@@ -8812,7 +9169,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 6,
       "fee": null,
       "sourceRef": "R2",
-      "pdfPage": 682
+      "pdfPage": 682,
+      "context": "Percutaneous retroperitoneal"
     },
     {
       "code": "Z405",
@@ -8823,7 +9181,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 6,
       "fee": null,
       "sourceRef": "R2",
-      "pdfPage": 682
+      "pdfPage": 682,
+      "context": "Biopsy"
     },
     {
       "code": "Z406",
@@ -8834,7 +9193,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 6,
       "fee": null,
       "sourceRef": "R2",
-      "pdfPage": 682
+      "pdfPage": 682,
+      "context": "Biopsy"
     },
     {
       "code": "Z407",
@@ -8867,7 +9227,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 6,
       "fee": null,
       "sourceRef": "R2",
-      "pdfPage": 682
+      "pdfPage": 682,
+      "context": "Incision"
     },
     {
       "code": "Z411",
@@ -8878,7 +9239,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 6,
       "fee": null,
       "sourceRef": "R2",
-      "pdfPage": 682
+      "pdfPage": 682,
+      "context": "Biopsy"
     },
     {
       "code": "Z427",
@@ -8900,7 +9262,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 7,
       "fee": null,
       "sourceRef": "R1",
-      "pdfPage": 681
+      "pdfPage": 681,
+      "context": "Excision"
     },
     {
       "code": "Z403",
@@ -8911,7 +9274,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 6,
       "fee": null,
       "sourceRef": "R1",
-      "pdfPage": 681
+      "pdfPage": 681,
+      "context": "Incision"
     },
     {
       "code": "Z404",
@@ -8922,7 +9286,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 6,
       "fee": null,
       "sourceRef": "R1",
-      "pdfPage": 681
+      "pdfPage": 681,
+      "context": "Incision"
     },
     {
       "code": "Z425",
@@ -8955,7 +9320,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 7,
       "fee": null,
       "sourceRef": "M26",
-      "pdfPage": 576
+      "pdfPage": 576,
+      "context": "Oncoplastic Breast Surgery"
     },
     {
       "code": "R107",
@@ -8966,7 +9332,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 6,
       "fee": null,
       "sourceRef": "M25",
-      "pdfPage": 575
+      "pdfPage": 575,
+      "context": "Excision"
     },
     {
       "code": "R108",
@@ -9010,7 +9377,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 7,
       "fee": null,
       "sourceRef": "M25",
-      "pdfPage": 575
+      "pdfPage": 575,
+      "context": "Excision"
     },
     {
       "code": "R112",
@@ -9032,7 +9400,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 7,
       "fee": null,
       "sourceRef": "M28",
-      "pdfPage": 578
+      "pdfPage": 578,
+      "context": "Post-mastectomy breast reconstruction"
     },
     {
       "code": "R117",
@@ -9054,7 +9423,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 6,
       "fee": null,
       "sourceRef": "M28",
-      "pdfPage": 578
+      "pdfPage": 578,
+      "context": "Post-mastectomy breast reconstruction"
     },
     {
       "code": "R119",
@@ -9065,7 +9435,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 7,
       "fee": null,
       "sourceRef": "M28",
-      "pdfPage": 578
+      "pdfPage": 578,
+      "context": "Post-mastectomy breast reconstruction"
     },
     {
       "code": "R120",
@@ -9076,7 +9447,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 7,
       "fee": null,
       "sourceRef": "M28",
-      "pdfPage": 578
+      "pdfPage": 578,
+      "context": "Post-mastectomy breast reconstruction"
     },
     {
       "code": "R143",
@@ -9087,7 +9459,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 6,
       "fee": null,
       "sourceRef": "M28",
-      "pdfPage": 578
+      "pdfPage": 578,
+      "context": "Post-mastectomy breast reconstruction"
     },
     {
       "code": "R144",
@@ -9098,7 +9471,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 6,
       "fee": null,
       "sourceRef": "M28",
-      "pdfPage": 578
+      "pdfPage": 578,
+      "context": "Post-mastectomy breast reconstruction"
     },
     {
       "code": "R146",
@@ -9153,7 +9527,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 6,
       "fee": null,
       "sourceRef": "M28",
-      "pdfPage": 578
+      "pdfPage": 578,
+      "context": "Post-mastectomy breast reconstruction"
     },
     {
       "code": "R158",
@@ -9164,7 +9539,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 7,
       "fee": null,
       "sourceRef": "M26",
-      "pdfPage": 576
+      "pdfPage": 576,
+      "context": "Oncoplastic Breast Surgery"
     },
     {
       "code": "R159",
@@ -9175,7 +9551,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 7,
       "fee": null,
       "sourceRef": "M26",
-      "pdfPage": 576
+      "pdfPage": 576,
+      "context": "Oncoplastic Breast Surgery"
     },
     {
       "code": "Z135",
@@ -9219,7 +9596,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 6,
       "fee": null,
       "sourceRef": "M25",
-      "pdfPage": 575
+      "pdfPage": 575,
+      "context": "Drainage of intramammary abscess or haematoma"
     },
     {
       "code": "R002",
@@ -9296,7 +9674,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 8,
       "fee": null,
       "sourceRef": "M19",
-      "pdfPage": 569
+      "pdfPage": 569,
+      "context": "Repair of abdominal defect"
     },
     {
       "code": "R010",
@@ -9340,7 +9719,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 10,
       "fee": null,
       "sourceRef": "M21",
-      "pdfPage": 571
+      "pdfPage": 571,
+      "context": "Free Island Flaps"
     },
     {
       "code": "R014",
@@ -9351,7 +9731,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 10,
       "fee": null,
       "sourceRef": "M21",
-      "pdfPage": 571
+      "pdfPage": 571,
+      "context": "Free Island Flaps"
     },
     {
       "code": "R015",
@@ -9362,7 +9743,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 10,
       "fee": null,
       "sourceRef": "M21",
-      "pdfPage": 571
+      "pdfPage": 571,
+      "context": "Free Island Flaps"
     },
     {
       "code": "R016",
@@ -9373,7 +9755,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 10,
       "fee": null,
       "sourceRef": "M21",
-      "pdfPage": 571
+      "pdfPage": 571,
+      "context": "Free Island Flaps"
     },
     {
       "code": "R017",
@@ -9384,7 +9767,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 7,
       "fee": null,
       "sourceRef": "M23",
-      "pdfPage": 573
+      "pdfPage": 573,
+      "context": "Greater than 10 cm"
     },
     {
       "code": "R018",
@@ -9505,7 +9889,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 7,
       "fee": null,
       "sourceRef": "M23",
-      "pdfPage": 573
+      "pdfPage": 573,
+      "context": "Greater than 10 cm"
     },
     {
       "code": "R030",
@@ -9560,7 +9945,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 6,
       "fee": null,
       "sourceRef": "M4",
-      "pdfPage": 554
+      "pdfPage": 554,
+      "context": "Group 4 - other lesions"
     },
     {
       "code": "R035",
@@ -9593,7 +9979,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 6,
       "fee": null,
       "sourceRef": "M4",
-      "pdfPage": 554
+      "pdfPage": 554,
+      "context": "Group 4 - other lesions"
     },
     {
       "code": "R038",
@@ -9648,7 +10035,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 6,
       "fee": null,
       "sourceRef": "M4",
-      "pdfPage": 554
+      "pdfPage": 554,
+      "context": "Group 4 - other lesions"
     },
     {
       "code": "R043",
@@ -9659,7 +10047,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 6,
       "fee": null,
       "sourceRef": "M4",
-      "pdfPage": 554
+      "pdfPage": 554,
+      "context": "Group 4 - other lesions"
     },
     {
       "code": "R045",
@@ -9747,7 +10136,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 10,
       "fee": null,
       "sourceRef": "M21",
-      "pdfPage": 571
+      "pdfPage": 571,
+      "context": "Free Island Flaps"
     },
     {
       "code": "R056",
@@ -9758,7 +10148,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 10,
       "fee": null,
       "sourceRef": "M21",
-      "pdfPage": 571
+      "pdfPage": 571,
+      "context": "Free Island Flaps"
     },
     {
       "code": "R059",
@@ -9791,7 +10182,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 6,
       "fee": null,
       "sourceRef": "M20",
-      "pdfPage": 570
+      "pdfPage": 570,
+      "context": "Neurovascular island transfer"
     },
     {
       "code": "R062",
@@ -9802,7 +10194,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 6,
       "fee": null,
       "sourceRef": "M20",
-      "pdfPage": 570
+      "pdfPage": 570,
+      "context": "Neurovascular island transfer"
     },
     {
       "code": "R063",
@@ -9813,7 +10206,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 6,
       "fee": null,
       "sourceRef": "M20",
-      "pdfPage": 570
+      "pdfPage": 570,
+      "context": "Neurovascular island transfer"
     },
     {
       "code": "R064",
@@ -9824,7 +10218,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 10,
       "fee": null,
       "sourceRef": "M21",
-      "pdfPage": 571
+      "pdfPage": 571,
+      "context": "Free Island Flaps"
     },
     {
       "code": "R065",
@@ -9835,7 +10230,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 10,
       "fee": null,
       "sourceRef": "M21",
-      "pdfPage": 571
+      "pdfPage": 571,
+      "context": "Free Island Flaps"
     },
     {
       "code": "R066",
@@ -9846,7 +10242,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 10,
       "fee": null,
       "sourceRef": "M21",
-      "pdfPage": 571
+      "pdfPage": 571,
+      "context": "Free Island Flaps"
     },
     {
       "code": "R067",
@@ -9857,7 +10254,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 10,
       "fee": null,
       "sourceRef": "M21",
-      "pdfPage": 571
+      "pdfPage": 571,
+      "context": "Free Island Flaps"
     },
     {
       "code": "R068",
@@ -9868,7 +10266,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 10,
       "fee": null,
       "sourceRef": "M21",
-      "pdfPage": 571
+      "pdfPage": 571,
+      "context": "Free Island Flaps"
     },
     {
       "code": "R069",
@@ -9879,7 +10278,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 10,
       "fee": null,
       "sourceRef": "M21",
-      "pdfPage": 571
+      "pdfPage": 571,
+      "context": "Free Island Flaps"
     },
     {
       "code": "R070",
@@ -10011,7 +10411,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 7,
       "fee": null,
       "sourceRef": "M19",
-      "pdfPage": 569
+      "pdfPage": 569,
+      "context": "Skin Grafts"
     },
     {
       "code": "R085",
@@ -10022,7 +10423,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 6,
       "fee": null,
       "sourceRef": "M19",
-      "pdfPage": 569
+      "pdfPage": 569,
+      "context": "Skin Grafts"
     },
     {
       "code": "R086",
@@ -10033,7 +10435,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 7,
       "fee": null,
       "sourceRef": "M19",
-      "pdfPage": 569
+      "pdfPage": 569,
+      "context": "Skin Grafts"
     },
     {
       "code": "R087",
@@ -10044,7 +10447,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 7,
       "fee": null,
       "sourceRef": "M19",
-      "pdfPage": 569
+      "pdfPage": 569,
+      "context": "Skin Grafts"
     },
     {
       "code": "R088",
@@ -10055,7 +10459,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 6,
       "fee": null,
       "sourceRef": "M19",
-      "pdfPage": 569
+      "pdfPage": 569,
+      "context": "Skin Grafts"
     },
     {
       "code": "R089",
@@ -10066,7 +10471,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 6,
       "fee": null,
       "sourceRef": "M23",
-      "pdfPage": 573
+      "pdfPage": 573,
+      "context": "Webbed fingers and toes"
     },
     {
       "code": "R090",
@@ -10077,7 +10483,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 7,
       "fee": null,
       "sourceRef": "M23",
-      "pdfPage": 573
+      "pdfPage": 573,
+      "context": "Webbed fingers and toes"
     },
     {
       "code": "R091",
@@ -10154,7 +10561,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 10,
       "fee": null,
       "sourceRef": "M21",
-      "pdfPage": 571
+      "pdfPage": 571,
+      "context": "Free Island Flaps"
     },
     {
       "code": "R123",
@@ -10165,7 +10573,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 10,
       "fee": null,
       "sourceRef": "M22",
-      "pdfPage": 572
+      "pdfPage": 572,
+      "context": "Free Island Flaps"
     },
     {
       "code": "R124",
@@ -10176,7 +10585,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 10,
       "fee": null,
       "sourceRef": "M22",
-      "pdfPage": 572
+      "pdfPage": 572,
+      "context": "Free Island Flaps"
     },
     {
       "code": "R125",
@@ -10187,7 +10597,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 10,
       "fee": null,
       "sourceRef": "M21",
-      "pdfPage": 571
+      "pdfPage": 571,
+      "context": "Free Island Flaps"
     },
     {
       "code": "R126",
@@ -10198,7 +10609,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 10,
       "fee": null,
       "sourceRef": "M21",
-      "pdfPage": 571
+      "pdfPage": 571,
+      "context": "Free Island Flaps"
     },
     {
       "code": "R127",
@@ -10209,7 +10621,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 10,
       "fee": null,
       "sourceRef": "M21",
-      "pdfPage": 571
+      "pdfPage": 571,
+      "context": "Free Island Flaps"
     },
     {
       "code": "R128",
@@ -10220,7 +10633,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 10,
       "fee": null,
       "sourceRef": "M22",
-      "pdfPage": 572
+      "pdfPage": 572,
+      "context": "Free Island Flaps"
     },
     {
       "code": "R129",
@@ -10231,7 +10645,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 10,
       "fee": null,
       "sourceRef": "M22",
-      "pdfPage": 572
+      "pdfPage": 572,
+      "context": "Free Island Flaps"
     },
     {
       "code": "R130",
@@ -10242,7 +10657,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 10,
       "fee": null,
       "sourceRef": "M22",
-      "pdfPage": 572
+      "pdfPage": 572,
+      "context": "Free Island Flaps"
     },
     {
       "code": "R131",
@@ -10253,7 +10669,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 10,
       "fee": null,
       "sourceRef": "M22",
-      "pdfPage": 572
+      "pdfPage": 572,
+      "context": "Free Island Flaps"
     },
     {
       "code": "R132",
@@ -10264,7 +10681,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 10,
       "fee": null,
       "sourceRef": "M22",
-      "pdfPage": 572
+      "pdfPage": 572,
+      "context": "Free Island Flaps"
     },
     {
       "code": "R133",
@@ -10275,7 +10693,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 10,
       "fee": null,
       "sourceRef": "M22",
-      "pdfPage": 572
+      "pdfPage": 572,
+      "context": "Free Island Flaps"
     },
     {
       "code": "R134",
@@ -10286,7 +10705,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 10,
       "fee": null,
       "sourceRef": "M22",
-      "pdfPage": 572
+      "pdfPage": 572,
+      "context": "Free Island Flaps"
     },
     {
       "code": "R135",
@@ -10297,7 +10717,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 10,
       "fee": null,
       "sourceRef": "M22",
-      "pdfPage": 572
+      "pdfPage": 572,
+      "context": "Free Island Flaps"
     },
     {
       "code": "R136",
@@ -10308,7 +10729,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 10,
       "fee": null,
       "sourceRef": "M22",
-      "pdfPage": 572
+      "pdfPage": 572,
+      "context": "Free Island Flaps"
     },
     {
       "code": "R137",
@@ -10319,7 +10741,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 10,
       "fee": null,
       "sourceRef": "M22",
-      "pdfPage": 572
+      "pdfPage": 572,
+      "context": "Free Island Flaps"
     },
     {
       "code": "R138",
@@ -10330,7 +10753,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 10,
       "fee": null,
       "sourceRef": "M22",
-      "pdfPage": 572
+      "pdfPage": 572,
+      "context": "Free Island Flaps"
     },
     {
       "code": "R139",
@@ -10341,7 +10765,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 10,
       "fee": null,
       "sourceRef": "M22",
-      "pdfPage": 572
+      "pdfPage": 572,
+      "context": "Free Island Flaps"
     },
     {
       "code": "R140",
@@ -10352,7 +10777,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 10,
       "fee": null,
       "sourceRef": "M22",
-      "pdfPage": 572
+      "pdfPage": 572,
+      "context": "Free Island Flaps"
     },
     {
       "code": "R141",
@@ -10363,7 +10789,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 10,
       "fee": null,
       "sourceRef": "M22",
-      "pdfPage": 572
+      "pdfPage": 572,
+      "context": "Free Island Flaps"
     },
     {
       "code": "R150",
@@ -10374,7 +10801,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 6,
       "fee": null,
       "sourceRef": "M24",
-      "pdfPage": 574
+      "pdfPage": 574,
+      "context": "Plastic Surgery Procedures"
     },
     {
       "code": "R151",
@@ -10385,7 +10813,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 6,
       "fee": null,
       "sourceRef": "M24",
-      "pdfPage": 574
+      "pdfPage": 574,
+      "context": "Plastic Surgery Procedures"
     },
     {
       "code": "R152",
@@ -10396,7 +10825,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 7,
       "fee": null,
       "sourceRef": "M24",
-      "pdfPage": 574
+      "pdfPage": 574,
+      "context": "Plastic Surgery Procedures"
     },
     {
       "code": "R153",
@@ -10407,7 +10837,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 7,
       "fee": null,
       "sourceRef": "M24",
-      "pdfPage": 574
+      "pdfPage": 574,
+      "context": "Plastic Surgery Procedures"
     },
     {
       "code": "R154",
@@ -10418,7 +10849,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 6,
       "fee": null,
       "sourceRef": "M24",
-      "pdfPage": 574
+      "pdfPage": 574,
+      "context": "Plastic Surgery Procedures"
     },
     {
       "code": "R155",
@@ -10539,7 +10971,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 10,
       "fee": null,
       "sourceRef": "M13",
-      "pdfPage": 563
+      "pdfPage": 563,
+      "context": "Debridement, excision, fasciotomy and flap and/or graft closure - in Operating Room"
     },
     {
       "code": "R845",
@@ -10583,7 +11016,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 6,
       "fee": null,
       "sourceRef": "M4",
-      "pdfPage": 554
+      "pdfPage": 554,
+      "context": "Group 4 - other lesions"
     },
     {
       "code": "Z097",
@@ -10594,7 +11028,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 6,
       "fee": null,
       "sourceRef": "M4",
-      "pdfPage": 554
+      "pdfPage": 554,
+      "context": "Group 4 - other lesions"
     },
     {
       "code": "Z100",
@@ -10715,7 +11150,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 7,
       "fee": null,
       "sourceRef": "M24",
-      "pdfPage": 574
+      "pdfPage": 574,
+      "context": "Procedures section of this Schedule"
     },
     {
       "code": "Z138",
@@ -10726,7 +11162,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 7,
       "fee": null,
       "sourceRef": "M24",
-      "pdfPage": 574
+      "pdfPage": 574,
+      "context": "Removal tissue expander injection port when sole procedure"
     },
     {
       "code": "Z145",
@@ -11023,7 +11460,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 6,
       "fee": null,
       "sourceRef": "M1",
-      "pdfPage": 551
+      "pdfPage": 551,
+      "context": "Foreign body removal"
     },
     {
       "code": "Z245",
@@ -11045,7 +11483,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 6,
       "fee": null,
       "sourceRef": "U4",
-      "pdfPage": 736
+      "pdfPage": 736,
+      "context": "Epididymis"
     },
     {
       "code": "S602",
@@ -11067,7 +11506,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 6,
       "fee": null,
       "sourceRef": "U4",
-      "pdfPage": 736
+      "pdfPage": 736,
+      "context": "Tunica Vaginalis"
     },
     {
       "code": "Z707",
@@ -11078,7 +11518,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 6,
       "fee": null,
       "sourceRef": "U4",
-      "pdfPage": 736
+      "pdfPage": 736,
+      "context": "Epididymis"
     },
     {
       "code": "S565",
@@ -11221,7 +11662,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 6,
       "fee": null,
       "sourceRef": "U1",
-      "pdfPage": 733
+      "pdfPage": 733,
+      "context": "One stage repair"
     },
     {
       "code": "S580",
@@ -11287,7 +11729,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 7,
       "fee": null,
       "sourceRef": "U1",
-      "pdfPage": 733
+      "pdfPage": 733,
+      "context": "Condylomata"
     },
     {
       "code": "Z702",
@@ -11298,7 +11741,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 6,
       "fee": null,
       "sourceRef": "U1",
-      "pdfPage": 733
+      "pdfPage": 733,
+      "context": "Circumcision - for physical symptomatology only"
     },
     {
       "code": "Z767",
@@ -11320,7 +11764,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 7,
       "fee": null,
       "sourceRef": "U8",
-      "pdfPage": 740
+      "pdfPage": 740,
+      "context": "Endoscopy"
     },
     {
       "code": "S650",
@@ -11353,7 +11798,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 10,
       "fee": null,
       "sourceRef": "U8",
-      "pdfPage": 740
+      "pdfPage": 740,
+      "context": "Prostatectomy"
     },
     {
       "code": "S654",
@@ -11364,7 +11810,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 6,
       "fee": null,
       "sourceRef": "U8",
-      "pdfPage": 740
+      "pdfPage": 740,
+      "context": "Endoscopy"
     },
     {
       "code": "S655",
@@ -11375,7 +11822,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 7,
       "fee": null,
       "sourceRef": "U8",
-      "pdfPage": 740
+      "pdfPage": 740,
+      "context": "Endoscopy"
     },
     {
       "code": "S656",
@@ -11386,7 +11834,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 6,
       "fee": null,
       "sourceRef": "U8",
-      "pdfPage": 740
+      "pdfPage": 740,
+      "context": "Endoscopy"
     },
     {
       "code": "Z712",
@@ -11397,7 +11846,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 6,
       "fee": null,
       "sourceRef": "U8",
-      "pdfPage": 740
+      "pdfPage": 740,
+      "context": "Incision"
     },
     {
       "code": "Z713",
@@ -11408,7 +11858,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 6,
       "fee": null,
       "sourceRef": "U8",
-      "pdfPage": 740
+      "pdfPage": 740,
+      "context": "Incision"
     },
     {
       "code": "S616",
@@ -11430,7 +11881,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 7,
       "fee": null,
       "sourceRef": "U5",
-      "pdfPage": 737
+      "pdfPage": 737,
+      "context": "Excision"
     },
     {
       "code": "Z768",
@@ -11474,7 +11926,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 6,
       "fee": null,
       "sourceRef": "U7",
-      "pdfPage": 739
+      "pdfPage": 739,
+      "context": "Seminal Vesicles"
     },
     {
       "code": "Z711",
@@ -11485,7 +11938,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 6,
       "fee": null,
       "sourceRef": "U7",
-      "pdfPage": 739
+      "pdfPage": 739,
+      "context": "Seminal Vesicles"
     },
     {
       "code": "S589",
@@ -11496,7 +11950,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 7,
       "fee": null,
       "sourceRef": "U3",
-      "pdfPage": 735
+      "pdfPage": 735,
+      "context": "Orchidectomy"
     },
     {
       "code": "S590",
@@ -11507,7 +11962,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 8,
       "fee": null,
       "sourceRef": "U3",
-      "pdfPage": 735
+      "pdfPage": 735,
+      "context": "Orchidectomy"
     },
     {
       "code": "S591",
@@ -11540,7 +11996,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 7,
       "fee": null,
       "sourceRef": "U3",
-      "pdfPage": 735
+      "pdfPage": 735,
+      "context": "Orchidopexy"
     },
     {
       "code": "S596",
@@ -11551,7 +12008,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 6,
       "fee": null,
       "sourceRef": "U3",
-      "pdfPage": 735
+      "pdfPage": 735,
+      "context": "Orchidopexy"
     },
     {
       "code": "S598",
@@ -11562,7 +12020,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 7,
       "fee": null,
       "sourceRef": "U3",
-      "pdfPage": 735
+      "pdfPage": 735,
+      "context": "Orchidectomy"
     },
     {
       "code": "S600",
@@ -11584,7 +12043,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 6,
       "fee": null,
       "sourceRef": "U3",
-      "pdfPage": 735
+      "pdfPage": 735,
+      "context": "Incision"
     },
     {
       "code": "Z704",
@@ -11595,7 +12055,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 7,
       "fee": null,
       "sourceRef": "U3",
-      "pdfPage": 735
+      "pdfPage": 735,
+      "context": "Biopsy"
     },
     {
       "code": "Z705",
@@ -11606,7 +12067,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 7,
       "fee": null,
       "sourceRef": "U3",
-      "pdfPage": 735
+      "pdfPage": 735,
+      "context": "Biopsy"
     },
     {
       "code": "Z706",
@@ -11617,7 +12079,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 6,
       "fee": null,
       "sourceRef": "U3",
-      "pdfPage": 735
+      "pdfPage": 735,
+      "context": "Biopsy"
     },
     {
       "code": "S623",
@@ -11661,7 +12124,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 6,
       "fee": null,
       "sourceRef": "U6",
-      "pdfPage": 738
+      "pdfPage": 738,
+      "context": "Incision"
     },
     {
       "code": "D009",
@@ -11892,7 +12356,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 7,
       "fee": null,
       "sourceRef": "N17",
-      "pdfPage": 597
+      "pdfPage": 597,
+      "context": "Catheter"
     },
     {
       "code": "N190",
@@ -11903,7 +12368,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 7,
       "fee": null,
       "sourceRef": "N17",
-      "pdfPage": 597
+      "pdfPage": 597,
+      "context": "Catheter"
     },
     {
       "code": "R183",
@@ -11914,7 +12380,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 7,
       "fee": null,
       "sourceRef": "N19",
-      "pdfPage": 599
+      "pdfPage": 599,
+      "context": "Suture flexor tendon excluding distal biceps tendon repair and/or reconstruction"
     },
     {
       "code": "R184",
@@ -11925,7 +12392,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 7,
       "fee": null,
       "sourceRef": "N19",
-      "pdfPage": 599
+      "pdfPage": 599,
+      "context": "Suture flexor tendon excluding distal biceps tendon repair and/or reconstruction"
     },
     {
       "code": "R228",
@@ -11936,7 +12404,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 7,
       "fee": null,
       "sourceRef": "N17",
-      "pdfPage": 597
+      "pdfPage": 597,
+      "context": "Incision And Drainage"
     },
     {
       "code": "R229",
@@ -11947,7 +12416,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 7,
       "fee": null,
       "sourceRef": "N17",
-      "pdfPage": 597
+      "pdfPage": 597,
+      "context": "Incision And Drainage"
     },
     {
       "code": "R231",
@@ -11958,7 +12428,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 7,
       "fee": null,
       "sourceRef": "N17",
-      "pdfPage": 597
+      "pdfPage": 597,
+      "context": "Incision And Drainage"
     },
     {
       "code": "R259",
@@ -11991,7 +12462,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 6,
       "fee": null,
       "sourceRef": "N16",
-      "pdfPage": 596
+      "pdfPage": 596,
+      "context": "Arthroplasty"
     },
     {
       "code": "R286",
@@ -12002,7 +12474,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 7,
       "fee": null,
       "sourceRef": "N18",
-      "pdfPage": 598
+      "pdfPage": 598,
+      "context": "Bone"
     },
     {
       "code": "R287",
@@ -12013,7 +12486,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 7,
       "fee": null,
       "sourceRef": "N18",
-      "pdfPage": 598
+      "pdfPage": 598,
+      "context": "Bone"
     },
     {
       "code": "R288",
@@ -12024,7 +12498,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 6,
       "fee": null,
       "sourceRef": "N16",
-      "pdfPage": 596
+      "pdfPage": 596,
+      "context": "Arthroplasty"
     },
     {
       "code": "R290",
@@ -12035,7 +12510,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 6,
       "fee": null,
       "sourceRef": "N18",
-      "pdfPage": 598
+      "pdfPage": 598,
+      "context": "Bone"
     },
     {
       "code": "R291",
@@ -12046,7 +12522,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 7,
       "fee": null,
       "sourceRef": "N18",
-      "pdfPage": 598
+      "pdfPage": 598,
+      "context": "Bone"
     },
     {
       "code": "R293",
@@ -12090,7 +12567,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 7,
       "fee": null,
       "sourceRef": "N18",
-      "pdfPage": 598
+      "pdfPage": 598,
+      "context": "Bone - Pseudoarthrosis"
     },
     {
       "code": "R324",
@@ -12123,7 +12601,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 7,
       "fee": null,
       "sourceRef": "N18",
-      "pdfPage": 598
+      "pdfPage": 598,
+      "context": "Joint Contents"
     },
     {
       "code": "R426",
@@ -12134,7 +12613,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 7,
       "fee": null,
       "sourceRef": "N17",
-      "pdfPage": 597
+      "pdfPage": 597,
+      "context": "Catheter"
     },
     {
       "code": "R432",
@@ -12156,7 +12636,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 10,
       "fee": null,
       "sourceRef": "N16",
-      "pdfPage": 596
+      "pdfPage": 596,
+      "context": "Arthroplasty"
     },
     {
       "code": "R445",
@@ -12167,7 +12648,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 7,
       "fee": null,
       "sourceRef": "N17",
-      "pdfPage": 597
+      "pdfPage": 597,
+      "context": "Incision And Drainage"
     },
     {
       "code": "R445",
@@ -12178,7 +12660,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 7,
       "fee": null,
       "sourceRef": "N17",
-      "pdfPage": 597
+      "pdfPage": 597,
+      "context": "Arthrotomy"
     },
     {
       "code": "R466",
@@ -12189,7 +12672,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 6,
       "fee": null,
       "sourceRef": "N16",
-      "pdfPage": 596
+      "pdfPage": 596,
+      "context": "Arthrodesis"
     },
     {
       "code": "R473",
@@ -12200,7 +12684,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 6,
       "fee": null,
       "sourceRef": "N18",
-      "pdfPage": 598
+      "pdfPage": 598,
+      "context": "Bone - Pseudoarthrosis"
     },
     {
       "code": "R476",
@@ -12244,7 +12729,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 7,
       "fee": null,
       "sourceRef": "N17",
-      "pdfPage": 597
+      "pdfPage": 597,
+      "context": "Decompression/Denervation"
     },
     {
       "code": "R499",
@@ -12255,7 +12741,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 7,
       "fee": null,
       "sourceRef": "N16",
-      "pdfPage": 596
+      "pdfPage": 596,
+      "context": "Arthroplasty"
     },
     {
       "code": "R510",
@@ -12277,7 +12764,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 6,
       "fee": null,
       "sourceRef": "N18",
-      "pdfPage": 598
+      "pdfPage": 598,
+      "context": "Muscles"
     },
     {
       "code": "R519",
@@ -12310,7 +12798,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 7,
       "fee": null,
       "sourceRef": "N18",
-      "pdfPage": 598
+      "pdfPage": 598,
+      "context": "Muscles"
     },
     {
       "code": "R540",
@@ -12332,7 +12821,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 7,
       "fee": null,
       "sourceRef": "N19",
-      "pdfPage": 599
+      "pdfPage": 599,
+      "context": "Ligaments"
     },
     {
       "code": "R556",
@@ -12387,7 +12877,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 7,
       "fee": null,
       "sourceRef": "N19",
-      "pdfPage": 599
+      "pdfPage": 599,
+      "context": "Transposition/transplantation/transfer"
     },
     {
       "code": "R585",
@@ -12431,7 +12922,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 6,
       "fee": null,
       "sourceRef": "N18",
-      "pdfPage": 598
+      "pdfPage": 598,
+      "context": "Bursae"
     },
     {
       "code": "R597",
@@ -12442,7 +12934,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 7,
       "fee": null,
       "sourceRef": "N19",
-      "pdfPage": 599
+      "pdfPage": 599,
+      "context": "Ligaments"
     },
     {
       "code": "R613",
@@ -12453,7 +12946,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 7,
       "fee": null,
       "sourceRef": "N16",
-      "pdfPage": 596
+      "pdfPage": 596,
+      "context": "Amputation"
     },
     {
       "code": "R614",
@@ -12464,7 +12958,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 6,
       "fee": null,
       "sourceRef": "N16",
-      "pdfPage": 596
+      "pdfPage": 596,
+      "context": "Amputation"
     },
     {
       "code": "R643",
@@ -12475,7 +12970,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 7,
       "fee": null,
       "sourceRef": "N18",
-      "pdfPage": 598
+      "pdfPage": 598,
+      "context": "Bone"
     },
     {
       "code": "R683",
@@ -12497,7 +12993,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 7,
       "fee": null,
       "sourceRef": "N18",
-      "pdfPage": 598
+      "pdfPage": 598,
+      "context": "Bone - Pseudoarthrosis"
     },
     {
       "code": "R951",
@@ -12508,7 +13005,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 7,
       "fee": null,
       "sourceRef": "N18",
-      "pdfPage": 598
+      "pdfPage": 598,
+      "context": "Osteotomy"
     },
     {
       "code": "R952",
@@ -12519,7 +13017,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 6,
       "fee": null,
       "sourceRef": "N18",
-      "pdfPage": 598
+      "pdfPage": 598,
+      "context": "Osteotomy"
     },
     {
       "code": "R953",
@@ -12563,7 +13062,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 6,
       "fee": null,
       "sourceRef": "N17",
-      "pdfPage": 597
+      "pdfPage": 597,
+      "context": "Examination/Manipulation"
     },
     {
       "code": "Z225",
@@ -12607,7 +13107,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 7,
       "fee": null,
       "sourceRef": "N17",
-      "pdfPage": 597
+      "pdfPage": 597,
+      "context": "Decompression/Denervation"
     },
     {
       "code": "F093",
@@ -12618,7 +13119,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 8,
       "fee": null,
       "sourceRef": "N43",
-      "pdfPage": 623
+      "pdfPage": 623,
+      "context": "Open reduction"
     },
     {
       "code": "F094",
@@ -12640,7 +13142,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 8,
       "fee": null,
       "sourceRef": "N43",
-      "pdfPage": 623
+      "pdfPage": 623,
+      "context": "Open reduction"
     },
     {
       "code": "R215",
@@ -12651,7 +13154,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 6,
       "fee": null,
       "sourceRef": "N42",
-      "pdfPage": 622
+      "pdfPage": 622,
+      "context": "Deformity"
     },
     {
       "code": "R216",
@@ -12673,7 +13177,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 7,
       "fee": null,
       "sourceRef": "N41",
-      "pdfPage": 621
+      "pdfPage": 621,
+      "context": "Incision And Drainage"
     },
     {
       "code": "R243",
@@ -12684,7 +13189,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 6,
       "fee": null,
       "sourceRef": "N41",
-      "pdfPage": 621
+      "pdfPage": 621,
+      "context": "Incision And Drainage"
     },
     {
       "code": "R245",
@@ -12695,7 +13201,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 7,
       "fee": null,
       "sourceRef": "N41",
-      "pdfPage": 621
+      "pdfPage": 621,
+      "context": "Incision And Drainage"
     },
     {
       "code": "R262",
@@ -12706,7 +13213,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 6,
       "fee": null,
       "sourceRef": "N42",
-      "pdfPage": 622
+      "pdfPage": 622,
+      "context": "Deformity"
     },
     {
       "code": "R314",
@@ -12717,7 +13225,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 6,
       "fee": null,
       "sourceRef": "N41",
-      "pdfPage": 621
+      "pdfPage": 621,
+      "context": "Bone"
     },
     {
       "code": "R328",
@@ -12728,7 +13237,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 6,
       "fee": null,
       "sourceRef": "N41",
-      "pdfPage": 621
+      "pdfPage": 621,
+      "context": "Pseudoarthrosis"
     },
     {
       "code": "R330",
@@ -12750,7 +13260,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 6,
       "fee": null,
       "sourceRef": "N42",
-      "pdfPage": 622
+      "pdfPage": 622,
+      "context": "Leg length discrepancy"
     },
     {
       "code": "R333",
@@ -12761,7 +13272,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 6,
       "fee": null,
       "sourceRef": "N42",
-      "pdfPage": 622
+      "pdfPage": 622,
+      "context": "Leg length discrepancy"
     },
     {
       "code": "R340",
@@ -12772,7 +13284,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 7,
       "fee": null,
       "sourceRef": "N42",
-      "pdfPage": 622
+      "pdfPage": 622,
+      "context": "Leg length discrepancy"
     },
     {
       "code": "R341",
@@ -12783,7 +13296,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 7,
       "fee": null,
       "sourceRef": "N42",
-      "pdfPage": 622
+      "pdfPage": 622,
+      "context": "Leg length discrepancy"
     },
     {
       "code": "R343",
@@ -12794,7 +13308,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 7,
       "fee": null,
       "sourceRef": "N42",
-      "pdfPage": 622
+      "pdfPage": 622,
+      "context": "Leg length discrepancy"
     },
     {
       "code": "R344",
@@ -12805,7 +13320,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 6,
       "fee": null,
       "sourceRef": "N42",
-      "pdfPage": 622
+      "pdfPage": 622,
+      "context": "Leg length discrepancy"
     },
     {
       "code": "R522",
@@ -12838,7 +13354,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 7,
       "fee": null,
       "sourceRef": "N42",
-      "pdfPage": 622
+      "pdfPage": 622,
+      "context": "Lengthening of hamstrings"
     },
     {
       "code": "R530",
@@ -12849,7 +13366,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 7,
       "fee": null,
       "sourceRef": "N42",
-      "pdfPage": 622
+      "pdfPage": 622,
+      "context": "Quadriceps repair"
     },
     {
       "code": "R543",
@@ -12882,7 +13400,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 6,
       "fee": null,
       "sourceRef": "N42",
-      "pdfPage": 622
+      "pdfPage": 622,
+      "context": "Quadriceps repair"
     },
     {
       "code": "R562",
@@ -12904,7 +13423,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 7,
       "fee": null,
       "sourceRef": "N42",
-      "pdfPage": 622
+      "pdfPage": 622,
+      "context": "Lengthening of hamstrings"
     },
     {
       "code": "R587",
@@ -12937,7 +13457,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 7,
       "fee": null,
       "sourceRef": "N41",
-      "pdfPage": 621
+      "pdfPage": 621,
+      "context": "Amputation"
     },
     {
       "code": "R626",
@@ -12948,7 +13469,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 7,
       "fee": null,
       "sourceRef": "N41",
-      "pdfPage": 621
+      "pdfPage": 621,
+      "context": "Amputation"
     },
     {
       "code": "R632",
@@ -12981,7 +13503,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 7,
       "fee": null,
       "sourceRef": "N42",
-      "pdfPage": 622
+      "pdfPage": 622,
+      "context": "Deformity"
     },
     {
       "code": "R964",
@@ -12992,7 +13515,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 6,
       "fee": null,
       "sourceRef": "N42",
-      "pdfPage": 622
+      "pdfPage": 622,
+      "context": "Deformity"
     },
     {
       "code": "R965",
@@ -13003,7 +13527,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 6,
       "fee": null,
       "sourceRef": "N42",
-      "pdfPage": 622
+      "pdfPage": 622,
+      "context": "Deformity"
     },
     {
       "code": "R966",
@@ -13014,7 +13539,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 6,
       "fee": null,
       "sourceRef": "N42",
-      "pdfPage": 622
+      "pdfPage": 622,
+      "context": "Deformity"
     },
     {
       "code": "R967",
@@ -13025,7 +13551,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 6,
       "fee": null,
       "sourceRef": "N41",
-      "pdfPage": 621
+      "pdfPage": 621,
+      "context": "Pseudoarthrosis"
     },
     {
       "code": "R968",
@@ -13036,7 +13563,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 6,
       "fee": null,
       "sourceRef": "N42",
-      "pdfPage": 622
+      "pdfPage": 622,
+      "context": "Leg length discrepancy"
     },
     {
       "code": "R969",
@@ -13047,7 +13575,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 6,
       "fee": null,
       "sourceRef": "N42",
-      "pdfPage": 622
+      "pdfPage": 622,
+      "context": "Leg length discrepancy"
     },
     {
       "code": "Z197",
@@ -13058,7 +13587,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 6,
       "fee": null,
       "sourceRef": "N42",
-      "pdfPage": 622
+      "pdfPage": 622,
+      "context": "Quadriceps repair"
     },
     {
       "code": "Z226",
@@ -13069,7 +13599,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 7,
       "fee": null,
       "sourceRef": "N41",
-      "pdfPage": 621
+      "pdfPage": 621,
+      "context": "Incision And Drainage"
     },
     {
       "code": "Z228",
@@ -13179,7 +13710,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 7,
       "fee": null,
       "sourceRef": "N50",
-      "pdfPage": 630
+      "pdfPage": 630,
+      "context": "Decompression/Denervation"
     },
     {
       "code": "R210",
@@ -13190,7 +13722,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 7,
       "fee": null,
       "sourceRef": "N50",
-      "pdfPage": 630
+      "pdfPage": 630,
+      "context": "Excision"
     },
     {
       "code": "R237",
@@ -13201,7 +13734,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 7,
       "fee": null,
       "sourceRef": "N50",
-      "pdfPage": 630
+      "pdfPage": 630,
+      "context": "Incision And Drainage"
     },
     {
       "code": "R238",
@@ -13212,7 +13746,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 7,
       "fee": null,
       "sourceRef": "N50",
-      "pdfPage": 630
+      "pdfPage": 630,
+      "context": "Incision And Drainage"
     },
     {
       "code": "R239",
@@ -13223,7 +13758,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 7,
       "fee": null,
       "sourceRef": "N50",
-      "pdfPage": 630
+      "pdfPage": 630,
+      "context": "Incision And Drainage"
     },
     {
       "code": "R246",
@@ -13234,7 +13770,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 7,
       "fee": null,
       "sourceRef": "N50",
-      "pdfPage": 630
+      "pdfPage": 630,
+      "context": "Tumour"
     },
     {
       "code": "R253",
@@ -13256,7 +13793,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 6,
       "fee": null,
       "sourceRef": "N51",
-      "pdfPage": 631
+      "pdfPage": 631,
+      "context": "Deformity"
     },
     {
       "code": "R295",
@@ -13278,7 +13816,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 6,
       "fee": null,
       "sourceRef": "N50",
-      "pdfPage": 630
+      "pdfPage": 630,
+      "context": "Excision"
     },
     {
       "code": "R326",
@@ -13289,7 +13828,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 6,
       "fee": null,
       "sourceRef": "N50",
-      "pdfPage": 630
+      "pdfPage": 630,
+      "context": "Pseudoarthrosis"
     },
     {
       "code": "R327",
@@ -13300,7 +13840,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 6,
       "fee": null,
       "sourceRef": "N50",
-      "pdfPage": 630
+      "pdfPage": 630,
+      "context": "Pseudoarthrosis"
     },
     {
       "code": "R331",
@@ -13311,7 +13852,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 6,
       "fee": null,
       "sourceRef": "N51",
-      "pdfPage": 631
+      "pdfPage": 631,
+      "context": "Leg length discrepancy"
     },
     {
       "code": "R339",
@@ -13322,7 +13864,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 7,
       "fee": null,
       "sourceRef": "N51",
-      "pdfPage": 631
+      "pdfPage": 631,
+      "context": "Leg length discrepancy"
     },
     {
       "code": "R341",
@@ -13333,7 +13876,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 7,
       "fee": null,
       "sourceRef": "N51",
-      "pdfPage": 631
+      "pdfPage": 631,
+      "context": "Leg length discrepancy"
     },
     {
       "code": "R342",
@@ -13355,7 +13899,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 6,
       "fee": null,
       "sourceRef": "N51",
-      "pdfPage": 631
+      "pdfPage": 631,
+      "context": "Tibial stapling"
     },
     {
       "code": "R372",
@@ -13388,7 +13933,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 6,
       "fee": null,
       "sourceRef": "N51",
-      "pdfPage": 631
+      "pdfPage": 631,
+      "context": "Leg length discrepancy"
     },
     {
       "code": "R460",
@@ -13410,7 +13956,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 7,
       "fee": null,
       "sourceRef": "N50",
-      "pdfPage": 630
+      "pdfPage": 630,
+      "context": "Decompression/Denervation"
     },
     {
       "code": "R522",
@@ -13443,7 +13990,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 7,
       "fee": null,
       "sourceRef": "N50",
-      "pdfPage": 630
+      "pdfPage": 630,
+      "context": "Amputation"
     },
     {
       "code": "R970",
@@ -13465,7 +14013,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 6,
       "fee": null,
       "sourceRef": "N51",
-      "pdfPage": 631
+      "pdfPage": 631,
+      "context": "Deformity"
     },
     {
       "code": "R972",
@@ -13476,7 +14025,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 6,
       "fee": null,
       "sourceRef": "N51",
-      "pdfPage": 631
+      "pdfPage": 631,
+      "context": "Deformity"
     },
     {
       "code": "R973",
@@ -13509,7 +14059,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 6,
       "fee": null,
       "sourceRef": "N51",
-      "pdfPage": 631
+      "pdfPage": 631,
+      "context": "Tibial stapling"
     },
     {
       "code": "R976",
@@ -13520,7 +14071,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 6,
       "fee": null,
       "sourceRef": "N51",
-      "pdfPage": 631
+      "pdfPage": 631,
+      "context": "Tibial stapling"
     },
     {
       "code": "Z226",
@@ -13531,7 +14083,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 7,
       "fee": null,
       "sourceRef": "N50",
-      "pdfPage": 630
+      "pdfPage": 630,
+      "context": "Incision And Drainage"
     },
     {
       "code": "Z228",
@@ -13564,7 +14117,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 7,
       "fee": null,
       "sourceRef": "N50",
-      "pdfPage": 630
+      "pdfPage": 630,
+      "context": "Decompression/Denervation"
     },
     {
       "code": "Z870",
@@ -13872,7 +14426,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 7,
       "fee": null,
       "sourceRef": "N54",
-      "pdfPage": 634
+      "pdfPage": 634,
+      "context": "Incision And Drainage"
     },
     {
       "code": "R202",
@@ -13883,7 +14438,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 7,
       "fee": null,
       "sourceRef": "N54",
-      "pdfPage": 634
+      "pdfPage": 634,
+      "context": "Incision And Drainage"
     },
     {
       "code": "R220",
@@ -13894,7 +14450,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 7,
       "fee": null,
       "sourceRef": "N54",
-      "pdfPage": 634
+      "pdfPage": 634,
+      "context": "Incision And Drainage"
     },
     {
       "code": "R259",
@@ -13916,7 +14473,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 6,
       "fee": null,
       "sourceRef": "N54",
-      "pdfPage": 634
+      "pdfPage": 634,
+      "context": "Bone"
     },
     {
       "code": "R276",
@@ -13949,7 +14507,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 6,
       "fee": null,
       "sourceRef": "N54",
-      "pdfPage": 634
+      "pdfPage": 634,
+      "context": "Bone"
     },
     {
       "code": "R299",
@@ -13960,7 +14519,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 6,
       "fee": null,
       "sourceRef": "N54",
-      "pdfPage": 634
+      "pdfPage": 634,
+      "context": "Bone"
     },
     {
       "code": "R301",
@@ -13971,7 +14531,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 6,
       "fee": null,
       "sourceRef": "N54",
-      "pdfPage": 634
+      "pdfPage": 634,
+      "context": "Bone"
     },
     {
       "code": "R302",
@@ -13982,7 +14543,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 6,
       "fee": null,
       "sourceRef": "N54",
-      "pdfPage": 634
+      "pdfPage": 634,
+      "context": "Bone"
     },
     {
       "code": "R305",
@@ -13993,7 +14555,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 6,
       "fee": null,
       "sourceRef": "N54",
-      "pdfPage": 634
+      "pdfPage": 634,
+      "context": "Bone"
     },
     {
       "code": "R306",
@@ -14004,7 +14567,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 7,
       "fee": null,
       "sourceRef": "N54",
-      "pdfPage": 634
+      "pdfPage": 634,
+      "context": "Bone"
     },
     {
       "code": "R307",
@@ -14015,7 +14579,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 6,
       "fee": null,
       "sourceRef": "N54",
-      "pdfPage": 634
+      "pdfPage": 634,
+      "context": "Bone"
     },
     {
       "code": "R308",
@@ -14026,7 +14591,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 7,
       "fee": null,
       "sourceRef": "N54",
-      "pdfPage": 634
+      "pdfPage": 634,
+      "context": "Bone"
     },
     {
       "code": "R309",
@@ -14037,7 +14603,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 6,
       "fee": null,
       "sourceRef": "N54",
-      "pdfPage": 634
+      "pdfPage": 634,
+      "context": "Bone"
     },
     {
       "code": "R313",
@@ -14059,7 +14626,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 7,
       "fee": null,
       "sourceRef": "N55",
-      "pdfPage": 635
+      "pdfPage": 635,
+      "context": "Pseudoarthrosis"
     },
     {
       "code": "R337",
@@ -14114,7 +14682,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 7,
       "fee": null,
       "sourceRef": "N55",
-      "pdfPage": 635
+      "pdfPage": 635,
+      "context": "Pseudoarthrosis"
     },
     {
       "code": "R408",
@@ -14125,7 +14694,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 7,
       "fee": null,
       "sourceRef": "N56",
-      "pdfPage": 636
+      "pdfPage": 636,
+      "context": "Club Foot"
     },
     {
       "code": "R409",
@@ -14158,7 +14728,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 7,
       "fee": null,
       "sourceRef": "N54",
-      "pdfPage": 634
+      "pdfPage": 634,
+      "context": "Joint"
     },
     {
       "code": "R425",
@@ -14180,7 +14751,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 7,
       "fee": null,
       "sourceRef": "N56",
-      "pdfPage": 636
+      "pdfPage": 636,
+      "context": "Club Foot"
     },
     {
       "code": "R453",
@@ -14224,7 +14796,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 6,
       "fee": null,
       "sourceRef": "N52",
-      "pdfPage": 632
+      "pdfPage": 632,
+      "context": "Arthrodesis"
     },
     {
       "code": "R475",
@@ -14235,7 +14808,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 6,
       "fee": null,
       "sourceRef": "N52",
-      "pdfPage": 632
+      "pdfPage": 632,
+      "context": "Arthrodesis"
     },
     {
       "code": "R477",
@@ -14246,7 +14820,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 7,
       "fee": null,
       "sourceRef": "N52",
-      "pdfPage": 632
+      "pdfPage": 632,
+      "context": "Arthrodesis"
     },
     {
       "code": "R479",
@@ -14257,7 +14832,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 6,
       "fee": null,
       "sourceRef": "N52",
-      "pdfPage": 632
+      "pdfPage": 632,
+      "context": "Arthroplasty"
     },
     {
       "code": "R493",
@@ -14268,7 +14844,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 10,
       "fee": null,
       "sourceRef": "N52",
-      "pdfPage": 632
+      "pdfPage": 632,
+      "context": "Arthroplasty"
     },
     {
       "code": "R500",
@@ -14301,7 +14878,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 6,
       "fee": null,
       "sourceRef": "N54",
-      "pdfPage": 634
+      "pdfPage": 634,
+      "context": "Incision And Drainage"
     },
     {
       "code": "R504",
@@ -14312,7 +14890,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 7,
       "fee": null,
       "sourceRef": "N53",
-      "pdfPage": 633
+      "pdfPage": 633,
+      "context": "Ankle"
     },
     {
       "code": "R505",
@@ -14323,7 +14902,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 6,
       "fee": null,
       "sourceRef": "N53",
-      "pdfPage": 633
+      "pdfPage": 633,
+      "context": "Ankle"
     },
     {
       "code": "R506",
@@ -14334,7 +14914,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 6,
       "fee": null,
       "sourceRef": "N55",
-      "pdfPage": 635
+      "pdfPage": 635,
+      "context": "Soft Tissue"
     },
     {
       "code": "R522",
@@ -14378,7 +14959,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 6,
       "fee": null,
       "sourceRef": "N56",
-      "pdfPage": 636
+      "pdfPage": 636,
+      "context": "Club Foot"
     },
     {
       "code": "R549",
@@ -14389,7 +14971,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 6,
       "fee": null,
       "sourceRef": "N55",
-      "pdfPage": 635
+      "pdfPage": 635,
+      "context": "Soft Tissue"
     },
     {
       "code": "R552",
@@ -14444,7 +15027,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 6,
       "fee": null,
       "sourceRef": "N56",
-      "pdfPage": 636
+      "pdfPage": 636,
+      "context": "Tendon transfer foot and ankle"
     },
     {
       "code": "R565",
@@ -14466,7 +15050,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 7,
       "fee": null,
       "sourceRef": "N56",
-      "pdfPage": 636
+      "pdfPage": 636,
+      "context": "Tendon transfer foot and ankle"
     },
     {
       "code": "R576",
@@ -14477,7 +15062,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 6,
       "fee": null,
       "sourceRef": "N55",
-      "pdfPage": 635
+      "pdfPage": 635,
+      "context": "Soft Tissue"
     },
     {
       "code": "R578",
@@ -14554,7 +15140,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 6,
       "fee": null,
       "sourceRef": "N52",
-      "pdfPage": 632
+      "pdfPage": 632,
+      "context": "Amputation"
     },
     {
       "code": "R620",
@@ -14565,7 +15152,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 6,
       "fee": null,
       "sourceRef": "N52",
-      "pdfPage": 632
+      "pdfPage": 632,
+      "context": "Amputation"
     },
     {
       "code": "R621",
@@ -14576,7 +15164,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 6,
       "fee": null,
       "sourceRef": "N52",
-      "pdfPage": 632
+      "pdfPage": 632,
+      "context": "Amputation"
     },
     {
       "code": "R622",
@@ -14587,7 +15176,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 7,
       "fee": null,
       "sourceRef": "N52",
-      "pdfPage": 632
+      "pdfPage": 632,
+      "context": "Amputation"
     },
     {
       "code": "R623",
@@ -14598,7 +15188,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 7,
       "fee": null,
       "sourceRef": "N52",
-      "pdfPage": 632
+      "pdfPage": 632,
+      "context": "Amputation"
     },
     {
       "code": "R640",
@@ -14609,7 +15200,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 7,
       "fee": null,
       "sourceRef": "N56",
-      "pdfPage": 636
+      "pdfPage": 636,
+      "context": "Tendons"
     },
     {
       "code": "R688",
@@ -14631,7 +15223,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 7,
       "fee": null,
       "sourceRef": "N53",
-      "pdfPage": 633
+      "pdfPage": 633,
+      "context": "Arthroscopy"
     },
     {
       "code": "R694",
@@ -14642,7 +15235,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 10,
       "fee": null,
       "sourceRef": "N52",
-      "pdfPage": 632
+      "pdfPage": 632,
+      "context": "Arthroplasty"
     },
     {
       "code": "R695",
@@ -14653,7 +15247,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 6,
       "fee": null,
       "sourceRef": "N52",
-      "pdfPage": 632
+      "pdfPage": 632,
+      "context": "Arthrodesis"
     },
     {
       "code": "R696",
@@ -14664,7 +15259,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 6,
       "fee": null,
       "sourceRef": "N52",
-      "pdfPage": 632
+      "pdfPage": 632,
+      "context": "Arthrodesis"
     },
     {
       "code": "R697",
@@ -14675,7 +15271,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 6,
       "fee": null,
       "sourceRef": "N52",
-      "pdfPage": 632
+      "pdfPage": 632,
+      "context": "Arthrodesis"
     },
     {
       "code": "R719",
@@ -14686,7 +15283,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 6,
       "fee": null,
       "sourceRef": "N52",
-      "pdfPage": 632
+      "pdfPage": 632,
+      "context": "Arthrodesis"
     },
     {
       "code": "R744",
@@ -14708,7 +15306,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 6,
       "fee": null,
       "sourceRef": "N55",
-      "pdfPage": 635
+      "pdfPage": 635,
+      "context": "Shortening metatarsal"
     },
     {
       "code": "R978",
@@ -14719,7 +15318,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 6,
       "fee": null,
       "sourceRef": "N55",
-      "pdfPage": 635
+      "pdfPage": 635,
+      "context": "Shortening metatarsal"
     },
     {
       "code": "R979",
@@ -14730,7 +15330,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 6,
       "fee": null,
       "sourceRef": "N55",
-      "pdfPage": 635
+      "pdfPage": 635,
+      "context": "Shortening metatarsal"
     },
     {
       "code": "Z222",
@@ -14741,7 +15342,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 6,
       "fee": null,
       "sourceRef": "N54",
-      "pdfPage": 634
+      "pdfPage": 634,
+      "context": "Examination/Manipulation"
     },
     {
       "code": "Z224",
@@ -14763,7 +15365,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 7,
       "fee": null,
       "sourceRef": "N54",
-      "pdfPage": 634
+      "pdfPage": 634,
+      "context": "Incision And Drainage"
     },
     {
       "code": "Z228",
@@ -14785,7 +15388,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 6,
       "fee": null,
       "sourceRef": "N54",
-      "pdfPage": 634
+      "pdfPage": 634,
+      "context": "Incision And Drainage"
     },
     {
       "code": "Z229",
@@ -14851,7 +15455,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 15,
       "fee": null,
       "sourceRef": "N5",
-      "pdfPage": 585
+      "pdfPage": 585,
+      "context": "Surgery"
     },
     {
       "code": "R267",
@@ -14895,7 +15500,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 6,
       "fee": null,
       "sourceRef": "N3",
-      "pdfPage": 583
+      "pdfPage": 583,
+      "context": "Removal of internal fixation device more than 30 days after insertion"
     },
     {
       "code": "Z198",
@@ -14906,7 +15512,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 6,
       "fee": null,
       "sourceRef": "N7",
-      "pdfPage": 587
+      "pdfPage": 587,
+      "context": "Casts"
     },
     {
       "code": "Z199",
@@ -14917,7 +15524,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 6,
       "fee": null,
       "sourceRef": "N7",
-      "pdfPage": 587
+      "pdfPage": 587,
+      "context": "Casts"
     },
     {
       "code": "Z202",
@@ -14928,7 +15536,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 6,
       "fee": null,
       "sourceRef": "N7",
-      "pdfPage": 587
+      "pdfPage": 587,
+      "context": "Casts"
     },
     {
       "code": "Z203",
@@ -14939,7 +15548,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 6,
       "fee": null,
       "sourceRef": "N7",
-      "pdfPage": 587
+      "pdfPage": 587,
+      "context": "Casts"
     },
     {
       "code": "Z205",
@@ -14950,7 +15560,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 6,
       "fee": null,
       "sourceRef": "N7",
-      "pdfPage": 587
+      "pdfPage": 587,
+      "context": "Casts"
     },
     {
       "code": "Z206",
@@ -14961,7 +15572,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 6,
       "fee": null,
       "sourceRef": "N7",
-      "pdfPage": 587
+      "pdfPage": 587,
+      "context": "Casts"
     },
     {
       "code": "Z207",
@@ -14983,7 +15595,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 7,
       "fee": null,
       "sourceRef": "N7",
-      "pdfPage": 587
+      "pdfPage": 587,
+      "context": "Casts"
     },
     {
       "code": "Z209",
@@ -15005,7 +15618,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 6,
       "fee": null,
       "sourceRef": "N7",
-      "pdfPage": 587
+      "pdfPage": 587,
+      "context": "Casts"
     },
     {
       "code": "Z213",
@@ -15016,7 +15630,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 6,
       "fee": null,
       "sourceRef": "N7",
-      "pdfPage": 587
+      "pdfPage": 587,
+      "context": "Casts"
     },
     {
       "code": "Z250",
@@ -15225,7 +15840,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 7,
       "fee": null,
       "sourceRef": "N10",
-      "pdfPage": 590
+      "pdfPage": 590,
+      "context": "Decompression - Denervation"
     },
     {
       "code": "N290",
@@ -15236,7 +15852,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 6,
       "fee": null,
       "sourceRef": "N10",
-      "pdfPage": 590
+      "pdfPage": 590,
+      "context": "Decompression - Denervation"
     },
     {
       "code": "R209",
@@ -15247,7 +15864,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 7,
       "fee": null,
       "sourceRef": "N8",
-      "pdfPage": 588
+      "pdfPage": 588,
+      "context": "Wrist"
     },
     {
       "code": "R217",
@@ -15291,7 +15909,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 7,
       "fee": null,
       "sourceRef": "N8",
-      "pdfPage": 588
+      "pdfPage": 588,
+      "context": "Wrist"
     },
     {
       "code": "R257",
@@ -15324,7 +15943,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 7,
       "fee": null,
       "sourceRef": "N11",
-      "pdfPage": 591
+      "pdfPage": 591,
+      "context": "Bone"
     },
     {
       "code": "R285",
@@ -15346,7 +15966,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 7,
       "fee": null,
       "sourceRef": "N11",
-      "pdfPage": 591
+      "pdfPage": 591,
+      "context": "Bone"
     },
     {
       "code": "R316",
@@ -15357,7 +15978,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 7,
       "fee": null,
       "sourceRef": "N11",
-      "pdfPage": 591
+      "pdfPage": 591,
+      "context": "Bone"
     },
     {
       "code": "R317",
@@ -15368,7 +15990,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 6,
       "fee": null,
       "sourceRef": "N11",
-      "pdfPage": 591
+      "pdfPage": 591,
+      "context": "Bone"
     },
     {
       "code": "R321",
@@ -15379,7 +16002,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 7,
       "fee": null,
       "sourceRef": "N12",
-      "pdfPage": 592
+      "pdfPage": 592,
+      "context": "Bone - Pseudoarthrosis/non-union/avascular necrosis"
     },
     {
       "code": "R322",
@@ -15390,7 +16014,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 6,
       "fee": null,
       "sourceRef": "N12",
-      "pdfPage": 592
+      "pdfPage": 592,
+      "context": "Bone - Pseudoarthrosis/non-union/avascular necrosis"
     },
     {
       "code": "R345",
@@ -15401,7 +16026,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 6,
       "fee": null,
       "sourceRef": "N12",
-      "pdfPage": 592
+      "pdfPage": 592,
+      "context": "Bone - Pseudoarthrosis/non-union/avascular necrosis"
     },
     {
       "code": "R407",
@@ -15412,7 +16038,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 6,
       "fee": null,
       "sourceRef": "N11",
-      "pdfPage": 591
+      "pdfPage": 591,
+      "context": "Synovectomy/capsulectomy/debridement"
     },
     {
       "code": "R409",
@@ -15434,7 +16061,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 6,
       "fee": null,
       "sourceRef": "N10",
-      "pdfPage": 590
+      "pdfPage": 590,
+      "context": "Arthrotomy"
     },
     {
       "code": "R409",
@@ -15445,7 +16073,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 6,
       "fee": null,
       "sourceRef": "N10",
-      "pdfPage": 590
+      "pdfPage": 590,
+      "context": "Incision And Drainage"
     },
     {
       "code": "R410",
@@ -15467,7 +16096,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 6,
       "fee": null,
       "sourceRef": "N10",
-      "pdfPage": 590
+      "pdfPage": 590,
+      "context": "Arthrotomy"
     },
     {
       "code": "R410",
@@ -15478,7 +16108,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 6,
       "fee": null,
       "sourceRef": "N10",
-      "pdfPage": 590
+      "pdfPage": 590,
+      "context": "Incision And Drainage"
     },
     {
       "code": "R414",
@@ -15500,7 +16131,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 7,
       "fee": null,
       "sourceRef": "N11",
-      "pdfPage": 591
+      "pdfPage": 591,
+      "context": "Synovectomy/capsulectomy/debridement"
     },
     {
       "code": "R425",
@@ -15533,7 +16165,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 7,
       "fee": null,
       "sourceRef": "N8",
-      "pdfPage": 588
+      "pdfPage": 588,
+      "context": "Arthrodesis"
     },
     {
       "code": "R479",
@@ -15566,7 +16199,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 7,
       "fee": null,
       "sourceRef": "N8",
-      "pdfPage": 588
+      "pdfPage": 588,
+      "context": "Wrist"
     },
     {
       "code": "R492",
@@ -15577,7 +16211,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 7,
       "fee": null,
       "sourceRef": "N11",
-      "pdfPage": 591
+      "pdfPage": 591,
+      "context": "Synovectomy/capsulectomy/debridement"
     },
     {
       "code": "R500",
@@ -15588,7 +16223,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 6,
       "fee": null,
       "sourceRef": "N8",
-      "pdfPage": 588
+      "pdfPage": 588,
+      "context": "Wrist"
     },
     {
       "code": "R522",
@@ -15621,7 +16257,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 6,
       "fee": null,
       "sourceRef": "N10",
-      "pdfPage": 590
+      "pdfPage": 590,
+      "context": "Phalanx/metacarpal/carpus"
     },
     {
       "code": "R536",
@@ -15665,7 +16302,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 7,
       "fee": null,
       "sourceRef": "N12",
-      "pdfPage": 592
+      "pdfPage": 592,
+      "context": "Ligaments"
     },
     {
       "code": "R549",
@@ -15676,7 +16314,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 6,
       "fee": null,
       "sourceRef": "N11",
-      "pdfPage": 591
+      "pdfPage": 591,
+      "context": "Soft tissue"
     },
     {
       "code": "R551",
@@ -15687,7 +16326,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 7,
       "fee": null,
       "sourceRef": "N11",
-      "pdfPage": 591
+      "pdfPage": 591,
+      "context": "Soft tissue"
     },
     {
       "code": "R554",
@@ -15775,7 +16415,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 7,
       "fee": null,
       "sourceRef": "N13",
-      "pdfPage": 593
+      "pdfPage": 593,
+      "context": "Tendon graft"
     },
     {
       "code": "R597",
@@ -15786,7 +16427,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 7,
       "fee": null,
       "sourceRef": "N12",
-      "pdfPage": 592
+      "pdfPage": 592,
+      "context": "Ligaments"
     },
     {
       "code": "R601",
@@ -15797,7 +16439,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 7,
       "fee": null,
       "sourceRef": "N12",
-      "pdfPage": 592
+      "pdfPage": 592,
+      "context": "Ligaments"
     },
     {
       "code": "R602",
@@ -15808,7 +16451,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 6,
       "fee": null,
       "sourceRef": "N13",
-      "pdfPage": 593
+      "pdfPage": 593,
+      "context": "Extremities"
     },
     {
       "code": "R603",
@@ -15819,7 +16463,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 8,
       "fee": null,
       "sourceRef": "N13",
-      "pdfPage": 593
+      "pdfPage": 593,
+      "context": "Extremities"
     },
     {
       "code": "R608",
@@ -15830,7 +16475,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 7,
       "fee": null,
       "sourceRef": "N8",
-      "pdfPage": 588
+      "pdfPage": 588,
+      "context": "Amputation"
     },
     {
       "code": "R612",
@@ -15841,7 +16487,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 6,
       "fee": null,
       "sourceRef": "N8",
-      "pdfPage": 588
+      "pdfPage": 588,
+      "context": "Amputation"
     },
     {
       "code": "R629",
@@ -15852,7 +16499,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 6,
       "fee": null,
       "sourceRef": "N8",
-      "pdfPage": 588
+      "pdfPage": 588,
+      "context": "Amputation"
     },
     {
       "code": "R682",
@@ -15896,7 +16544,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 6,
       "fee": null,
       "sourceRef": "N10",
-      "pdfPage": 590
+      "pdfPage": 590,
+      "context": "Examination/Manipulation"
     },
     {
       "code": "Z228",
@@ -16017,7 +16666,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 7,
       "fee": null,
       "sourceRef": "N48",
-      "pdfPage": 628
+      "pdfPage": 628,
+      "context": "Patella"
     },
     {
       "code": "F087",
@@ -16039,7 +16689,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 7,
       "fee": null,
       "sourceRef": "N47",
-      "pdfPage": 627
+      "pdfPage": 627,
+      "context": "Denervation/Decompression"
     },
     {
       "code": "R244",
@@ -16050,7 +16701,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 8,
       "fee": null,
       "sourceRef": "N44",
-      "pdfPage": 624
+      "pdfPage": 624,
+      "context": "Hemiarthroplasty"
     },
     {
       "code": "R248",
@@ -16061,7 +16713,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 8,
       "fee": null,
       "sourceRef": "N44",
-      "pdfPage": 624
+      "pdfPage": 624,
+      "context": "Hemiarthroplasty"
     },
     {
       "code": "R255",
@@ -16083,7 +16736,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 7,
       "fee": null,
       "sourceRef": "N47",
-      "pdfPage": 627
+      "pdfPage": 627,
+      "context": "Baker's cyst"
     },
     {
       "code": "R318",
@@ -16094,7 +16748,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 6,
       "fee": null,
       "sourceRef": "N47",
-      "pdfPage": 627
+      "pdfPage": 627,
+      "context": "Baker's cyst"
     },
     {
       "code": "R403",
@@ -16116,7 +16771,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 7,
       "fee": null,
       "sourceRef": "N47",
-      "pdfPage": 627
+      "pdfPage": 627,
+      "context": "Arthrotomy"
     },
     {
       "code": "R413",
@@ -16127,7 +16783,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 7,
       "fee": null,
       "sourceRef": "N47",
-      "pdfPage": 627
+      "pdfPage": 627,
+      "context": "Arthrotomy"
     },
     {
       "code": "R417",
@@ -16138,7 +16795,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 7,
       "fee": null,
       "sourceRef": "N47",
-      "pdfPage": 627
+      "pdfPage": 627,
+      "context": "Baker's cyst"
     },
     {
       "code": "R424",
@@ -16149,7 +16807,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 7,
       "fee": null,
       "sourceRef": "N47",
-      "pdfPage": 627
+      "pdfPage": 627,
+      "context": "Baker's cyst"
     },
     {
       "code": "R426",
@@ -16160,7 +16819,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 7,
       "fee": null,
       "sourceRef": "N47",
-      "pdfPage": 627
+      "pdfPage": 627,
+      "context": "Denervation/Decompression"
     },
     {
       "code": "R429",
@@ -16171,7 +16831,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 6,
       "fee": null,
       "sourceRef": "N47",
-      "pdfPage": 627
+      "pdfPage": 627,
+      "context": "Baker's cyst"
     },
     {
       "code": "R431",
@@ -16204,7 +16865,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 8,
       "fee": null,
       "sourceRef": "N44",
-      "pdfPage": 624
+      "pdfPage": 624,
+      "context": "Hemiarthroplasty"
     },
     {
       "code": "R442",
@@ -16215,7 +16877,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 8,
       "fee": null,
       "sourceRef": "N44",
-      "pdfPage": 624
+      "pdfPage": 624,
+      "context": "Hemiarthroplasty"
     },
     {
       "code": "R444",
@@ -16226,7 +16889,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 7,
       "fee": null,
       "sourceRef": "N47",
-      "pdfPage": 627
+      "pdfPage": 627,
+      "context": "Incision And Drainage"
     },
     {
       "code": "R468",
@@ -16237,7 +16901,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 6,
       "fee": null,
       "sourceRef": "N44",
-      "pdfPage": 624
+      "pdfPage": 624,
+      "context": "Arthrodesis"
     },
     {
       "code": "R482",
@@ -16281,7 +16946,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 6,
       "fee": null,
       "sourceRef": "N44",
-      "pdfPage": 624
+      "pdfPage": 624,
+      "context": "Hemiarthroplasty"
     },
     {
       "code": "R501",
@@ -16292,7 +16958,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 6,
       "fee": null,
       "sourceRef": "N47",
-      "pdfPage": 627
+      "pdfPage": 627,
+      "context": "Baker's cyst"
     },
     {
       "code": "R506",
@@ -16303,7 +16970,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 6,
       "fee": null,
       "sourceRef": "N47",
-      "pdfPage": 627
+      "pdfPage": 627,
+      "context": "Baker's cyst"
     },
     {
       "code": "R508",
@@ -16336,7 +17004,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 7,
       "fee": null,
       "sourceRef": "N49",
-      "pdfPage": 629
+      "pdfPage": 629,
+      "context": "open reduction"
     },
     {
       "code": "R516",
@@ -16347,7 +17016,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 7,
       "fee": null,
       "sourceRef": "N48",
-      "pdfPage": 628
+      "pdfPage": 628,
+      "context": "open"
     },
     {
       "code": "R539",
@@ -16457,7 +17127,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 7,
       "fee": null,
       "sourceRef": "N44",
-      "pdfPage": 624
+      "pdfPage": 624,
+      "context": "Amputation"
     },
     {
       "code": "R687",
@@ -16468,7 +17139,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 7,
       "fee": null,
       "sourceRef": "N45",
-      "pdfPage": 625
+      "pdfPage": 625,
+      "context": "Degenerative Diseases of the Knee"
     },
     {
       "code": "R699",
@@ -16490,7 +17162,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 6,
       "fee": null,
       "sourceRef": "N47",
-      "pdfPage": 627
+      "pdfPage": 627,
+      "context": "Examination/Manipulation"
     },
     {
       "code": "Z226",
@@ -16501,7 +17174,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 7,
       "fee": null,
       "sourceRef": "N47",
-      "pdfPage": 627
+      "pdfPage": 627,
+      "context": "Incision And Drainage"
     },
     {
       "code": "Z228",
@@ -16578,7 +17252,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 7,
       "fee": null,
       "sourceRef": "N39",
-      "pdfPage": 619
+      "pdfPage": 619,
+      "context": "Open reduction"
     },
     {
       "code": "D046",
@@ -16589,7 +17264,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 10,
       "fee": null,
       "sourceRef": "N39",
-      "pdfPage": 619
+      "pdfPage": 619,
+      "context": "Open reduction"
     },
     {
       "code": "D047",
@@ -16600,7 +17276,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 12,
       "fee": null,
       "sourceRef": "N39",
-      "pdfPage": 619
+      "pdfPage": 619,
+      "context": "Open reduction"
     },
     {
       "code": "D052",
@@ -16611,7 +17288,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 8,
       "fee": null,
       "sourceRef": "N39",
-      "pdfPage": 619
+      "pdfPage": 619,
+      "context": "Open reduction"
     },
     {
       "code": "D059",
@@ -16633,7 +17311,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 6,
       "fee": null,
       "sourceRef": "N39",
-      "pdfPage": 619
+      "pdfPage": 619,
+      "context": "Open reduction"
     },
     {
       "code": "D061",
@@ -16655,7 +17334,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 10,
       "fee": null,
       "sourceRef": "N39",
-      "pdfPage": 619
+      "pdfPage": 619,
+      "context": "Open reduction"
     },
     {
       "code": "F101",
@@ -16666,7 +17346,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 10,
       "fee": null,
       "sourceRef": "N39",
-      "pdfPage": 619
+      "pdfPage": 619,
+      "context": "Open reduction"
     },
     {
       "code": "F115",
@@ -16677,7 +17358,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 6,
       "fee": null,
       "sourceRef": "N38",
-      "pdfPage": 618
+      "pdfPage": 618,
+      "context": "Bone"
     },
     {
       "code": "F134",
@@ -16699,7 +17381,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 8,
       "fee": null,
       "sourceRef": "N39",
-      "pdfPage": 619
+      "pdfPage": 619,
+      "context": "Open reduction"
     },
     {
       "code": "N177",
@@ -16710,7 +17393,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 7,
       "fee": null,
       "sourceRef": "N37",
-      "pdfPage": 617
+      "pdfPage": 617,
+      "context": "Exploration, decompression, division, excision, biopsy, neurolysis and/or transposition"
     },
     {
       "code": "N188",
@@ -16743,7 +17427,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 8,
       "fee": null,
       "sourceRef": "N38",
-      "pdfPage": 618
+      "pdfPage": 618,
+      "context": "Bone"
     },
     {
       "code": "R241",
@@ -16765,7 +17450,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 7,
       "fee": null,
       "sourceRef": "N37",
-      "pdfPage": 617
+      "pdfPage": 617,
+      "context": "Incision And Drainage"
     },
     {
       "code": "R263",
@@ -16776,7 +17462,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 7,
       "fee": null,
       "sourceRef": "N38",
-      "pdfPage": 618
+      "pdfPage": 618,
+      "context": "Pelvis"
     },
     {
       "code": "R265",
@@ -16798,7 +17485,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 7,
       "fee": null,
       "sourceRef": "N37",
-      "pdfPage": 617
+      "pdfPage": 617,
+      "context": "Incision And Drainage"
     },
     {
       "code": "R273",
@@ -16820,7 +17508,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 6,
       "fee": null,
       "sourceRef": "N38",
-      "pdfPage": 618
+      "pdfPage": 618,
+      "context": "Bone"
     },
     {
       "code": "R330",
@@ -16831,7 +17520,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 7,
       "fee": null,
       "sourceRef": "N38",
-      "pdfPage": 618
+      "pdfPage": 618,
+      "context": "Bone"
     },
     {
       "code": "R364",
@@ -16842,7 +17532,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 10,
       "fee": null,
       "sourceRef": "N38",
-      "pdfPage": 618
+      "pdfPage": 618,
+      "context": "Pseudoarthrosis"
     },
     {
       "code": "R404",
@@ -16897,7 +17588,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 7,
       "fee": null,
       "sourceRef": "N37",
-      "pdfPage": 617
+      "pdfPage": 617,
+      "context": "Arthrotomy"
     },
     {
       "code": "R415",
@@ -16908,7 +17600,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 7,
       "fee": null,
       "sourceRef": "N37",
-      "pdfPage": 617
+      "pdfPage": 617,
+      "context": "Incision And Drainage"
     },
     {
       "code": "R423",
@@ -16919,7 +17612,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 7,
       "fee": null,
       "sourceRef": "N38",
-      "pdfPage": 618
+      "pdfPage": 618,
+      "context": "Joint"
     },
     {
       "code": "R427",
@@ -16930,7 +17624,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 6,
       "fee": null,
       "sourceRef": "N37",
-      "pdfPage": 617
+      "pdfPage": 617,
+      "context": "Exploration, decompression, division, excision, biopsy, neurolysis and/or transposition"
     },
     {
       "code": "R439",
@@ -16941,7 +17636,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 10,
       "fee": null,
       "sourceRef": "N36",
-      "pdfPage": 616
+      "pdfPage": 616,
+      "context": "Arthroplasty"
     },
     {
       "code": "R440",
@@ -16952,7 +17648,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 10,
       "fee": null,
       "sourceRef": "N36",
-      "pdfPage": 616
+      "pdfPage": 616,
+      "context": "Arthroplasty"
     },
     {
       "code": "R443",
@@ -16974,7 +17671,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 7,
       "fee": null,
       "sourceRef": "N36",
-      "pdfPage": 616
+      "pdfPage": 616,
+      "context": "Arthrodesis"
     },
     {
       "code": "R470",
@@ -16985,7 +17683,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 8,
       "fee": null,
       "sourceRef": "N36",
-      "pdfPage": 616
+      "pdfPage": 616,
+      "context": "Arthrodesis"
     },
     {
       "code": "R481",
@@ -16996,7 +17695,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 8,
       "fee": null,
       "sourceRef": "N36",
-      "pdfPage": 616
+      "pdfPage": 616,
+      "context": "Revision total arthroplasty hip - one or both components"
     },
     {
       "code": "R488",
@@ -17018,7 +17718,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 10,
       "fee": null,
       "sourceRef": "N36",
-      "pdfPage": 616
+      "pdfPage": 616,
+      "context": "Removal only"
     },
     {
       "code": "R514",
@@ -17029,7 +17730,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 7,
       "fee": null,
       "sourceRef": "N36",
-      "pdfPage": 616
+      "pdfPage": 616,
+      "context": "Arthrodesis"
     },
     {
       "code": "R521",
@@ -17040,7 +17742,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 7,
       "fee": null,
       "sourceRef": "N38",
-      "pdfPage": 618
+      "pdfPage": 618,
+      "context": "Muscle/tendon"
     },
     {
       "code": "R522",
@@ -17095,7 +17798,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 7,
       "fee": null,
       "sourceRef": "N37",
-      "pdfPage": 617
+      "pdfPage": 617,
+      "context": "Arthrotomy"
     },
     {
       "code": "R553",
@@ -17106,7 +17810,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 15,
       "fee": null,
       "sourceRef": "N36",
-      "pdfPage": 616
+      "pdfPage": 616,
+      "context": "Arthroplasty"
     },
     {
       "code": "R569",
@@ -17117,7 +17822,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 6,
       "fee": null,
       "sourceRef": "N38",
-      "pdfPage": 618
+      "pdfPage": 618,
+      "context": "Tendon transfer"
     },
     {
       "code": "R570",
@@ -17128,7 +17834,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 7,
       "fee": null,
       "sourceRef": "N38",
-      "pdfPage": 618
+      "pdfPage": 618,
+      "context": "Tendon transfer"
     },
     {
       "code": "R590",
@@ -17139,7 +17846,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 7,
       "fee": null,
       "sourceRef": "N38",
-      "pdfPage": 618
+      "pdfPage": 618,
+      "context": "Bursae"
     },
     {
       "code": "R607",
@@ -17172,7 +17880,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 10,
       "fee": null,
       "sourceRef": "N39",
-      "pdfPage": 619
+      "pdfPage": 619,
+      "context": "Open reduction"
     },
     {
       "code": "R630",
@@ -17183,7 +17892,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 10,
       "fee": null,
       "sourceRef": "N36",
-      "pdfPage": 616
+      "pdfPage": 616,
+      "context": "Amputation"
     },
     {
       "code": "R631",
@@ -17194,7 +17904,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 15,
       "fee": null,
       "sourceRef": "N36",
-      "pdfPage": 616
+      "pdfPage": 616,
+      "context": "Amputation"
     },
     {
       "code": "R639",
@@ -17205,7 +17916,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 7,
       "fee": null,
       "sourceRef": "N38",
-      "pdfPage": 618
+      "pdfPage": 618,
+      "context": "Bone"
     },
     {
       "code": "R642",
@@ -17260,7 +17972,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 7,
       "fee": null,
       "sourceRef": "N37",
-      "pdfPage": 617
+      "pdfPage": 617,
+      "context": "Incision And Drainage"
     },
     {
       "code": "Z228",
@@ -17304,7 +18017,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 6,
       "fee": null,
       "sourceRef": "N37",
-      "pdfPage": 617
+      "pdfPage": 617,
+      "context": "Examination/Manipulation"
     },
     {
       "code": "Z290",
@@ -17524,7 +18238,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 6,
       "fee": null,
       "sourceRef": "N24",
-      "pdfPage": 604
+      "pdfPage": 604,
+      "context": "Clavicle or Acromion"
     },
     {
       "code": "R222",
@@ -17535,7 +18250,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 7,
       "fee": null,
       "sourceRef": "N24",
-      "pdfPage": 604
+      "pdfPage": 604,
+      "context": "Incision and Drainage"
     },
     {
       "code": "R223",
@@ -17546,7 +18262,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 7,
       "fee": null,
       "sourceRef": "N24",
-      "pdfPage": 604
+      "pdfPage": 604,
+      "context": "Incision and Drainage"
     },
     {
       "code": "R225",
@@ -17557,7 +18274,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 7,
       "fee": null,
       "sourceRef": "N24",
-      "pdfPage": 604
+      "pdfPage": 604,
+      "context": "Incision and Drainage"
     },
     {
       "code": "R235",
@@ -17601,7 +18319,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 6,
       "fee": null,
       "sourceRef": "N24",
-      "pdfPage": 604
+      "pdfPage": 604,
+      "context": "Humerus"
     },
     {
       "code": "R294",
@@ -17612,7 +18331,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 7,
       "fee": null,
       "sourceRef": "N24",
-      "pdfPage": 604
+      "pdfPage": 604,
+      "context": "Humerus"
     },
     {
       "code": "R295",
@@ -17623,7 +18343,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 7,
       "fee": null,
       "sourceRef": "N24",
-      "pdfPage": 604
+      "pdfPage": 604,
+      "context": "Humerus"
     },
     {
       "code": "R297",
@@ -17634,7 +18355,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 6,
       "fee": null,
       "sourceRef": "N24",
-      "pdfPage": 604
+      "pdfPage": 604,
+      "context": "Humerus"
     },
     {
       "code": "R298",
@@ -17656,7 +18378,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 7,
       "fee": null,
       "sourceRef": "N24",
-      "pdfPage": 604
+      "pdfPage": 604,
+      "context": "Clavicle or Acromion"
     },
     {
       "code": "R325",
@@ -17667,7 +18390,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 6,
       "fee": null,
       "sourceRef": "N25",
-      "pdfPage": 605
+      "pdfPage": 605,
+      "context": "Pseudoarthrosis"
     },
     {
       "code": "R329",
@@ -17678,7 +18402,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 6,
       "fee": null,
       "sourceRef": "N25",
-      "pdfPage": 605
+      "pdfPage": 605,
+      "context": "Pseudoarthrosis"
     },
     {
       "code": "R353",
@@ -17689,7 +18414,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 6,
       "fee": null,
       "sourceRef": "N25",
-      "pdfPage": 605
+      "pdfPage": 605,
+      "context": "Muscles/soft tissues"
     },
     {
       "code": "R401",
@@ -17722,7 +18448,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 7,
       "fee": null,
       "sourceRef": "N24",
-      "pdfPage": 604
+      "pdfPage": 604,
+      "context": "Incision and Drainage"
     },
     {
       "code": "R411",
@@ -17733,7 +18460,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 7,
       "fee": null,
       "sourceRef": "N23",
-      "pdfPage": 603
+      "pdfPage": 603,
+      "context": "Arthrotomy"
     },
     {
       "code": "R416",
@@ -17755,7 +18483,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 10,
       "fee": null,
       "sourceRef": "N24",
-      "pdfPage": 604
+      "pdfPage": 604,
+      "context": "Joint"
     },
     {
       "code": "R438",
@@ -17766,7 +18495,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 10,
       "fee": null,
       "sourceRef": "N23",
-      "pdfPage": 603
+      "pdfPage": 603,
+      "context": "Arthroplasty"
     },
     {
       "code": "R467",
@@ -17777,7 +18507,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 6,
       "fee": null,
       "sourceRef": "N23",
-      "pdfPage": 603
+      "pdfPage": 603,
+      "context": "Arthrodesis"
     },
     {
       "code": "R472",
@@ -17799,7 +18530,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 10,
       "fee": null,
       "sourceRef": "N23",
-      "pdfPage": 603
+      "pdfPage": 603,
+      "context": "Arthroplasty"
     },
     {
       "code": "R498",
@@ -17810,7 +18542,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 8,
       "fee": null,
       "sourceRef": "N23",
-      "pdfPage": 603
+      "pdfPage": 603,
+      "context": "Arthroplasty"
     },
     {
       "code": "R521",
@@ -17821,7 +18554,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 7,
       "fee": null,
       "sourceRef": "N26",
-      "pdfPage": 606
+      "pdfPage": 606,
+      "context": "Release"
     },
     {
       "code": "R522",
@@ -17854,7 +18588,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 7,
       "fee": null,
       "sourceRef": "N26",
-      "pdfPage": 606
+      "pdfPage": 606,
+      "context": "Release"
     },
     {
       "code": "R527",
@@ -17865,7 +18600,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 6,
       "fee": null,
       "sourceRef": "N25",
-      "pdfPage": 605
+      "pdfPage": 605,
+      "context": "Muscles/soft tissues"
     },
     {
       "code": "R568",
@@ -17876,7 +18612,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 7,
       "fee": null,
       "sourceRef": "N25",
-      "pdfPage": 605
+      "pdfPage": 605,
+      "context": "Muscles/soft tissues"
     },
     {
       "code": "R589",
@@ -17887,7 +18624,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 7,
       "fee": null,
       "sourceRef": "N25",
-      "pdfPage": 605
+      "pdfPage": 605,
+      "context": "Muscles/soft tissues"
     },
     {
       "code": "R593",
@@ -17909,7 +18647,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 7,
       "fee": null,
       "sourceRef": "N24",
-      "pdfPage": 604
+      "pdfPage": 604,
+      "context": "Joint"
     },
     {
       "code": "R594",
@@ -17942,7 +18681,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 6,
       "fee": null,
       "sourceRef": "N23",
-      "pdfPage": 603
+      "pdfPage": 603,
+      "context": "Amputation"
     },
     {
       "code": "R616",
@@ -17953,7 +18693,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 9,
       "fee": null,
       "sourceRef": "N23",
-      "pdfPage": 603
+      "pdfPage": 603,
+      "context": "Amputation"
     },
     {
       "code": "R617",
@@ -17964,7 +18705,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 15,
       "fee": null,
       "sourceRef": "N23",
-      "pdfPage": 603
+      "pdfPage": 603,
+      "context": "Amputation"
     },
     {
       "code": "R641",
@@ -17975,7 +18717,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 7,
       "fee": null,
       "sourceRef": "N24",
-      "pdfPage": 604
+      "pdfPage": 604,
+      "context": "Clavicle or Acromion"
     },
     {
       "code": "R684",
@@ -17997,7 +18740,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 7,
       "fee": null,
       "sourceRef": "N25",
-      "pdfPage": 605
+      "pdfPage": 605,
+      "context": "Muscles/soft tissues"
     },
     {
       "code": "R956",
@@ -18008,7 +18752,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 7,
       "fee": null,
       "sourceRef": "N25",
-      "pdfPage": 605
+      "pdfPage": 605,
+      "context": "Pseudoarthrosis"
     },
     {
       "code": "R957",
@@ -18019,7 +18764,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 6,
       "fee": null,
       "sourceRef": "N25",
-      "pdfPage": 605
+      "pdfPage": 605,
+      "context": "Osteotomy"
     },
     {
       "code": "R958",
@@ -18030,7 +18776,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 6,
       "fee": null,
       "sourceRef": "N25",
-      "pdfPage": 605
+      "pdfPage": 605,
+      "context": "Osteotomy"
     },
     {
       "code": "R959",
@@ -18107,7 +18854,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 6,
       "fee": null,
       "sourceRef": "N24",
-      "pdfPage": 604
+      "pdfPage": 604,
+      "context": "Examination And Manipulation"
     },
     {
       "code": "Z226",
@@ -18118,7 +18866,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 7,
       "fee": null,
       "sourceRef": "N24",
-      "pdfPage": 604
+      "pdfPage": 604,
+      "context": "Incision and Drainage"
     },
     {
       "code": "Z228",
@@ -18129,7 +18878,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 6,
       "fee": null,
       "sourceRef": "N24",
-      "pdfPage": 604
+      "pdfPage": 604,
+      "context": "Joint"
     },
     {
       "code": "D062",
@@ -18162,7 +18912,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 7,
       "fee": null,
       "sourceRef": "N34",
-      "pdfPage": 614
+      "pdfPage": 614,
+      "context": "Orbit - open reduction rim/wall fracture"
     },
     {
       "code": "E174",
@@ -18272,7 +19023,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 7,
       "fee": null,
       "sourceRef": "N30",
-      "pdfPage": 610
+      "pdfPage": 610,
+      "context": "LeFort I cleft palate"
     },
     {
       "code": "R278",
@@ -18283,7 +19035,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 7,
       "fee": null,
       "sourceRef": "N28",
-      "pdfPage": 608
+      "pdfPage": 608,
+      "context": "Excision"
     },
     {
       "code": "R279",
@@ -18294,7 +19047,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 8,
       "fee": null,
       "sourceRef": "N28",
-      "pdfPage": 608
+      "pdfPage": 608,
+      "context": "Excision"
     },
     {
       "code": "R280",
@@ -18305,7 +19059,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 7,
       "fee": null,
       "sourceRef": "N28",
-      "pdfPage": 608
+      "pdfPage": 608,
+      "context": "Excision"
     },
     {
       "code": "R284",
@@ -18316,7 +19071,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 7,
       "fee": null,
       "sourceRef": "N28",
-      "pdfPage": 608
+      "pdfPage": 608,
+      "context": "Excision"
     },
     {
       "code": "R334",
@@ -18371,7 +19127,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 7,
       "fee": null,
       "sourceRef": "N32",
-      "pdfPage": 612
+      "pdfPage": 612,
+      "context": "Application of dental arch bars, or splint, for facial osteotomy"
     },
     {
       "code": "R376",
@@ -18404,7 +19161,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 25,
       "fee": null,
       "sourceRef": "N32",
-      "pdfPage": 612
+      "pdfPage": 612,
+      "context": "Pericranial flap to orbit or face"
     },
     {
       "code": "R379",
@@ -18525,7 +19283,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 20,
       "fee": null,
       "sourceRef": "N30",
-      "pdfPage": 610
+      "pdfPage": 610,
+      "context": "LeFort I cleft palate"
     },
     {
       "code": "R390",
@@ -18580,7 +19339,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 20,
       "fee": null,
       "sourceRef": "N32",
-      "pdfPage": 612
+      "pdfPage": 612,
+      "context": "Upper LeFort III advancement without occlusal change*"
     },
     {
       "code": "R395",
@@ -18591,7 +19351,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 20,
       "fee": null,
       "sourceRef": "N30",
-      "pdfPage": 610
+      "pdfPage": 610,
+      "context": "LeFort I cleft palate"
     },
     {
       "code": "R396",
@@ -18602,7 +19363,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 10,
       "fee": null,
       "sourceRef": "N30",
-      "pdfPage": 610
+      "pdfPage": 610,
+      "context": "LeFort I cleft palate"
     },
     {
       "code": "R398",
@@ -18624,7 +19386,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 6,
       "fee": null,
       "sourceRef": "N33",
-      "pdfPage": 613
+      "pdfPage": 613,
+      "context": "Lateral canthoplasty"
     },
     {
       "code": "R428",
@@ -18635,7 +19398,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 7,
       "fee": null,
       "sourceRef": "N28",
-      "pdfPage": 608
+      "pdfPage": 608,
+      "context": "Excision"
     },
     {
       "code": "R433",
@@ -18646,7 +19410,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 10,
       "fee": null,
       "sourceRef": "N28",
-      "pdfPage": 608
+      "pdfPage": 608,
+      "context": "Arthroplasty"
     },
     {
       "code": "R462",
@@ -18712,7 +19477,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 15,
       "fee": null,
       "sourceRef": "N29",
-      "pdfPage": 609
+      "pdfPage": 609,
+      "context": "Total U dento-alveolar osteotomy"
     },
     {
       "code": "R518",
@@ -18833,7 +19599,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 15,
       "fee": null,
       "sourceRef": "N30",
-      "pdfPage": 610
+      "pdfPage": 610,
+      "context": "LeFort I cleft palate"
     },
     {
       "code": "R609",
@@ -18844,7 +19611,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 20,
       "fee": null,
       "sourceRef": "N30",
-      "pdfPage": 610
+      "pdfPage": 610,
+      "context": "LeFort I cleft palate"
     },
     {
       "code": "R618",
@@ -18855,7 +19623,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 7,
       "fee": null,
       "sourceRef": "N30",
-      "pdfPage": 610
+      "pdfPage": 610,
+      "context": "LeFort I cleft palate"
     },
     {
       "code": "R644",
@@ -18866,7 +19635,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 6,
       "fee": null,
       "sourceRef": "N30",
-      "pdfPage": 610
+      "pdfPage": 610,
+      "context": "LeFort I cleft palate"
     },
     {
       "code": "R645",
@@ -18954,7 +19724,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 6,
       "fee": null,
       "sourceRef": "N32",
-      "pdfPage": 612
+      "pdfPage": 612,
+      "context": "Application of dental arch bars, or splint, for facial osteotomy"
     },
     {
       "code": "R653",
@@ -18998,7 +19769,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 25,
       "fee": null,
       "sourceRef": "N32",
-      "pdfPage": 612
+      "pdfPage": 612,
+      "context": "Pericranial flap to orbit or face"
     },
     {
       "code": "R657",
@@ -19009,7 +19781,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 25,
       "fee": null,
       "sourceRef": "N32",
-      "pdfPage": 612
+      "pdfPage": 612,
+      "context": "Pericranial flap to orbit or face"
     },
     {
       "code": "R658",
@@ -19020,7 +19793,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 25,
       "fee": null,
       "sourceRef": "N32",
-      "pdfPage": 612
+      "pdfPage": 612,
+      "context": "Pericranial flap to orbit or face"
     },
     {
       "code": "R659",
@@ -19064,7 +19838,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 25,
       "fee": null,
       "sourceRef": "N32",
-      "pdfPage": 612
+      "pdfPage": 612,
+      "context": "Upper LeFort III advancement without occlusal change*"
     },
     {
       "code": "R678",
@@ -19119,7 +19894,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 7,
       "fee": null,
       "sourceRef": "N28",
-      "pdfPage": 608
+      "pdfPage": 608,
+      "context": "Incision And Drainage"
     },
     {
       "code": "Z239",
@@ -19218,7 +19994,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 20,
       "fee": null,
       "sourceRef": "X1",
-      "pdfPage": 753
+      "pdfPage": 753,
+      "context": "Craniotomy approaches"
     },
     {
       "code": "N106",
@@ -19240,7 +20017,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 15,
       "fee": null,
       "sourceRef": "X3",
-      "pdfPage": 755
+      "pdfPage": 755,
+      "context": "Endovascular approach for obliteration"
     },
     {
       "code": "N108",
@@ -19251,7 +20029,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 15,
       "fee": null,
       "sourceRef": "X2",
-      "pdfPage": 754
+      "pdfPage": 754,
+      "context": "Carotid-cavernous fistula"
     },
     {
       "code": "N109",
@@ -19262,7 +20041,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 15,
       "fee": null,
       "sourceRef": "X4",
-      "pdfPage": 756
+      "pdfPage": 756,
+      "context": "Burr hole"
     },
     {
       "code": "N110",
@@ -19273,7 +20053,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 15,
       "fee": null,
       "sourceRef": "X4",
-      "pdfPage": 756
+      "pdfPage": 756,
+      "context": "Burr hole"
     },
     {
       "code": "N111",
@@ -19284,7 +20065,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 20,
       "fee": null,
       "sourceRef": "X10",
-      "pdfPage": 762
+      "pdfPage": 762,
+      "context": "Pituitary lesion(s)"
     },
     {
       "code": "N113",
@@ -19295,7 +20077,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 11,
       "fee": null,
       "sourceRef": "X4",
-      "pdfPage": 756
+      "pdfPage": 756,
+      "context": "Burr hole"
     },
     {
       "code": "N114",
@@ -19306,7 +20089,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 20,
       "fee": null,
       "sourceRef": "X10",
-      "pdfPage": 762
+      "pdfPage": 762,
+      "context": "Pituitary lesion(s)"
     },
     {
       "code": "N115",
@@ -19339,7 +20123,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 15,
       "fee": null,
       "sourceRef": "X4",
-      "pdfPage": 756
+      "pdfPage": 756,
+      "context": "Intracranial Abscess"
     },
     {
       "code": "N118",
@@ -19350,7 +20135,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 15,
       "fee": null,
       "sourceRef": "X3",
-      "pdfPage": 755
+      "pdfPage": 755,
+      "context": "Carotid-cavernous fistula"
     },
     {
       "code": "N119",
@@ -19372,7 +20158,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 15,
       "fee": null,
       "sourceRef": "X3",
-      "pdfPage": 755
+      "pdfPage": 755,
+      "context": "Craniotomy plus removal"
     },
     {
       "code": "N121",
@@ -19394,7 +20181,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 20,
       "fee": null,
       "sourceRef": "X2",
-      "pdfPage": 754
+      "pdfPage": 754,
+      "context": "Endovascular approaches"
     },
     {
       "code": "N123",
@@ -19405,7 +20193,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 11,
       "fee": null,
       "sourceRef": "X4",
-      "pdfPage": 756
+      "pdfPage": 756,
+      "context": "Burr hole"
     },
     {
       "code": "N124",
@@ -19427,7 +20216,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 20,
       "fee": null,
       "sourceRef": "X2",
-      "pdfPage": 754
+      "pdfPage": 754,
+      "context": "Endovascular approaches"
     },
     {
       "code": "N126",
@@ -19438,7 +20228,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 15,
       "fee": null,
       "sourceRef": "X4",
-      "pdfPage": 756
+      "pdfPage": 756,
+      "context": "Burr hole"
     },
     {
       "code": "N127",
@@ -19449,7 +20240,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 11,
       "fee": null,
       "sourceRef": "X4",
-      "pdfPage": 756
+      "pdfPage": 756,
+      "context": "Burr hole"
     },
     {
       "code": "N128",
@@ -19460,7 +20252,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 15,
       "fee": null,
       "sourceRef": "X4",
-      "pdfPage": 756
+      "pdfPage": 756,
+      "context": "Burr hole"
     },
     {
       "code": "N129",
@@ -19471,7 +20264,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 15,
       "fee": null,
       "sourceRef": "X4",
-      "pdfPage": 756
+      "pdfPage": 756,
+      "context": "Burr hole"
     },
     {
       "code": "N130",
@@ -19482,7 +20276,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 15,
       "fee": null,
       "sourceRef": "X4",
-      "pdfPage": 756
+      "pdfPage": 756,
+      "context": "Burr hole"
     },
     {
       "code": "N131",
@@ -19493,7 +20288,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 15,
       "fee": null,
       "sourceRef": "X3",
-      "pdfPage": 755
+      "pdfPage": 755,
+      "context": "Endovascular thrombectomy (EVT)"
     },
     {
       "code": "N132",
@@ -19504,7 +20300,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 15,
       "fee": null,
       "sourceRef": "X7",
-      "pdfPage": 759
+      "pdfPage": 759,
+      "context": "Extracranial Endovascular Surgery"
     },
     {
       "code": "N139",
@@ -19537,7 +20334,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 7,
       "fee": null,
       "sourceRef": "X6",
-      "pdfPage": 758
+      "pdfPage": 758,
+      "context": "Extracerebral haematoma and/or hygroma"
     },
     {
       "code": "N144",
@@ -19548,7 +20346,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 11,
       "fee": null,
       "sourceRef": "X6",
-      "pdfPage": 758
+      "pdfPage": 758,
+      "context": "Extracerebral haematoma and/or hygroma"
     },
     {
       "code": "N148",
@@ -19559,7 +20358,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 15,
       "fee": null,
       "sourceRef": "X6",
-      "pdfPage": 758
+      "pdfPage": 758,
+      "context": "Cerebral Injury"
     },
     {
       "code": "N149",
@@ -19570,7 +20370,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 15,
       "fee": null,
       "sourceRef": "X6",
-      "pdfPage": 758
+      "pdfPage": 758,
+      "context": "Cerebral Injury"
     },
     {
       "code": "N150",
@@ -19581,7 +20382,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 15,
       "fee": null,
       "sourceRef": "X6",
-      "pdfPage": 758
+      "pdfPage": 758,
+      "context": "Cerebral Injury"
     },
     {
       "code": "N151",
@@ -19603,7 +20405,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 15,
       "fee": null,
       "sourceRef": "X1",
-      "pdfPage": 753
+      "pdfPage": 753,
+      "context": "Astrocytoma, oligodendroglioma, glioblastoma or metastatic tumour"
     },
     {
       "code": "N153",
@@ -19625,7 +20428,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 20,
       "fee": null,
       "sourceRef": "X1",
-      "pdfPage": 753
+      "pdfPage": 753,
+      "context": "Craniotomy approaches"
     },
     {
       "code": "N155",
@@ -19691,7 +20495,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 15,
       "fee": null,
       "sourceRef": "X3",
-      "pdfPage": 755
+      "pdfPage": 755,
+      "context": "Craniotomy plus evacuation"
     },
     {
       "code": "N161",
@@ -19702,7 +20507,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 11,
       "fee": null,
       "sourceRef": "X8",
-      "pdfPage": 760
+      "pdfPage": 760,
+      "context": "Repair of skull defect"
     },
     {
       "code": "N162",
@@ -19790,7 +20596,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 11,
       "fee": null,
       "sourceRef": "X6",
-      "pdfPage": 758
+      "pdfPage": 758,
+      "context": "Cerebral Injury"
     },
     {
       "code": "N201",
@@ -19801,7 +20608,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 15,
       "fee": null,
       "sourceRef": "X8",
-      "pdfPage": 760
+      "pdfPage": 760,
+      "context": "Repair of skull defect"
     },
     {
       "code": "N202",
@@ -19812,7 +20620,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 11,
       "fee": null,
       "sourceRef": "X8",
-      "pdfPage": 760
+      "pdfPage": 760,
+      "context": "Repair of skull defect"
     },
     {
       "code": "N203",
@@ -19823,7 +20632,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 11,
       "fee": null,
       "sourceRef": "X8",
-      "pdfPage": 760
+      "pdfPage": 760,
+      "context": "Repair of skull defect"
     },
     {
       "code": "N206",
@@ -19911,7 +20721,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 10,
       "fee": null,
       "sourceRef": "X7",
-      "pdfPage": 759
+      "pdfPage": 759,
+      "context": "Carotid And Vertebral Arteries"
     },
     {
       "code": "N230",
@@ -19966,7 +20777,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 11,
       "fee": null,
       "sourceRef": "X6",
-      "pdfPage": 758
+      "pdfPage": 758,
+      "context": "Cranial Nerves"
     },
     {
       "code": "N259",
@@ -19977,7 +20789,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 11,
       "fee": null,
       "sourceRef": "X6",
-      "pdfPage": 758
+      "pdfPage": 758,
+      "context": "Cranial Nerves"
     },
     {
       "code": "N265",
@@ -19988,7 +20801,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 6,
       "fee": null,
       "sourceRef": "X6",
-      "pdfPage": 758
+      "pdfPage": 758,
+      "context": "Cranial Nerves"
     },
     {
       "code": "N266",
@@ -19999,7 +20813,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 6,
       "fee": null,
       "sourceRef": "X6",
-      "pdfPage": 758
+      "pdfPage": 758,
+      "context": "Cranial Nerves"
     },
     {
       "code": "N267",
@@ -20021,7 +20836,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 7,
       "fee": null,
       "sourceRef": "X6",
-      "pdfPage": 758
+      "pdfPage": 758,
+      "context": "Cranial Nerves"
     },
     {
       "code": "Z802",
@@ -20043,7 +20859,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 10,
       "fee": null,
       "sourceRef": "X7",
-      "pdfPage": 759
+      "pdfPage": 759,
+      "context": "Carotid And Vertebral Arteries"
     },
     {
       "code": "Z808",
@@ -20054,7 +20871,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 10,
       "fee": null,
       "sourceRef": "X7",
-      "pdfPage": 759
+      "pdfPage": 759,
+      "context": "Carotid And Vertebral Arteries"
     },
     {
       "code": "Z809",
@@ -20087,7 +20905,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 7,
       "fee": null,
       "sourceRef": "X5",
-      "pdfPage": 757
+      "pdfPage": 757,
+      "context": "Ventriculoscopy"
     },
     {
       "code": "Z813",
@@ -20109,7 +20928,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 6,
       "fee": null,
       "sourceRef": "X7",
-      "pdfPage": 759
+      "pdfPage": 759,
+      "context": "Carotid And Vertebral Arteries"
     },
     {
       "code": "Z820",
@@ -20120,7 +20940,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 7,
       "fee": null,
       "sourceRef": "X5",
-      "pdfPage": 757
+      "pdfPage": 757,
+      "context": "Ventriculoscopy"
     },
     {
       "code": "Z823",
@@ -20153,7 +20974,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 6,
       "fee": null,
       "sourceRef": "X6",
-      "pdfPage": 758
+      "pdfPage": 758,
+      "context": "Cranial Nerves"
     },
     {
       "code": "Z827",
@@ -20164,7 +20986,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 7,
       "fee": null,
       "sourceRef": "X6",
-      "pdfPage": 758
+      "pdfPage": 758,
+      "context": "Cranial Nerves"
     },
     {
       "code": "N177",
@@ -20175,7 +20998,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 7,
       "fee": null,
       "sourceRef": "X12",
-      "pdfPage": 764
+      "pdfPage": 764,
+      "context": "Exploration, decompression, division, excision, biopsy, neurolysis and/or transposition"
     },
     {
       "code": "N183",
@@ -20197,7 +21021,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 7,
       "fee": null,
       "sourceRef": "X12",
-      "pdfPage": 764
+      "pdfPage": 764,
+      "context": "Exploration, decompression, division, excision, biopsy, neurolysis and/or transposition"
     },
     {
       "code": "N188",
@@ -20219,7 +21044,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 7,
       "fee": null,
       "sourceRef": "X12",
-      "pdfPage": 764
+      "pdfPage": 764,
+      "context": "Exploration, decompression, division, excision, biopsy, neurolysis and/or transposition"
     },
     {
       "code": "N190",
@@ -20230,7 +21056,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 7,
       "fee": null,
       "sourceRef": "X12",
-      "pdfPage": 764
+      "pdfPage": 764,
+      "context": "Exploration, decompression, division, excision, biopsy, neurolysis and/or transposition"
     },
     {
       "code": "N282",
@@ -20241,7 +21068,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 6,
       "fee": null,
       "sourceRef": "X12",
-      "pdfPage": 764
+      "pdfPage": 764,
+      "context": "Exploration, decompression, division, excision, biopsy, neurolysis and/or transposition"
     },
     {
       "code": "N283",
@@ -20252,7 +21080,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 7,
       "fee": null,
       "sourceRef": "X12",
-      "pdfPage": 764
+      "pdfPage": 764,
+      "context": "Exploration, decompression, division, excision, biopsy, neurolysis and/or transposition"
     },
     {
       "code": "N285",
@@ -20274,7 +21103,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 7,
       "fee": null,
       "sourceRef": "X12",
-      "pdfPage": 764
+      "pdfPage": 764,
+      "context": "Exploration, decompression, division, excision, biopsy, neurolysis and/or transposition"
     },
     {
       "code": "N287",
@@ -20318,7 +21148,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 6,
       "fee": null,
       "sourceRef": "X12",
-      "pdfPage": 764
+      "pdfPage": 764,
+      "context": "Exploration, decompression, division, excision, biopsy, neurolysis and/or transposition"
     },
     {
       "code": "N291",
@@ -20351,7 +21182,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 6,
       "fee": null,
       "sourceRef": "X12",
-      "pdfPage": 764
+      "pdfPage": 764,
+      "context": "Exploration, decompression, division, excision, biopsy, neurolysis and/or transposition"
     },
     {
       "code": "Z816",
@@ -20362,7 +21194,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 6,
       "fee": null,
       "sourceRef": "X13",
-      "pdfPage": 765
+      "pdfPage": 765,
+      "context": "Implantable peripheral nerve stimulators"
     },
     {
       "code": "Z823",
@@ -20373,7 +21206,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 8,
       "fee": null,
       "sourceRef": "X13",
-      "pdfPage": 765
+      "pdfPage": 765,
+      "context": "Implantable peripheral nerve stimulators"
     },
     {
       "code": "P031",
@@ -20384,7 +21218,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 6,
       "fee": null,
       "sourceRef": "K10",
-      "pdfPage": 540
+      "pdfPage": 540,
+      "context": "Non stress test"
     },
     {
       "code": "P032",
@@ -20395,7 +21230,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 6,
       "fee": null,
       "sourceRef": "K10",
-      "pdfPage": 540
+      "pdfPage": 540,
+      "context": "Non stress test"
     },
     {
       "code": "P034",
@@ -20406,7 +21242,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 6,
       "fee": null,
       "sourceRef": "K10",
-      "pdfPage": 540
+      "pdfPage": 540,
+      "context": "Non stress test"
     },
     {
       "code": "P018",
@@ -20439,7 +21276,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 6,
       "fee": null,
       "sourceRef": "K8",
-      "pdfPage": 538
+      "pdfPage": 538,
+      "context": "Repair of laceration"
     },
     {
       "code": "P036",
@@ -20494,7 +21332,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 6,
       "fee": null,
       "sourceRef": "K8",
-      "pdfPage": 538
+      "pdfPage": 538,
+      "context": "High risk obstetrical premium"
     },
     {
       "code": "P046",
@@ -20505,7 +21344,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 6,
       "fee": null,
       "sourceRef": "K8",
-      "pdfPage": 538
+      "pdfPage": 538,
+      "context": "High risk obstetrical premium"
     },
     {
       "code": "Z774",
@@ -20516,7 +21356,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 6,
       "fee": null,
       "sourceRef": "K8",
-      "pdfPage": 538
+      "pdfPage": 538,
+      "context": "High risk obstetrical premium"
     },
     {
       "code": "P050",
@@ -20604,7 +21445,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 6,
       "fee": null,
       "sourceRef": "K11",
-      "pdfPage": 541
+      "pdfPage": 541,
+      "context": "Insertion of fetal shunt"
     },
     {
       "code": "P058",
@@ -20615,7 +21457,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 8,
       "fee": null,
       "sourceRef": "K11",
-      "pdfPage": 541
+      "pdfPage": 541,
+      "context": "Insertion of fetal shunt"
     },
     {
       "code": "P059",
@@ -20626,7 +21469,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 8,
       "fee": null,
       "sourceRef": "K11",
-      "pdfPage": 541
+      "pdfPage": 541,
+      "context": "Insertion of fetal shunt"
     },
     {
       "code": "P060",
@@ -20670,7 +21514,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 6,
       "fee": null,
       "sourceRef": "Y12",
-      "pdfPage": 778
+      "pdfPage": 778,
+      "context": "Excision"
     },
     {
       "code": "E210",
@@ -20681,7 +21526,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 6,
       "fee": null,
       "sourceRef": "Y12",
-      "pdfPage": 778
+      "pdfPage": 778,
+      "context": "Repair"
     },
     {
       "code": "Z861",
@@ -20692,7 +21538,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 6,
       "fee": null,
       "sourceRef": "Y12",
-      "pdfPage": 778
+      "pdfPage": 778,
+      "context": "Excision"
     },
     {
       "code": "E117",
@@ -20703,7 +21550,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 6,
       "fee": null,
       "sourceRef": "Y3",
-      "pdfPage": 769
+      "pdfPage": 769,
+      "context": "Pterygium"
     },
     {
       "code": "E118",
@@ -20758,7 +21606,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 6,
       "fee": null,
       "sourceRef": "Y3",
-      "pdfPage": 769
+      "pdfPage": 769,
+      "context": "Corneal transplant"
     },
     {
       "code": "E124",
@@ -20769,7 +21618,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 8,
       "fee": null,
       "sourceRef": "Y3",
-      "pdfPage": 769
+      "pdfPage": 769,
+      "context": "Corneal transplant"
     },
     {
       "code": "E128",
@@ -20780,7 +21630,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 6,
       "fee": null,
       "sourceRef": "Y2",
-      "pdfPage": 768
+      "pdfPage": 768,
+      "context": "Chelation of band keratopathy with EDTA"
     },
     {
       "code": "E205",
@@ -20824,7 +21675,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 6,
       "fee": null,
       "sourceRef": "Y2",
-      "pdfPage": 768
+      "pdfPage": 768,
+      "context": "Incision"
     },
     {
       "code": "Z851",
@@ -20835,7 +21687,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 6,
       "fee": null,
       "sourceRef": "Y2",
-      "pdfPage": 768
+      "pdfPage": 768,
+      "context": "Incision"
     },
     {
       "code": "Z852",
@@ -20879,7 +21732,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 5,
       "fee": null,
       "sourceRef": "Y5",
-      "pdfPage": 771
+      "pdfPage": 771,
+      "context": "Cataract"
     },
     {
       "code": "E139",
@@ -20890,7 +21744,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 5,
       "fee": null,
       "sourceRef": "Y5",
-      "pdfPage": 771
+      "pdfPage": 771,
+      "context": "Incision"
     },
     {
       "code": "E140",
@@ -20923,7 +21778,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 5,
       "fee": null,
       "sourceRef": "Y5",
-      "pdfPage": 771
+      "pdfPage": 771,
+      "context": "Cataract"
     },
     {
       "code": "E145",
@@ -20934,7 +21790,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 5,
       "fee": null,
       "sourceRef": "Y5",
-      "pdfPage": 771
+      "pdfPage": 771,
+      "context": "Cataract"
     },
     {
       "code": "E146",
@@ -20945,7 +21802,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 5,
       "fee": null,
       "sourceRef": "Y5",
-      "pdfPage": 771
+      "pdfPage": 771,
+      "context": "Cataract"
     },
     {
       "code": "E104",
@@ -20956,7 +21814,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 6,
       "fee": null,
       "sourceRef": "Y1",
-      "pdfPage": 767
+      "pdfPage": 767,
+      "context": "Repair"
     },
     {
       "code": "E105",
@@ -20967,7 +21826,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 6,
       "fee": null,
       "sourceRef": "Y1",
-      "pdfPage": 767
+      "pdfPage": 767,
+      "context": "Repair"
     },
     {
       "code": "E106",
@@ -21011,7 +21871,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 6,
       "fee": null,
       "sourceRef": "Y10",
-      "pdfPage": 776
+      "pdfPage": 776,
+      "context": "Suture"
     },
     {
       "code": "E191",
@@ -21022,7 +21883,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 7,
       "fee": null,
       "sourceRef": "Y10",
-      "pdfPage": 776
+      "pdfPage": 776,
+      "context": "Suture"
     },
     {
       "code": "E192",
@@ -21033,7 +21895,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 6,
       "fee": null,
       "sourceRef": "Y10",
-      "pdfPage": 776
+      "pdfPage": 776,
+      "context": "Repair"
     },
     {
       "code": "E193",
@@ -21066,7 +21929,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 6,
       "fee": null,
       "sourceRef": "Y10",
-      "pdfPage": 776
+      "pdfPage": 776,
+      "context": "Repair"
     },
     {
       "code": "E197",
@@ -21077,7 +21941,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 6,
       "fee": null,
       "sourceRef": "Y10",
-      "pdfPage": 776
+      "pdfPage": 776,
+      "context": "Repair"
     },
     {
       "code": "E198",
@@ -21132,7 +21997,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 6,
       "fee": null,
       "sourceRef": "Y11",
-      "pdfPage": 777
+      "pdfPage": 777,
+      "context": "Blepharoplasty"
     },
     {
       "code": "E221",
@@ -21154,7 +22020,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 6,
       "fee": null,
       "sourceRef": "Y11",
-      "pdfPage": 777
+      "pdfPage": 777,
+      "context": "Blepharoplasty"
     },
     {
       "code": "E223",
@@ -21165,7 +22032,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 7,
       "fee": null,
       "sourceRef": "Y11",
-      "pdfPage": 777
+      "pdfPage": 777,
+      "context": "Blepharoplasty"
     },
     {
       "code": "E224",
@@ -21176,7 +22044,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 7,
       "fee": null,
       "sourceRef": "Y11",
-      "pdfPage": 777
+      "pdfPage": 777,
+      "context": "Blepharoplasty"
     },
     {
       "code": "E225",
@@ -21187,7 +22056,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 6,
       "fee": null,
       "sourceRef": "Y11",
-      "pdfPage": 777
+      "pdfPage": 777,
+      "context": "Blepharoplasty"
     },
     {
       "code": "E226",
@@ -21198,7 +22068,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 6,
       "fee": null,
       "sourceRef": "Y11",
-      "pdfPage": 777
+      "pdfPage": 777,
+      "context": "Blepharoplasty"
     },
     {
       "code": "E227",
@@ -21209,7 +22080,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 6,
       "fee": null,
       "sourceRef": "Y11",
-      "pdfPage": 777
+      "pdfPage": 777,
+      "context": "Blepharoplasty"
     },
     {
       "code": "E228",
@@ -21220,7 +22092,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 7,
       "fee": null,
       "sourceRef": "Y11",
-      "pdfPage": 777
+      "pdfPage": 777,
+      "context": "Blepharoplasty"
     },
     {
       "code": "E229",
@@ -21231,7 +22104,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 7,
       "fee": null,
       "sourceRef": "Y11",
-      "pdfPage": 777
+      "pdfPage": 777,
+      "context": "Blepharoplasty"
     },
     {
       "code": "E230",
@@ -21242,7 +22116,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 6,
       "fee": null,
       "sourceRef": "Y11",
-      "pdfPage": 777
+      "pdfPage": 777,
+      "context": "Blepharoplasty"
     },
     {
       "code": "E231",
@@ -21275,7 +22150,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 6,
       "fee": null,
       "sourceRef": "Y11",
-      "pdfPage": 777
+      "pdfPage": 777,
+      "context": "Lateral canthal surgery"
     },
     {
       "code": "E236",
@@ -21286,7 +22162,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 6,
       "fee": null,
       "sourceRef": "Y11",
-      "pdfPage": 777
+      "pdfPage": 777,
+      "context": "Lateral canthal surgery"
     },
     {
       "code": "Z855",
@@ -21330,7 +22207,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 6,
       "fee": null,
       "sourceRef": "Y10",
-      "pdfPage": 776
+      "pdfPage": 776,
+      "context": "Repair"
     },
     {
       "code": "E215",
@@ -21341,7 +22219,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 6,
       "fee": null,
       "sourceRef": "Y13",
-      "pdfPage": 779
+      "pdfPage": 779,
+      "context": "Excision"
     },
     {
       "code": "E216",
@@ -21374,7 +22253,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 6,
       "fee": null,
       "sourceRef": "Y13",
-      "pdfPage": 779
+      "pdfPage": 779,
+      "context": "Lacerated canaliculus"
     },
     {
       "code": "E219",
@@ -21396,7 +22276,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 6,
       "fee": null,
       "sourceRef": "Y13",
-      "pdfPage": 779
+      "pdfPage": 779,
+      "context": "Incision"
     },
     {
       "code": "Z864",
@@ -21429,7 +22310,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 6,
       "fee": null,
       "sourceRef": "Y13",
-      "pdfPage": 779
+      "pdfPage": 779,
+      "context": "Incision"
     },
     {
       "code": "E102",
@@ -21440,7 +22322,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 7,
       "fee": null,
       "sourceRef": "Y9",
-      "pdfPage": 775
+      "pdfPage": 775,
+      "context": "Excision"
     },
     {
       "code": "E103",
@@ -21451,7 +22334,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 7,
       "fee": null,
       "sourceRef": "Y9",
-      "pdfPage": 775
+      "pdfPage": 775,
+      "context": "Excision"
     },
     {
       "code": "E109",
@@ -21462,7 +22346,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 7,
       "fee": null,
       "sourceRef": "Y9",
-      "pdfPage": 775
+      "pdfPage": 775,
+      "context": "Excision"
     },
     {
       "code": "E163",
@@ -21484,7 +22369,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 7,
       "fee": null,
       "sourceRef": "Y9",
-      "pdfPage": 775
+      "pdfPage": 775,
+      "context": "Incision"
     },
     {
       "code": "E165",
@@ -21495,7 +22381,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 7,
       "fee": null,
       "sourceRef": "Y9",
-      "pdfPage": 775
+      "pdfPage": 775,
+      "context": "Tumour or foreign body"
     },
     {
       "code": "E166",
@@ -21528,7 +22415,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 6,
       "fee": null,
       "sourceRef": "Y9",
-      "pdfPage": 775
+      "pdfPage": 775,
+      "context": "Tumour or foreign body"
     },
     {
       "code": "E169",
@@ -21550,7 +22438,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 6,
       "fee": null,
       "sourceRef": "Y9",
-      "pdfPage": 775
+      "pdfPage": 775,
+      "context": "Excision"
     },
     {
       "code": "E172",
@@ -21561,7 +22450,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 6,
       "fee": null,
       "sourceRef": "Y9",
-      "pdfPage": 775
+      "pdfPage": 775,
+      "context": "Tumour or foreign body"
     },
     {
       "code": "E176",
@@ -21572,7 +22462,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 7,
       "fee": null,
       "sourceRef": "Y9",
-      "pdfPage": 775
+      "pdfPage": 775,
+      "context": "Dermis fat graft"
     },
     {
       "code": "E177",
@@ -21583,7 +22474,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 6,
       "fee": null,
       "sourceRef": "Y9",
-      "pdfPage": 775
+      "pdfPage": 775,
+      "context": "Dermis fat graft"
     },
     {
       "code": "E178",
@@ -21616,7 +22508,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 7,
       "fee": null,
       "sourceRef": "Y9",
-      "pdfPage": 775
+      "pdfPage": 775,
+      "context": "Free mucous membrane graft"
     },
     {
       "code": "E181",
@@ -21627,7 +22520,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 6,
       "fee": null,
       "sourceRef": "Y9",
-      "pdfPage": 775
+      "pdfPage": 775,
+      "context": "Excision"
     },
     {
       "code": "E112",
@@ -21638,7 +22532,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 6,
       "fee": null,
       "sourceRef": "Y8",
-      "pdfPage": 774
+      "pdfPage": 774,
+      "context": "Retina"
     },
     {
       "code": "E125",
@@ -21649,7 +22544,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 6,
       "fee": null,
       "sourceRef": "Y8",
-      "pdfPage": 774
+      "pdfPage": 774,
+      "context": "Retina"
     },
     {
       "code": "E126",
@@ -21660,7 +22556,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 6,
       "fee": null,
       "sourceRef": "Y8",
-      "pdfPage": 774
+      "pdfPage": 774,
+      "context": "Retina"
     },
     {
       "code": "E151",
@@ -21682,7 +22579,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 7,
       "fee": null,
       "sourceRef": "Y8",
-      "pdfPage": 774
+      "pdfPage": 774,
+      "context": "Retina"
     },
     {
       "code": "E153",
@@ -21704,7 +22602,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 6,
       "fee": null,
       "sourceRef": "Y8",
-      "pdfPage": 774
+      "pdfPage": 774,
+      "context": "Retina"
     },
     {
       "code": "E155",
@@ -21715,7 +22614,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 6,
       "fee": null,
       "sourceRef": "Y8",
-      "pdfPage": 774
+      "pdfPage": 774,
+      "context": "Retina"
     },
     {
       "code": "E161",
@@ -21726,7 +22626,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 6,
       "fee": null,
       "sourceRef": "Y8",
-      "pdfPage": 774
+      "pdfPage": 774,
+      "context": "Retina"
     },
     {
       "code": "E182",
@@ -21781,7 +22682,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 6,
       "fee": null,
       "sourceRef": "Y4",
-      "pdfPage": 770
+      "pdfPage": 770,
+      "context": "Glaucoma Filtering Procedures"
     },
     {
       "code": "E115",
@@ -21792,7 +22694,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 6,
       "fee": null,
       "sourceRef": "Y4",
-      "pdfPage": 770
+      "pdfPage": 770,
+      "context": "Glaucoma Filtering Procedures"
     },
     {
       "code": "E127",
@@ -21803,7 +22706,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 4,
       "fee": null,
       "sourceRef": "Y4",
-      "pdfPage": 770
+      "pdfPage": 770,
+      "context": "Sclera"
     },
     {
       "code": "E130",
@@ -21814,7 +22718,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 6,
       "fee": null,
       "sourceRef": "Y4",
-      "pdfPage": 770
+      "pdfPage": 770,
+      "context": "Iris And Ciliary Body"
     },
     {
       "code": "E131",
@@ -21825,7 +22730,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 6,
       "fee": null,
       "sourceRef": "Y4",
-      "pdfPage": 770
+      "pdfPage": 770,
+      "context": "Iris And Ciliary Body"
     },
     {
       "code": "E132",
@@ -21847,7 +22753,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 6,
       "fee": null,
       "sourceRef": "Y4",
-      "pdfPage": 770
+      "pdfPage": 770,
+      "context": "Iris And Ciliary Body"
     },
     {
       "code": "E134",
@@ -21858,7 +22765,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 7,
       "fee": null,
       "sourceRef": "Y4",
-      "pdfPage": 770
+      "pdfPage": 770,
+      "context": "Iris And Ciliary Body"
     },
     {
       "code": "E135",
@@ -21869,7 +22777,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 7,
       "fee": null,
       "sourceRef": "Y4",
-      "pdfPage": 770
+      "pdfPage": 770,
+      "context": "Iris And Ciliary Body"
     },
     {
       "code": "E156",
@@ -21880,7 +22789,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 7,
       "fee": null,
       "sourceRef": "Y4",
-      "pdfPage": 770
+      "pdfPage": 770,
+      "context": "Iris And Ciliary Body"
     },
     {
       "code": "E157",
@@ -21891,7 +22801,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 7,
       "fee": null,
       "sourceRef": "Y4",
-      "pdfPage": 770
+      "pdfPage": 770,
+      "context": "Iris And Ciliary Body"
     },
     {
       "code": "E212",
@@ -21902,7 +22813,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 6,
       "fee": null,
       "sourceRef": "Y4",
-      "pdfPage": 770
+      "pdfPage": 770,
+      "context": "Iris And Ciliary Body"
     },
     {
       "code": "E213",
@@ -21913,7 +22825,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 6,
       "fee": null,
       "sourceRef": "Y4",
-      "pdfPage": 770
+      "pdfPage": 770,
+      "context": "Iris And Ciliary Body"
     },
     {
       "code": "E142",
@@ -21924,7 +22837,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 6,
       "fee": null,
       "sourceRef": "Y6",
-      "pdfPage": 772
+      "pdfPage": 772,
+      "context": "Injections and/or paracentesis"
     },
     {
       "code": "E148",
@@ -21946,7 +22860,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 5,
       "fee": null,
       "sourceRef": "Y6",
-      "pdfPage": 772
+      "pdfPage": 772,
+      "context": "Injections and/or paracentesis"
     },
     {
       "code": "E186",
@@ -21957,7 +22872,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 5,
       "fee": null,
       "sourceRef": "Y6",
-      "pdfPage": 772
+      "pdfPage": 772,
+      "context": "Injections and/or paracentesis"
     },
     {
       "code": "E187",
@@ -21968,7 +22884,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 5,
       "fee": null,
       "sourceRef": "Y6",
-      "pdfPage": 772
+      "pdfPage": 772,
+      "context": "Injections and/or paracentesis"
     },
     {
       "code": "M023",
@@ -21990,7 +22907,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 10,
       "fee": null,
       "sourceRef": "P6",
-      "pdfPage": 646
+      "pdfPage": 646,
+      "context": "Accessory Nasal Sinuses \u2013 Endoscopic Approach"
     },
     {
       "code": "M052",
@@ -22001,7 +22919,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 10,
       "fee": null,
       "sourceRef": "P6",
-      "pdfPage": 646
+      "pdfPage": 646,
+      "context": "Accessory Nasal Sinuses \u2013 Endoscopic Approach"
     },
     {
       "code": "M054",
@@ -22012,7 +22931,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 10,
       "fee": null,
       "sourceRef": "P6",
-      "pdfPage": 646
+      "pdfPage": 646,
+      "context": "Accessory Nasal Sinuses \u2013 Endoscopic Approach"
     },
     {
       "code": "M055",
@@ -22045,7 +22965,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 10,
       "fee": null,
       "sourceRef": "P5",
-      "pdfPage": 645
+      "pdfPage": 645,
+      "context": "Maxillectomy"
     },
     {
       "code": "M059",
@@ -22078,7 +22999,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 10,
       "fee": null,
       "sourceRef": "P6",
-      "pdfPage": 646
+      "pdfPage": 646,
+      "context": "Ethmoidectomy/Antrostomy"
     },
     {
       "code": "M063",
@@ -22089,7 +23011,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 10,
       "fee": null,
       "sourceRef": "P5",
-      "pdfPage": 645
+      "pdfPage": 645,
+      "context": "Maxillectomy"
     },
     {
       "code": "M064",
@@ -22122,7 +23045,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 15,
       "fee": null,
       "sourceRef": "P6",
-      "pdfPage": 646
+      "pdfPage": 646,
+      "context": "Ethmoidectomy/Antrostomy"
     },
     {
       "code": "Z318",
@@ -22133,7 +23057,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 7,
       "fee": null,
       "sourceRef": "P6",
-      "pdfPage": 646
+      "pdfPage": 646,
+      "context": "Accessory Nasal Sinuses \u2013 Endoscopic Approach"
     },
     {
       "code": "Z319",
@@ -22144,7 +23069,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 6,
       "fee": null,
       "sourceRef": "P5",
-      "pdfPage": 645
+      "pdfPage": 645,
+      "context": "Antrum or sinus lavage"
     },
     {
       "code": "Z350",
@@ -22155,7 +23081,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 10,
       "fee": null,
       "sourceRef": "P6",
-      "pdfPage": 646
+      "pdfPage": 646,
+      "context": "Ethmoidectomy/Antrostomy"
     },
     {
       "code": "Z351",
@@ -22166,7 +23093,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 10,
       "fee": null,
       "sourceRef": "P6",
-      "pdfPage": 646
+      "pdfPage": 646,
+      "context": "Ethmoidectomy/Antrostomy"
     },
     {
       "code": "E604",
@@ -22188,7 +23116,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 13,
       "fee": null,
       "sourceRef": "P12",
-      "pdfPage": 652
+      "pdfPage": 652,
+      "context": "Excision"
     },
     {
       "code": "M106",
@@ -22199,7 +23128,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 13,
       "fee": null,
       "sourceRef": "P12",
-      "pdfPage": 652
+      "pdfPage": 652,
+      "context": "Chest wall reconstruction"
     },
     {
       "code": "M107",
@@ -22210,7 +23140,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 13,
       "fee": null,
       "sourceRef": "P12",
-      "pdfPage": 652
+      "pdfPage": 652,
+      "context": "Chest wall reconstruction"
     },
     {
       "code": "M108",
@@ -22221,7 +23152,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 6,
       "fee": null,
       "sourceRef": "P12",
-      "pdfPage": 652
+      "pdfPage": 652,
+      "context": "Chest wall reconstruction"
     },
     {
       "code": "M109",
@@ -22287,7 +23219,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 6,
       "fee": null,
       "sourceRef": "P12",
-      "pdfPage": 652
+      "pdfPage": 652,
+      "context": "Chest wall reconstruction"
     },
     {
       "code": "R352",
@@ -22309,7 +23242,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 7,
       "fee": null,
       "sourceRef": "P13",
-      "pdfPage": 653
+      "pdfPage": 653,
+      "context": "Endoscopy"
     },
     {
       "code": "Z329",
@@ -22320,7 +23254,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 7,
       "fee": null,
       "sourceRef": "P13",
-      "pdfPage": 653
+      "pdfPage": 653,
+      "context": "Endoscopy"
     },
     {
       "code": "Z330",
@@ -22331,7 +23266,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 7,
       "fee": null,
       "sourceRef": "P13",
-      "pdfPage": 653
+      "pdfPage": 653,
+      "context": "Endoscopy"
     },
     {
       "code": "Z347",
@@ -22353,7 +23289,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 7,
       "fee": null,
       "sourceRef": "P13",
-      "pdfPage": 653
+      "pdfPage": 653,
+      "context": "Endoscopy"
     },
     {
       "code": "Z353",
@@ -22375,7 +23312,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 7,
       "fee": null,
       "sourceRef": "P13",
-      "pdfPage": 653
+      "pdfPage": 653,
+      "context": "Incision"
     },
     {
       "code": "Z357",
@@ -22386,7 +23324,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 7,
       "fee": null,
       "sourceRef": "P13",
-      "pdfPage": 653
+      "pdfPage": 653,
+      "context": "Incision"
     },
     {
       "code": "Z358",
@@ -22397,7 +23336,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 6,
       "fee": null,
       "sourceRef": "P13",
-      "pdfPage": 653
+      "pdfPage": 653,
+      "context": "Incision"
     },
     {
       "code": "Z742",
@@ -22419,7 +23359,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 7,
       "fee": null,
       "sourceRef": "P7",
-      "pdfPage": 647
+      "pdfPage": 647,
+      "context": "Introduction"
     },
     {
       "code": "M081",
@@ -22441,7 +23382,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 8,
       "fee": null,
       "sourceRef": "P7",
-      "pdfPage": 647
+      "pdfPage": 647,
+      "context": "Laryngectomy"
     },
     {
       "code": "M084",
@@ -22463,7 +23405,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 8,
       "fee": null,
       "sourceRef": "P8",
-      "pdfPage": 648
+      "pdfPage": 648,
+      "context": "7 Asst Surg Anae"
     },
     {
       "code": "M089",
@@ -22474,7 +23417,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 6,
       "fee": null,
       "sourceRef": "P8",
-      "pdfPage": 648
+      "pdfPage": 648,
+      "context": "7 Asst Surg Anae"
     },
     {
       "code": "M090",
@@ -22485,7 +23429,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 7,
       "fee": null,
       "sourceRef": "P8",
-      "pdfPage": 648
+      "pdfPage": 648,
+      "context": "7 Asst Surg Anae"
     },
     {
       "code": "Z292",
@@ -22518,7 +23463,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 6,
       "fee": null,
       "sourceRef": "P8",
-      "pdfPage": 648
+      "pdfPage": 648,
+      "context": "7 Asst Surg Anae"
     },
     {
       "code": "Z322",
@@ -22573,7 +23519,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 13,
       "fee": null,
       "sourceRef": "P14",
-      "pdfPage": 654
+      "pdfPage": 654,
+      "context": "Incision"
     },
     {
       "code": "M132",
@@ -22584,7 +23531,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 13,
       "fee": null,
       "sourceRef": "P14",
-      "pdfPage": 654
+      "pdfPage": 654,
+      "context": "Incision"
     },
     {
       "code": "M133",
@@ -22595,7 +23543,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 13,
       "fee": null,
       "sourceRef": "P14",
-      "pdfPage": 654
+      "pdfPage": 654,
+      "context": "Incision"
     },
     {
       "code": "M134",
@@ -22606,7 +23555,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 13,
       "fee": null,
       "sourceRef": "P14",
-      "pdfPage": 654
+      "pdfPage": 654,
+      "context": "Incision"
     },
     {
       "code": "M135",
@@ -22617,7 +23567,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 15,
       "fee": null,
       "sourceRef": "P14",
-      "pdfPage": 654
+      "pdfPage": 654,
+      "context": "Incision"
     },
     {
       "code": "M137",
@@ -22628,7 +23579,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 13,
       "fee": null,
       "sourceRef": "P14",
-      "pdfPage": 654
+      "pdfPage": 654,
+      "context": "Incision"
     },
     {
       "code": "M138",
@@ -22639,7 +23591,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 13,
       "fee": null,
       "sourceRef": "P16",
-      "pdfPage": 656
+      "pdfPage": 656,
+      "context": "Excision"
     },
     {
       "code": "M142",
@@ -22650,7 +23603,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 14,
       "fee": null,
       "sourceRef": "P16",
-      "pdfPage": 656
+      "pdfPage": 656,
+      "context": "Excision"
     },
     {
       "code": "M143",
@@ -22661,7 +23615,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 13,
       "fee": null,
       "sourceRef": "P16",
-      "pdfPage": 656
+      "pdfPage": 656,
+      "context": "Excision"
     },
     {
       "code": "M144",
@@ -22672,7 +23627,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 13,
       "fee": null,
       "sourceRef": "P16",
-      "pdfPage": 656
+      "pdfPage": 656,
+      "context": "Excision"
     },
     {
       "code": "M145",
@@ -22683,7 +23639,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 13,
       "fee": null,
       "sourceRef": "P16",
-      "pdfPage": 656
+      "pdfPage": 656,
+      "context": "Excision"
     },
     {
       "code": "M149",
@@ -22694,7 +23651,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 13,
       "fee": null,
       "sourceRef": "P16",
-      "pdfPage": 656
+      "pdfPage": 656,
+      "context": "Excision"
     },
     {
       "code": "M151",
@@ -22705,7 +23663,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 13,
       "fee": null,
       "sourceRef": "P16",
-      "pdfPage": 656
+      "pdfPage": 656,
+      "context": "Excision"
     },
     {
       "code": "M155",
@@ -22749,7 +23708,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 6,
       "fee": null,
       "sourceRef": "P14",
-      "pdfPage": 654
+      "pdfPage": 654,
+      "context": "Introduction - Thoracentesis"
     },
     {
       "code": "Z334",
@@ -22760,7 +23720,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 13,
       "fee": null,
       "sourceRef": "P14",
-      "pdfPage": 654
+      "pdfPage": 654,
+      "context": "Introduction - Thoracentesis"
     },
     {
       "code": "Z335",
@@ -22771,7 +23732,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 7,
       "fee": null,
       "sourceRef": "P14",
-      "pdfPage": 654
+      "pdfPage": 654,
+      "context": "Endoscopy"
     },
     {
       "code": "Z336",
@@ -22782,7 +23744,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 6,
       "fee": null,
       "sourceRef": "P14",
-      "pdfPage": 654
+      "pdfPage": 654,
+      "context": "Incision"
     },
     {
       "code": "Z339",
@@ -22793,7 +23756,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 6,
       "fee": null,
       "sourceRef": "P14",
-      "pdfPage": 654
+      "pdfPage": 654,
+      "context": "Incision"
     },
     {
       "code": "Z340",
@@ -22804,7 +23768,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 7,
       "fee": null,
       "sourceRef": "P14",
-      "pdfPage": 654
+      "pdfPage": 654,
+      "context": "Incision"
     },
     {
       "code": "Z341",
@@ -22815,7 +23780,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 6,
       "fee": null,
       "sourceRef": "P14",
-      "pdfPage": 654
+      "pdfPage": 654,
+      "context": "Incision"
     },
     {
       "code": "M010",
@@ -22837,7 +23803,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 10,
       "fee": null,
       "sourceRef": "P3",
-      "pdfPage": 643
+      "pdfPage": 643,
+      "context": "Reconstruction"
     },
     {
       "code": "M013",
@@ -22848,7 +23815,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 10,
       "fee": null,
       "sourceRef": "P3",
-      "pdfPage": 643
+      "pdfPage": 643,
+      "context": "Reconstruction"
     },
     {
       "code": "M014",
@@ -22859,7 +23827,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 10,
       "fee": null,
       "sourceRef": "P3",
-      "pdfPage": 643
+      "pdfPage": 643,
+      "context": "Reconstruction"
     },
     {
       "code": "M015",
@@ -22870,7 +23839,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 7,
       "fee": null,
       "sourceRef": "P3",
-      "pdfPage": 643
+      "pdfPage": 643,
+      "context": "Reconstruction"
     },
     {
       "code": "M016",
@@ -22881,7 +23851,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 7,
       "fee": null,
       "sourceRef": "P3",
-      "pdfPage": 643
+      "pdfPage": 643,
+      "context": "Reconstruction"
     },
     {
       "code": "M017",
@@ -22892,7 +23863,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 6,
       "fee": null,
       "sourceRef": "P3",
-      "pdfPage": 643
+      "pdfPage": 643,
+      "context": "Reconstruction"
     },
     {
       "code": "M018",
@@ -22903,7 +23875,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 7,
       "fee": null,
       "sourceRef": "P3",
-      "pdfPage": 643
+      "pdfPage": 643,
+      "context": "Reconstruction"
     },
     {
       "code": "M020",
@@ -22914,7 +23887,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 6,
       "fee": null,
       "sourceRef": "P3",
-      "pdfPage": 643
+      "pdfPage": 643,
+      "context": "Reconstruction"
     },
     {
       "code": "M021",
@@ -22925,7 +23899,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 6,
       "fee": null,
       "sourceRef": "P3",
-      "pdfPage": 643
+      "pdfPage": 643,
+      "context": "Reconstruction"
     },
     {
       "code": "M027",
@@ -22936,7 +23911,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 6,
       "fee": null,
       "sourceRef": "P4",
-      "pdfPage": 644
+      "pdfPage": 644,
+      "context": "Treatment Of Epistaxis (Nasal Haemorrhage)"
     },
     {
       "code": "M028",
@@ -22947,7 +23923,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 6,
       "fee": null,
       "sourceRef": "P3",
-      "pdfPage": 643
+      "pdfPage": 643,
+      "context": "Reconstruction"
     },
     {
       "code": "M030",
@@ -22991,7 +23968,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 7,
       "fee": null,
       "sourceRef": "P3",
-      "pdfPage": 643
+      "pdfPage": 643,
+      "context": "Reconstruction"
     },
     {
       "code": "R181",
@@ -23024,7 +24002,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 7,
       "fee": null,
       "sourceRef": "P3",
-      "pdfPage": 643
+      "pdfPage": 643,
+      "context": "Reconstruction"
     },
     {
       "code": "R320",
@@ -23035,7 +24014,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 7,
       "fee": null,
       "sourceRef": "P3",
-      "pdfPage": 643
+      "pdfPage": 643,
+      "context": "Reconstruction"
     },
     {
       "code": "R788",
@@ -23046,7 +24026,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 10,
       "fee": null,
       "sourceRef": "P4",
-      "pdfPage": 644
+      "pdfPage": 644,
+      "context": "Treatment Of Epistaxis (Nasal Haemorrhage)"
     },
     {
       "code": "R789",
@@ -23057,7 +24038,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 7,
       "fee": null,
       "sourceRef": "P4",
-      "pdfPage": 644
+      "pdfPage": 644,
+      "context": "Treatment Of Epistaxis (Nasal Haemorrhage)"
     },
     {
       "code": "Z298",
@@ -23079,7 +24061,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 6,
       "fee": null,
       "sourceRef": "P1",
-      "pdfPage": 641
+      "pdfPage": 641,
+      "context": "Incision"
     },
     {
       "code": "Z302",
@@ -23090,7 +24073,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 6,
       "fee": null,
       "sourceRef": "P1",
-      "pdfPage": 641
+      "pdfPage": 641,
+      "context": "Incision"
     },
     {
       "code": "Z305",
@@ -23112,7 +24096,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 7,
       "fee": null,
       "sourceRef": "P1",
-      "pdfPage": 641
+      "pdfPage": 641,
+      "context": "Fiberoptic endoscopy of upper airway (nose) (IOP)"
     },
     {
       "code": "Z308",
@@ -23156,7 +24141,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 6,
       "fee": null,
       "sourceRef": "P4",
-      "pdfPage": 644
+      "pdfPage": 644,
+      "context": "Treatment Of Epistaxis (Nasal Haemorrhage)"
     },
     {
       "code": "Z315",
@@ -23167,7 +24153,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 6,
       "fee": null,
       "sourceRef": "P4",
-      "pdfPage": 644
+      "pdfPage": 644,
+      "context": "Treatment Of Epistaxis (Nasal Haemorrhage)"
     },
     {
       "code": "Z316",
@@ -23178,7 +24165,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 6,
       "fee": null,
       "sourceRef": "P4",
-      "pdfPage": 644
+      "pdfPage": 644,
+      "context": "Treatment Of Epistaxis (Nasal Haemorrhage)"
     },
     {
       "code": "Z317",
@@ -23189,7 +24177,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 6,
       "fee": null,
       "sourceRef": "P1",
-      "pdfPage": 641
+      "pdfPage": 641,
+      "context": "Fiberoptic endoscopy of upper airway (nose) (IOP)"
     },
     {
       "code": "M099",
@@ -23200,7 +24189,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 10,
       "fee": null,
       "sourceRef": "P11",
-      "pdfPage": 651
+      "pdfPage": 651,
+      "context": "Excision"
     },
     {
       "code": "M100",
@@ -23211,7 +24201,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 10,
       "fee": null,
       "sourceRef": "P11",
-      "pdfPage": 651
+      "pdfPage": 651,
+      "context": "Repair"
     },
     {
       "code": "M101",
@@ -23222,7 +24213,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 13,
       "fee": null,
       "sourceRef": "P11",
-      "pdfPage": 651
+      "pdfPage": 651,
+      "context": "Repair"
     },
     {
       "code": "M103",
@@ -23233,7 +24225,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 13,
       "fee": null,
       "sourceRef": "P11",
-      "pdfPage": 651
+      "pdfPage": 651,
+      "context": "Excision"
     },
     {
       "code": "M104",
@@ -23244,7 +24237,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 15,
       "fee": null,
       "sourceRef": "P11",
-      "pdfPage": 651
+      "pdfPage": 651,
+      "context": "Excision"
     },
     {
       "code": "Z325",
@@ -23255,7 +24249,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 10,
       "fee": null,
       "sourceRef": "P11",
-      "pdfPage": 651
+      "pdfPage": 651,
+      "context": "Incision"
     },
     {
       "code": "Z327",
@@ -23288,7 +24283,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 6,
       "fee": null,
       "sourceRef": "P11",
-      "pdfPage": 651
+      "pdfPage": 651,
+      "context": "Tracheo-Bronchial Aspiration"
     },
     {
       "code": "Z359",
@@ -23310,7 +24306,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 8,
       "fee": null,
       "sourceRef": "P11",
-      "pdfPage": 651
+      "pdfPage": 651,
+      "context": "Incision"
     },
     {
       "code": "Z741",
@@ -23321,7 +24318,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 6,
       "fee": null,
       "sourceRef": "P11",
-      "pdfPage": 651
+      "pdfPage": 651,
+      "context": "Incision"
     },
     {
       "code": "N525",
@@ -23354,7 +24352,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 10,
       "fee": null,
       "sourceRef": "Z5",
-      "pdfPage": 789
+      "pdfPage": 789,
+      "context": "Cervical"
     },
     {
       "code": "N517",
@@ -23365,7 +24364,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 13,
       "fee": null,
       "sourceRef": "Z5",
-      "pdfPage": 789
+      "pdfPage": 789,
+      "context": "Cervical"
     },
     {
       "code": "N518",
@@ -23376,7 +24376,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 13,
       "fee": null,
       "sourceRef": "Z5",
-      "pdfPage": 789
+      "pdfPage": 789,
+      "context": "Thoracic - thoracotomy by separate surgeon"
     },
     {
       "code": "N559",
@@ -23387,7 +24388,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 13,
       "fee": null,
       "sourceRef": "Z5",
-      "pdfPage": 789
+      "pdfPage": 789,
+      "context": "Thoracic - thoracotomy by separate surgeon"
     },
     {
       "code": "N580",
@@ -23398,7 +24400,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 10,
       "fee": null,
       "sourceRef": "Z5",
-      "pdfPage": 789
+      "pdfPage": 789,
+      "context": "Lumbar - laparotomy/retroperitoneal approach by separate surgeon"
     },
     {
       "code": "N500",
@@ -23409,7 +24412,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 10,
       "fee": null,
       "sourceRef": "Z3",
-      "pdfPage": 787
+      "pdfPage": 787,
+      "context": "Cervical"
     },
     {
       "code": "N501",
@@ -23420,7 +24424,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 11,
       "fee": null,
       "sourceRef": "Z3",
-      "pdfPage": 787
+      "pdfPage": 787,
+      "context": "Cervical"
     },
     {
       "code": "N502",
@@ -23431,7 +24436,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 15,
       "fee": null,
       "sourceRef": "Z3",
-      "pdfPage": 787
+      "pdfPage": 787,
+      "context": "Cervical"
     },
     {
       "code": "N503",
@@ -23442,7 +24448,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 17,
       "fee": null,
       "sourceRef": "Z3",
-      "pdfPage": 787
+      "pdfPage": 787,
+      "context": "Cervical"
     },
     {
       "code": "N504",
@@ -23453,7 +24460,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 15,
       "fee": null,
       "sourceRef": "Z3",
-      "pdfPage": 787
+      "pdfPage": 787,
+      "context": "Thoracic - thoracotomy by separate surgeon"
     },
     {
       "code": "N505",
@@ -23464,7 +24472,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 17,
       "fee": null,
       "sourceRef": "Z3",
-      "pdfPage": 787
+      "pdfPage": 787,
+      "context": "Thoracic - thoracotomy by separate surgeon"
     },
     {
       "code": "N506",
@@ -23475,7 +24484,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 13,
       "fee": null,
       "sourceRef": "Z3",
-      "pdfPage": 787
+      "pdfPage": 787,
+      "context": "Thoracic - thoracotomy by separate surgeon"
     },
     {
       "code": "N507",
@@ -23486,7 +24496,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 15,
       "fee": null,
       "sourceRef": "Z3",
-      "pdfPage": 787
+      "pdfPage": 787,
+      "context": "Thoracic - thoracotomy by separate surgeon"
     },
     {
       "code": "N508",
@@ -23497,7 +24508,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 13,
       "fee": null,
       "sourceRef": "Z3",
-      "pdfPage": 787
+      "pdfPage": 787,
+      "context": "Lumbar - laparotomy/retroperitoneal approach by separate surgeon"
     },
     {
       "code": "N569",
@@ -23519,7 +24531,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 15,
       "fee": null,
       "sourceRef": "Z3",
-      "pdfPage": 787
+      "pdfPage": 787,
+      "context": "Lumbar - laparotomy/retroperitoneal approach by separate surgeon"
     },
     {
       "code": "N539",
@@ -23640,7 +24653,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 10,
       "fee": null,
       "sourceRef": "Z17",
-      "pdfPage": 801
+      "pdfPage": 801,
+      "context": "Repair of myelomeningocoele (two surgeons)"
     },
     {
       "code": "N566",
@@ -23651,7 +24665,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 10,
       "fee": null,
       "sourceRef": "Z17",
-      "pdfPage": 801
+      "pdfPage": 801,
+      "context": "Repair of myelomeningocoele (two surgeons)"
     },
     {
       "code": "N567",
@@ -23662,7 +24677,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 10,
       "fee": null,
       "sourceRef": "Z17",
-      "pdfPage": 801
+      "pdfPage": 801,
+      "context": "Repair of myelomeningocoele (two surgeons)"
     },
     {
       "code": "N514",
@@ -23673,7 +24689,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 10,
       "fee": null,
       "sourceRef": "Z9",
-      "pdfPage": 793
+      "pdfPage": 793,
+      "context": "Cervical & Thoracic \u2026 without instrumentation"
     },
     {
       "code": "N515",
@@ -23684,7 +24701,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 11,
       "fee": null,
       "sourceRef": "Z9",
-      "pdfPage": 793
+      "pdfPage": 793,
+      "context": "Cervical & Thoracic \u2026 with instrumentation"
     },
     {
       "code": "N519",
@@ -23695,7 +24713,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 10,
       "fee": null,
       "sourceRef": "Z9",
-      "pdfPage": 793
+      "pdfPage": 793,
+      "context": "Cervical & Thoracic \u2026 without instrumentation"
     },
     {
       "code": "N532",
@@ -23706,7 +24725,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 11,
       "fee": null,
       "sourceRef": "Z9",
-      "pdfPage": 793
+      "pdfPage": 793,
+      "context": "Cervical & Thoracic \u2026 with instrumentation"
     },
     {
       "code": "N533",
@@ -23717,7 +24737,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 11,
       "fee": null,
       "sourceRef": "Z9",
-      "pdfPage": 793
+      "pdfPage": 793,
+      "context": "Lumbar \u2026 with instrumentation"
     },
     {
       "code": "N581",
@@ -23728,7 +24749,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 10,
       "fee": null,
       "sourceRef": "Z9",
-      "pdfPage": 793
+      "pdfPage": 793,
+      "context": "Lumbar \u2026 without instrumentation"
     },
     {
       "code": "N582",
@@ -23739,7 +24761,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 15,
       "fee": null,
       "sourceRef": "Z9",
-      "pdfPage": 793
+      "pdfPage": 793,
+      "context": "Lumbar \u2026 with instrumentation"
     },
     {
       "code": "N509",
@@ -23750,7 +24773,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 12,
       "fee": null,
       "sourceRef": "Z6",
-      "pdfPage": 790
+      "pdfPage": 790,
+      "context": "Cervical / Thoracic"
     },
     {
       "code": "N510",
@@ -23761,7 +24785,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 17,
       "fee": null,
       "sourceRef": "Z6",
-      "pdfPage": 790
+      "pdfPage": 790,
+      "context": "Cervical / Thoracic"
     },
     {
       "code": "N511",
@@ -23772,7 +24797,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 15,
       "fee": null,
       "sourceRef": "Z6",
-      "pdfPage": 790
+      "pdfPage": 790,
+      "context": "Lumbar"
     },
     {
       "code": "N512",
@@ -23783,7 +24809,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 15,
       "fee": null,
       "sourceRef": "Z6",
-      "pdfPage": 790
+      "pdfPage": 790,
+      "context": "Lumbar"
     },
     {
       "code": "N520",
@@ -23794,7 +24821,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 14,
       "fee": null,
       "sourceRef": "Z6",
-      "pdfPage": 790
+      "pdfPage": 790,
+      "context": "Cervical / Thoracic"
     },
     {
       "code": "N521",
@@ -23805,7 +24833,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 8,
       "fee": null,
       "sourceRef": "Z6",
-      "pdfPage": 790
+      "pdfPage": 790,
+      "context": "All levels"
     },
     {
       "code": "N522",
@@ -23816,7 +24845,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 8,
       "fee": null,
       "sourceRef": "Z6",
-      "pdfPage": 790
+      "pdfPage": 790,
+      "context": "All levels"
     },
     {
       "code": "N524",
@@ -23827,7 +24857,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 15,
       "fee": null,
       "sourceRef": "Z6",
-      "pdfPage": 790
+      "pdfPage": 790,
+      "context": "Lumbar"
     },
     {
       "code": "N571",
@@ -23838,7 +24869,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 8,
       "fee": null,
       "sourceRef": "Z6",
-      "pdfPage": 790
+      "pdfPage": 790,
+      "context": "Lumbar"
     },
     {
       "code": "N574",
@@ -23849,7 +24881,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 13,
       "fee": null,
       "sourceRef": "Z6",
-      "pdfPage": 790
+      "pdfPage": 790,
+      "context": "Removal of Vertebral Body including Pedicles for Osteotomy"
     },
     {
       "code": "N575",
@@ -23860,7 +24893,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 9,
       "fee": null,
       "sourceRef": "Z6",
-      "pdfPage": 790
+      "pdfPage": 790,
+      "context": "Removal of Vertebral Body including Pedicles for Osteotomy"
     },
     {
       "code": "N576",
@@ -23871,7 +24905,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 9,
       "fee": null,
       "sourceRef": "Z6",
-      "pdfPage": 790
+      "pdfPage": 790,
+      "context": "Removal of Vertebral Body including Pedicles for Osteotomy"
     },
     {
       "code": "N523",
@@ -23937,7 +24972,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 8,
       "fee": null,
       "sourceRef": "Z15",
-      "pdfPage": 799
+      "pdfPage": 799,
+      "context": "Percutaneous vertebral facet medial branch or sacral lateral branch neurotomy"
     },
     {
       "code": "N542",
@@ -24003,7 +25039,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 6,
       "fee": null,
       "sourceRef": "Z15",
-      "pdfPage": 799
+      "pdfPage": 799,
+      "context": "Percutaneous vertebral facet medial branch or sacral lateral branch neurotomy"
     },
     {
       "code": "N557",
@@ -24014,7 +25051,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 12,
       "fee": null,
       "sourceRef": "Z16",
-      "pdfPage": 800
+      "pdfPage": 800,
+      "context": "Sympathectomy - unilateral"
     },
     {
       "code": "N558",
@@ -24025,7 +25063,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 13,
       "fee": null,
       "sourceRef": "Z16",
-      "pdfPage": 800
+      "pdfPage": 800,
+      "context": "Sympathectomy - unilateral"
     },
     {
       "code": "N562",
@@ -24036,7 +25075,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 12,
       "fee": null,
       "sourceRef": "Z16",
-      "pdfPage": 800
+      "pdfPage": 800,
+      "context": "Sympathectomy - unilateral"
     },
     {
       "code": "N563",
@@ -24069,7 +25109,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 10,
       "fee": null,
       "sourceRef": "Z16",
-      "pdfPage": 800
+      "pdfPage": 800,
+      "context": "Sympathectomy - unilateral"
     },
     {
       "code": "N578",
@@ -24080,7 +25121,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 10,
       "fee": null,
       "sourceRef": "Z16",
-      "pdfPage": 800
+      "pdfPage": 800,
+      "context": "Sympathectomy - unilateral"
     },
     {
       "code": "Z941",
@@ -24135,7 +25177,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 6,
       "fee": null,
       "sourceRef": "Z14",
-      "pdfPage": 798
+      "pdfPage": 798,
+      "context": "Open vertebral biopsy"
     },
     {
       "code": "N552",
@@ -24146,7 +25189,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 8,
       "fee": null,
       "sourceRef": "Z14",
-      "pdfPage": 798
+      "pdfPage": 798,
+      "context": "Open vertebral biopsy"
     },
     {
       "code": "N541",
@@ -24234,7 +25278,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 10,
       "fee": null,
       "sourceRef": "Z11",
-      "pdfPage": 795
+      "pdfPage": 795,
+      "context": "Spinal osteomyelitis"
     },
     {
       "code": "N561",
@@ -24245,7 +25290,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 12,
       "fee": null,
       "sourceRef": "Z11",
-      "pdfPage": 795
+      "pdfPage": 795,
+      "context": "Spinal osteomyelitis"
     },
     {
       "code": "S438",
@@ -24256,7 +25302,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 7,
       "fee": null,
       "sourceRef": "T9",
-      "pdfPage": 729
+      "pdfPage": 729,
+      "context": "Cystectomy - Complete"
     },
     {
       "code": "S440",
@@ -24278,7 +25325,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 15,
       "fee": null,
       "sourceRef": "T9",
-      "pdfPage": 729
+      "pdfPage": 729,
+      "context": "Cystectomy - Complete"
     },
     {
       "code": "S453",
@@ -24300,7 +25348,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 6,
       "fee": null,
       "sourceRef": "T9",
-      "pdfPage": 729
+      "pdfPage": 729,
+      "context": "Cystectomy - Complete"
     },
     {
       "code": "S476",
@@ -24311,7 +25360,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 6,
       "fee": null,
       "sourceRef": "T8",
-      "pdfPage": 728
+      "pdfPage": 728,
+      "context": "Incision"
     },
     {
       "code": "S478",
@@ -24322,7 +25372,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 6,
       "fee": null,
       "sourceRef": "T8",
-      "pdfPage": 728
+      "pdfPage": 728,
+      "context": "Incision"
     },
     {
       "code": "S481",
@@ -24333,7 +25384,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 7,
       "fee": null,
       "sourceRef": "T8",
-      "pdfPage": 728
+      "pdfPage": 728,
+      "context": "Incision"
     },
     {
       "code": "S482",
@@ -24410,7 +25462,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 6,
       "fee": null,
       "sourceRef": "T9",
-      "pdfPage": 729
+      "pdfPage": 729,
+      "context": "Extrophy - excision of bladder and repair of abdominal wall"
     },
     {
       "code": "S512",
@@ -24432,7 +25485,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 9,
       "fee": null,
       "sourceRef": "T9",
-      "pdfPage": 729
+      "pdfPage": 729,
+      "context": "Repair"
     },
     {
       "code": "S518",
@@ -24465,7 +25519,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 6,
       "fee": null,
       "sourceRef": "T9",
-      "pdfPage": 729
+      "pdfPage": 729,
+      "context": "Destruction"
     },
     {
       "code": "S522",
@@ -24476,7 +25531,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 7,
       "fee": null,
       "sourceRef": "T9",
-      "pdfPage": 729
+      "pdfPage": 729,
+      "context": "Closure of fistula"
     },
     {
       "code": "S523",
@@ -24509,7 +25565,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 7,
       "fee": null,
       "sourceRef": "T9",
-      "pdfPage": 729
+      "pdfPage": 729,
+      "context": "Vesicovaginal"
     },
     {
       "code": "Z480",
@@ -24520,7 +25577,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 6,
       "fee": null,
       "sourceRef": "T8",
-      "pdfPage": 728
+      "pdfPage": 728,
+      "context": "Incision"
     },
     {
       "code": "Z606",
@@ -24531,7 +25589,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 5,
       "fee": null,
       "sourceRef": "T7",
-      "pdfPage": 727
+      "pdfPage": 727,
+      "context": "Diagnostic and Therapeutic Procedures"
     },
     {
       "code": "Z607",
@@ -24542,7 +25601,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 5,
       "fee": null,
       "sourceRef": "T7",
-      "pdfPage": 727
+      "pdfPage": 727,
+      "context": "Diagnostic and Therapeutic Procedures"
     },
     {
       "code": "Z632",
@@ -24586,7 +25646,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 7,
       "fee": null,
       "sourceRef": "T2",
-      "pdfPage": 722
+      "pdfPage": 722,
+      "context": "Incision"
     },
     {
       "code": "S401",
@@ -24597,7 +25658,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 7,
       "fee": null,
       "sourceRef": "T2",
-      "pdfPage": 722
+      "pdfPage": 722,
+      "context": "Incision"
     },
     {
       "code": "S405",
@@ -24608,7 +25670,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 7,
       "fee": null,
       "sourceRef": "T2",
-      "pdfPage": 722
+      "pdfPage": 722,
+      "context": "Incision"
     },
     {
       "code": "S411",
@@ -24619,7 +25682,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 7,
       "fee": null,
       "sourceRef": "T2",
-      "pdfPage": 722
+      "pdfPage": 722,
+      "context": "Excision"
     },
     {
       "code": "S416",
@@ -24630,7 +25694,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 13,
       "fee": null,
       "sourceRef": "T2",
-      "pdfPage": 722
+      "pdfPage": 722,
+      "context": "Excision"
     },
     {
       "code": "S420",
@@ -24641,7 +25706,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 10,
       "fee": null,
       "sourceRef": "T2",
-      "pdfPage": 722
+      "pdfPage": 722,
+      "context": "Excision"
     },
     {
       "code": "S422",
@@ -24652,7 +25718,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 7,
       "fee": null,
       "sourceRef": "T2",
-      "pdfPage": 722
+      "pdfPage": 722,
+      "context": "Repair"
     },
     {
       "code": "S424",
@@ -24663,7 +25730,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 10,
       "fee": null,
       "sourceRef": "T2",
-      "pdfPage": 722
+      "pdfPage": 722,
+      "context": "Excision"
     },
     {
       "code": "S427",
@@ -24685,7 +25753,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 7,
       "fee": null,
       "sourceRef": "T2",
-      "pdfPage": 722
+      "pdfPage": 722,
+      "context": "Suture"
     },
     {
       "code": "S431",
@@ -24696,7 +25765,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 7,
       "fee": null,
       "sourceRef": "T2",
-      "pdfPage": 722
+      "pdfPage": 722,
+      "context": "Extra Renal Procedures"
     },
     {
       "code": "S432",
@@ -24707,7 +25777,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 7,
       "fee": null,
       "sourceRef": "T2",
-      "pdfPage": 722
+      "pdfPage": 722,
+      "context": "Extra Renal Procedures"
     },
     {
       "code": "S433",
@@ -24718,7 +25789,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 6,
       "fee": null,
       "sourceRef": "T2",
-      "pdfPage": 722
+      "pdfPage": 722,
+      "context": "Extra Renal Procedures"
     },
     {
       "code": "S434",
@@ -24729,7 +25801,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 13,
       "fee": null,
       "sourceRef": "T3",
-      "pdfPage": 723
+      "pdfPage": 723,
+      "context": "Renal Transplantation Procedures"
     },
     {
       "code": "S435",
@@ -24740,7 +25813,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 13,
       "fee": null,
       "sourceRef": "T3",
-      "pdfPage": 723
+      "pdfPage": 723,
+      "context": "Renal Transplantation Procedures"
     },
     {
       "code": "S436",
@@ -24751,7 +25825,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 8,
       "fee": null,
       "sourceRef": "T3",
-      "pdfPage": 723
+      "pdfPage": 723,
+      "context": "Renal Transplantation Procedures"
     },
     {
       "code": "S445",
@@ -24839,7 +25914,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 9,
       "fee": null,
       "sourceRef": "T4",
-      "pdfPage": 724
+      "pdfPage": 724,
+      "context": "Repair"
     },
     {
       "code": "S454",
@@ -24850,7 +25926,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 9,
       "fee": null,
       "sourceRef": "T4",
-      "pdfPage": 724
+      "pdfPage": 724,
+      "context": "Repair"
     },
     {
       "code": "S455",
@@ -24872,7 +25949,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 8,
       "fee": null,
       "sourceRef": "T4",
-      "pdfPage": 724
+      "pdfPage": 724,
+      "context": "Repair"
     },
     {
       "code": "S458",
@@ -24894,7 +25972,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 6,
       "fee": null,
       "sourceRef": "T5",
-      "pdfPage": 725
+      "pdfPage": 725,
+      "context": "Cutaneous"
     },
     {
       "code": "S460",
@@ -24993,7 +26072,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 6,
       "fee": null,
       "sourceRef": "T3",
-      "pdfPage": 723
+      "pdfPage": 723,
+      "context": "Endoscopic Procedures"
     },
     {
       "code": "S561",
@@ -25026,7 +26106,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 6,
       "fee": null,
       "sourceRef": "T2",
-      "pdfPage": 722
+      "pdfPage": 722,
+      "context": "Incision"
     },
     {
       "code": "Z626",
@@ -25037,7 +26118,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 6,
       "fee": null,
       "sourceRef": "T3",
-      "pdfPage": 723
+      "pdfPage": 723,
+      "context": "Percutaneous Procedures"
     },
     {
       "code": "Z627",
@@ -25048,7 +26130,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 7,
       "fee": null,
       "sourceRef": "T3",
-      "pdfPage": 723
+      "pdfPage": 723,
+      "context": "Percutaneous Procedures"
     },
     {
       "code": "Z628",
@@ -25070,7 +26153,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 6,
       "fee": null,
       "sourceRef": "T3",
-      "pdfPage": 723
+      "pdfPage": 723,
+      "context": "Percutaneous Procedures"
     },
     {
       "code": "Z630",
@@ -25081,7 +26165,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 6,
       "fee": null,
       "sourceRef": "T2",
-      "pdfPage": 722
+      "pdfPage": 722,
+      "context": "Extra Renal Procedures"
     },
     {
       "code": "Z636",
@@ -25092,7 +26177,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 7,
       "fee": null,
       "sourceRef": "T3",
-      "pdfPage": 723
+      "pdfPage": 723,
+      "context": "Percutaneous Procedures"
     },
     {
       "code": "Z637",
@@ -25103,7 +26189,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 6,
       "fee": null,
       "sourceRef": "T3",
-      "pdfPage": 723
+      "pdfPage": 723,
+      "context": "Percutaneous Procedures"
     },
     {
       "code": "Z638",
@@ -25114,7 +26201,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 6,
       "fee": null,
       "sourceRef": "T3",
-      "pdfPage": 723
+      "pdfPage": 723,
+      "context": "Endoscopic Procedures"
     },
     {
       "code": "S530",
@@ -25136,7 +26224,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 6,
       "fee": null,
       "sourceRef": "T10",
-      "pdfPage": 730
+      "pdfPage": 730,
+      "context": "Urethrotomy"
     },
     {
       "code": "S532",
@@ -25158,7 +26247,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 6,
       "fee": null,
       "sourceRef": "T11",
-      "pdfPage": 731
+      "pdfPage": 731,
+      "context": "First stage"
     },
     {
       "code": "S536",
@@ -25169,7 +26259,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 6,
       "fee": null,
       "sourceRef": "T10",
-      "pdfPage": 730
+      "pdfPage": 730,
+      "context": "Excision"
     },
     {
       "code": "S537",
@@ -25180,7 +26271,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 6,
       "fee": null,
       "sourceRef": "T10",
-      "pdfPage": 730
+      "pdfPage": 730,
+      "context": "Excision"
     },
     {
       "code": "S538",
@@ -25224,7 +26316,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 7,
       "fee": null,
       "sourceRef": "T10",
-      "pdfPage": 730
+      "pdfPage": 730,
+      "context": "Excision"
     },
     {
       "code": "S542",
@@ -25235,7 +26328,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 6,
       "fee": null,
       "sourceRef": "T10",
-      "pdfPage": 730
+      "pdfPage": 730,
+      "context": "Excision"
     },
     {
       "code": "S543",
@@ -25246,7 +26340,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 7,
       "fee": null,
       "sourceRef": "T10",
-      "pdfPage": 730
+      "pdfPage": 730,
+      "context": "Excision"
     },
     {
       "code": "S544",
@@ -25257,7 +26352,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 6,
       "fee": null,
       "sourceRef": "T10",
-      "pdfPage": 730
+      "pdfPage": 730,
+      "context": "Excision"
     },
     {
       "code": "S545",
@@ -25290,7 +26386,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 7,
       "fee": null,
       "sourceRef": "T10",
-      "pdfPage": 730
+      "pdfPage": 730,
+      "context": "Urethroscopy"
     },
     {
       "code": "S548",
@@ -25301,7 +26398,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 6,
       "fee": null,
       "sourceRef": "T10",
-      "pdfPage": 730
+      "pdfPage": 730,
+      "context": "Repair"
     },
     {
       "code": "S549",
@@ -25367,7 +26465,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 7,
       "fee": null,
       "sourceRef": "T11",
-      "pdfPage": 731
+      "pdfPage": 731,
+      "context": "Fistula"
     },
     {
       "code": "S557",
@@ -25378,7 +26477,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 6,
       "fee": null,
       "sourceRef": "T11",
-      "pdfPage": 731
+      "pdfPage": 731,
+      "context": "Destruction"
     },
     {
       "code": "S558",
@@ -25389,7 +26489,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 6,
       "fee": null,
       "sourceRef": "T11",
-      "pdfPage": 731
+      "pdfPage": 731,
+      "context": "First stage"
     },
     {
       "code": "S564",
@@ -25400,7 +26501,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 6,
       "fee": null,
       "sourceRef": "T11",
-      "pdfPage": 731
+      "pdfPage": 731,
+      "context": "Destruction"
     },
     {
       "code": "S815",
@@ -25411,7 +26513,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 6,
       "fee": null,
       "sourceRef": "T10",
-      "pdfPage": 730
+      "pdfPage": 730,
+      "context": "Repair"
     },
     {
       "code": "Z604",
@@ -25422,7 +26525,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 6,
       "fee": null,
       "sourceRef": "T10",
-      "pdfPage": 730
+      "pdfPage": 730,
+      "context": "Urethrotomy"
     },
     {
       "code": "Z609",
@@ -25433,7 +26537,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 6,
       "fee": null,
       "sourceRef": "T10",
-      "pdfPage": 730
+      "pdfPage": 730,
+      "context": "Urethrotomy"
     },
     {
       "code": "Z612",
@@ -25444,7 +26549,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 6,
       "fee": null,
       "sourceRef": "T11",
-      "pdfPage": 731
+      "pdfPage": 731,
+      "context": "Suture"
     },
     {
       "code": "Z615",
@@ -25455,7 +26561,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 6,
       "fee": null,
       "sourceRef": "T11",
-      "pdfPage": 731
+      "pdfPage": 731,
+      "context": "Dilatation of urethra"
     },
     {
       "code": "Z616",
@@ -25466,7 +26573,8 @@ export const ohipAnesthesiaData = {
       "baseUnits": 6,
       "fee": null,
       "sourceRef": "T10",
-      "pdfPage": 730
+      "pdfPage": 730,
+      "context": "Incision"
     },
     {
       "code": "Z617",

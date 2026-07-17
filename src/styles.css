@@ -1017,6 +1017,14 @@ tr.just-added,
   -webkit-line-clamp: 2;
 }
 
+.billing-search-context {
+  grid-column: 1 / -1;
+  min-width: 0;
+  color: var(--muted);
+  font-size: 0.72rem;
+  line-height: 1.25;
+}
+
 .billing-search-empty {
   margin: 0;
   color: var(--muted);

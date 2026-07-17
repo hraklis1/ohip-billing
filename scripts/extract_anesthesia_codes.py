@@ -314,6 +314,33 @@ def row_blocks(lines, primary, subcategory):
     return blocks
 
 
+DANGLING_END_WORDS = {
+    "or", "and", "of", "the", "with", "to", "including", "may", "for",
+}
+
+
+def display_context(context, description):
+    if not context:
+        return None
+    heading = clean_heading(context[-1])
+    if not heading:
+        return None
+    if heading.lower() in description.lower():
+        return None
+    if heading.startswith(("See ", "For ")) or " see " in heading.lower():
+        return None
+    if heading.endswith((",", "-", "/")):
+        return None
+    if ". " in heading:
+        return None
+    if heading.count("(") != heading.count(")"):
+        return None
+    last_word = re.sub(r"[^A-Za-z]", "", heading.split()[-1]).lower()
+    if last_word in DANGLING_END_WORDS:
+        return None
+    return heading
+
+
 def is_context_dependent(description, rest):
     if rest.lstrip().startswith("-"):
         return True
@@ -363,7 +390,7 @@ def parse_block(block, primary, subcategory, pdf_page, ref, context=None, parent
         cut = fee_matches[-1].start() if fee_matches else units_match.start()
         description = clean_description(strip_non_anesthesia_columns(rest[:cut]))
         description = add_context(description, rest, context or [], parent_description, context_is_fresh)
-        return {
+        row = {
             "code": code,
             "description": description,
             "category": primary,
@@ -374,12 +401,16 @@ def parse_block(block, primary, subcategory, pdf_page, ref, context=None, parent
             "sourceRef": ref,
             "pdfPage": pdf_page,
         }
+        heading = display_context(context, description)
+        if heading:
+            row["context"] = heading
+        return row
 
     if fee_only and fee_matches:
         fee = fee_matches[-1].group(1).replace(",", "")
         description = clean_description(rest[: fee_matches[-1].start()])
         description = add_context(description, rest, context or [], parent_description, context_is_fresh)
-        return {
+        row = {
             "code": code,
             "description": description,
             "category": primary,
@@ -390,6 +421,10 @@ def parse_block(block, primary, subcategory, pdf_page, ref, context=None, parent
             "sourceRef": ref,
             "pdfPage": pdf_page,
         }
+        heading = display_context(context, description)
+        if heading:
+            row["context"] = heading
+        return row
 
     return None
 
