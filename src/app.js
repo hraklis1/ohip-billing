@@ -1274,6 +1274,24 @@ function billingCardDescriptor(item) {
   return item.description;
 }
 
+function getContributorRowIds(premiumCode, rows) {
+  if (premiumCode === "E420" || premiumCode === "E420C") {
+    return rows
+      .filter(row => (row.id === "time" || (row.unitCount && !row.isExtra && row.code.endsWith("C"))))
+      .sort((a, b) => (b.unitCount || 0) - (a.unitCount || 0))
+      .slice(0, 2)
+      .map(row => row.id);
+  }
+
+  if (["E400", "E400C", "E401", "E401C"].includes(premiumCode)) {
+    return rows
+      .filter(row => row.unitCount !== undefined || row.afterHoursProcedurePremiumEligible)
+      .map(row => row.id);
+  }
+
+  return [];
+}
+
 function renderBillingCard() {
   const unitFee = ANESTHESIOLOGIST_UNIT_FEE;
   const time = getBillingTime();
@@ -1361,13 +1379,16 @@ function renderBillingCard() {
   percentRows.forEach(({ id, item }) => {
     const percent = parsePercent(item.fee);
     const base = premiumBaseFor(item, totals);
+    const code = displayCode(item);
     rows.push({
       id,
-      code: displayCode(item),
+      code,
       description: billingCardDescriptor(item),
       value: `${Math.round(percent * 100)}%`,
       amount: roundCurrency(base.amount * percent),
-      removable: true
+      removable: true,
+      isPremium: true,
+      premiumCode: normalizedCode(code)
     });
   });
 
@@ -1412,6 +1433,14 @@ function renderBillingCard() {
   els.billingSummary.innerHTML = rows.length === 0
     ? ""
     : `<div class="paper-total-fee"><span class="paper-label">Total Fee</span><strong class="paper-value">${money(grandTotal)}</strong></div>`;
+
+  window.__billingCardData = {
+    rows,
+    rowMap: new Map(rows.map(row => [row.id, row])),
+    codeToRowId: new Map(rows.map(row => [row.code, row.id]))
+  };
+
+  setupPremiumHoverHandlers();
 }
 
 function escapeHtml(value) {
@@ -1622,6 +1651,49 @@ els.billingCardBody.addEventListener("click", (event) => {
   if (!button) return;
   removeBillingItem(Number(button.dataset.billingRemove));
 });
+
+// Add hover event handlers for premium codes
+function setupPremiumHoverHandlers() {
+  const rows = els.billingCardBody.querySelectorAll(".paper-row:not(.paper-row-blank)");
+  rows.forEach(row => {
+    row.addEventListener("mouseenter", () => {
+      if (!window.__billingCardData) return;
+
+      const codeEl = row.querySelector(".paper-code");
+      if (!codeEl) return;
+
+      const code = codeEl.textContent.trim();
+      const rowId = window.__billingCardData.codeToRowId.get(code);
+      const rowData = window.__billingCardData.rowMap.get(rowId);
+
+      if (!rowData || !rowData.isPremium) return;
+
+      const contributorIds = getContributorRowIds(rowData.premiumCode, window.__billingCardData.rows);
+
+      // Highlight contributor rows
+      const allRows = els.billingCardBody.querySelectorAll(".paper-row:not(.paper-row-blank)");
+      allRows.forEach(r => {
+        const rCodeEl = r.querySelector(".paper-code");
+        if (!rCodeEl) return;
+        const rCode = rCodeEl.textContent.trim();
+        const rId = window.__billingCardData.codeToRowId.get(rCode);
+        if (contributorIds.includes(rId)) {
+          r.classList.add("paper-row-contributor-highlighted");
+        }
+      });
+
+      row.classList.add("paper-row-premium-hover");
+    });
+
+    row.addEventListener("mouseleave", () => {
+      row.classList.remove("paper-row-premium-hover");
+      const allRows = els.billingCardBody.querySelectorAll(".paper-row:not(.paper-row-blank)");
+      allRows.forEach(r => {
+        r.classList.remove("paper-row-contributor-highlighted");
+      });
+    });
+  });
+}
 
 function resetBillingCard() {
   state.billingItems = [];

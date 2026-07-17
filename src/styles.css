@@ -395,6 +395,10 @@ tr.just-added,
   background: #edf8f2;
 }
 
+.paper-row-contributor-highlighted {
+  background: #edf8f2;
+}
+
 .remove-code-button {
   color: #8a2b23;
 }
