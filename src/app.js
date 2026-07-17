@@ -1059,7 +1059,7 @@ function renderQuickAddDialog() {
           const item = findCodeItem(option.code);
           return `<label class="check-row quick-add-option">
             <input type="checkbox" data-quick-code="${escapeAttr(option.code)}" data-quick-group="${groupIndex}" />
-            <span><strong>${escapeHtml(item ? displayCode(item) : option.code)}</strong> ${escapeHtml(option.label)}</span>
+            <span class="quick-add-text"><strong>${escapeHtml(item ? displayCode(item) : option.code)}</strong><span class="quick-add-desc">${escapeHtml(option.label)}</span></span>
             ${item ? valueHtml(item) : ""}
           </label>`;
         }).join("")}

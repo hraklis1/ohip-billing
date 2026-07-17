@@ -963,17 +963,32 @@ tr.just-added,
 }
 
 .quick-add-option {
-  align-items: center;
+  align-items: flex-start;
 }
 
-.quick-add-option span:first-of-type {
+.quick-add-option input {
+  margin-top: 1px;
+}
+
+.quick-add-option .value-badge {
+  align-self: center;
+}
+
+.quick-add-option .quick-add-text {
   flex: 1 1 auto;
+  display: grid;
+  grid-template-columns: 58px minmax(0, 1fr);
+  column-gap: 8px;
+  align-items: baseline;
   font-weight: 400;
 }
 
-.quick-add-option span strong {
+.quick-add-option .quick-add-text strong {
   font-weight: 750;
-  margin-right: 6px;
+}
+
+.quick-add-option .quick-add-desc {
+  font-weight: 400;
 }
 
 .quick-add-option .value-badge {
