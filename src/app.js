@@ -418,12 +418,12 @@ function renderRows() {
   els.codesBody.innerHTML = displayed.map((item) => {
     const codeIndex = codes.indexOf(item);
     const rowContextParts = [
-      state.category === "All" ? item.category : null,
-      state.subcategory === "All" ? item.subcategory : null,
-      item.context
+      state.category === "All" ? escapeHtml(item.category) : null,
+      state.subcategory === "All" ? escapeHtml(item.subcategory) : null,
+      item.context ? `<span class="context-em">${escapeHtml(item.context)}</span>` : null
     ].filter(Boolean);
     const rowContext = rowContextParts.length
-      ? `<span class="row-context">${rowContextParts.map(escapeHtml).join(" &middot; ")}</span>`
+      ? `<span class="row-context">${rowContextParts.join(" &middot; ")}</span>`
       : "";
     return `<tr>
     <td class="code-cell">${escapeHtml(displayCode(item))}</td>
@@ -1251,9 +1251,12 @@ function renderBillingSearch() {
 
   els.billingSearchResults.innerHTML = results.map((item) => {
     const index = codes.indexOf(item);
-    const contextParts = [item.subcategory, item.context].filter(Boolean);
+    const contextParts = [
+      item.subcategory ? escapeHtml(item.subcategory) : null,
+      item.context ? `<span class="context-em">${escapeHtml(item.context)}</span>` : null
+    ].filter(Boolean);
     const contextLine = contextParts.length
-      ? `<span class="billing-search-context">${contextParts.map(escapeHtml).join(" &middot; ")}</span>`
+      ? `<span class="billing-search-context">${contextParts.join(" &middot; ")}</span>`
       : "";
     return `<button class="billing-search-row" type="button" data-billing-source="codes" data-billing-index="${index}" title="${escapeAttr(item.description)}">
       <span class="billing-search-code">${escapeHtml(displayCode(item))}</span>
@@ -1385,9 +1388,9 @@ function renderBillingCard() {
   els.billingPaperStart.textContent = els.billingStartTime.value.trim() || " ";
   els.billingPaperFinish.textContent = els.billingEndTime.value.trim() || " ";
   const timeUnitCount = time.units !== null && time.units > 0 ? time.units : 0;
-  const basicUnitCount = totalUnits - timeUnitCount;
+  const surgeryTimeUnitCount = (primaryProcedureRow ? primaryProcedureRow.unitCount : 0) + timeUnitCount;
   els.billingPaperTotalUnits.textContent = totalUnits > 0 ? String(totalUnits) : " ";
-  els.billingPaperBasicUnits.textContent = basicUnitCount > 0 ? String(basicUnitCount) : " ";
+  els.billingPaperBasicUnits.textContent = surgeryTimeUnitCount > 0 ? String(surgeryTimeUnitCount) : " ";
   els.billingPaperTime.textContent = time.units === null ? " " : String(time.units);
   els.billingPaperEu.textContent = time.eu === null ? " " : String(time.eu);
   const MIN_LEDGER_ROWS = 6;

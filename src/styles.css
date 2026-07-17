@@ -433,6 +433,11 @@ tr.just-added,
   font-size: 0.78rem;
 }
 
+.context-em {
+  color: var(--ink);
+  font-weight: 600;
+}
+
 .empty-state {
   padding: 26px;
   color: var(--muted);
