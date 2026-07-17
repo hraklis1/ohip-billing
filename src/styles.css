@@ -968,16 +968,17 @@ tr.just-added,
 
 .quick-add-option span:first-of-type {
   flex: 1 1 auto;
-  font-weight: 600;
+  font-weight: 400;
 }
 
 .quick-add-option span strong {
-  font-weight: 800;
-  margin-right: 4px;
+  font-weight: 750;
+  margin-right: 6px;
 }
 
 .quick-add-option .value-badge {
   flex: 0 0 auto;
+  font-weight: 700;
 }
 
 .billing-search-results {
