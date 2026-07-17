@@ -1274,21 +1274,28 @@ function billingCardDescriptor(item) {
   return item.description;
 }
 
+// Mirrors premiumBaseFor(): returns the ids of the rows whose fees make up
+// the base that a percent premium is applied to.
 function getContributorRowIds(premiumCode, rows) {
-  if (premiumCode === "E420" || premiumCode === "E420C") {
+  const code = premiumCode.replace(/C$/, "");
+  if (code === "E420") {
+    const primary = rows
+      .filter((row) => row.unitCount !== undefined && row.id !== "time" && !row.isExtra && normalizedCode(row.code).endsWith("C"))
+      .reduce((best, row) => (best && best.unitCount >= row.unitCount ? best : row), null);
     return rows
-      .filter(row => (row.id === "time" || (row.unitCount && !row.isExtra && row.code.endsWith("C"))))
-      .sort((a, b) => (b.unitCount || 0) - (a.unitCount || 0))
-      .slice(0, 2)
-      .map(row => row.id);
+      .filter((row) => row.id === "time" || (primary && row.id === primary.id))
+      .map((row) => row.id);
   }
-
-  if (["E400", "E400C", "E401", "E401C"].includes(premiumCode)) {
+  if (code === "E400" || code === "E401") {
     return rows
-      .filter(row => row.unitCount !== undefined || row.afterHoursProcedurePremiumEligible)
-      .map(row => row.id);
+      .filter((row) => row.unitCount !== undefined || row.afterHoursProcedurePremiumEligible)
+      .map((row) => row.id);
   }
-
+  if (["E409", "E410", "E412", "E413"].includes(code)) {
+    return rows
+      .filter((row) => row.afterHoursProcedurePremiumEligible)
+      .map((row) => row.id);
+  }
   return [];
 }
 
@@ -1387,8 +1394,7 @@ function renderBillingCard() {
       value: `${Math.round(percent * 100)}%`,
       amount: roundCurrency(base.amount * percent),
       removable: true,
-      isPremium: true,
-      premiumCode: normalizedCode(code)
+      contributorIds: getContributorRowIds(normalizedCode(code), rows)
     });
   });
 
@@ -1419,7 +1425,7 @@ function renderBillingCard() {
     { length: Math.max(0, MIN_LEDGER_ROWS - ledgerRows.length) },
     () => `<div class="paper-row paper-row-blank"><div class="paper-cell-code"></div><div class="paper-cell-units"></div><div class="paper-cell-action"></div></div>`
   ).join("");
-  els.billingCardBody.innerHTML = ledgerRows.map((row) => `<div class="paper-row">
+  els.billingCardBody.innerHTML = ledgerRows.map((row) => `<div class="paper-row" data-row-id="${row.id}"${row.contributorIds && row.contributorIds.length ? ` data-contributors="${row.contributorIds.join(",")}"` : ""}>
     <div class="paper-cell-code">
       <strong class="paper-code">${escapeHtml(row.code)}</strong>
       <span class="paper-desc" title="${escapeAttr(row.description)}">${escapeHtml(row.description)}</span>
@@ -1433,14 +1439,6 @@ function renderBillingCard() {
   els.billingSummary.innerHTML = rows.length === 0
     ? ""
     : `<div class="paper-total-fee"><span class="paper-label">Total Fee</span><strong class="paper-value">${money(grandTotal)}</strong></div>`;
-
-  window.__billingCardData = {
-    rows,
-    rowMap: new Map(rows.map(row => [row.id, row])),
-    codeToRowId: new Map(rows.map(row => [row.code, row.id]))
-  };
-
-  setupPremiumHoverHandlers();
 }
 
 function escapeHtml(value) {
@@ -1652,48 +1650,24 @@ els.billingCardBody.addEventListener("click", (event) => {
   removeBillingItem(Number(button.dataset.billingRemove));
 });
 
-// Add hover event handlers for premium codes
-function setupPremiumHoverHandlers() {
-  const rows = els.billingCardBody.querySelectorAll(".paper-row:not(.paper-row-blank)");
-  rows.forEach(row => {
-    row.addEventListener("mouseenter", () => {
-      if (!window.__billingCardData) return;
-
-      const codeEl = row.querySelector(".paper-code");
-      if (!codeEl) return;
-
-      const code = codeEl.textContent.trim();
-      const rowId = window.__billingCardData.codeToRowId.get(code);
-      const rowData = window.__billingCardData.rowMap.get(rowId);
-
-      if (!rowData || !rowData.isPremium) return;
-
-      const contributorIds = getContributorRowIds(rowData.premiumCode, window.__billingCardData.rows);
-
-      // Highlight contributor rows
-      const allRows = els.billingCardBody.querySelectorAll(".paper-row:not(.paper-row-blank)");
-      allRows.forEach(r => {
-        const rCodeEl = r.querySelector(".paper-code");
-        if (!rCodeEl) return;
-        const rCode = rCodeEl.textContent.trim();
-        const rId = window.__billingCardData.codeToRowId.get(rCode);
-        if (contributorIds.includes(rId)) {
-          r.classList.add("paper-row-contributor-highlighted");
-        }
-      });
-
-      row.classList.add("paper-row-premium-hover");
-    });
-
-    row.addEventListener("mouseleave", () => {
-      row.classList.remove("paper-row-premium-hover");
-      const allRows = els.billingCardBody.querySelectorAll(".paper-row:not(.paper-row-blank)");
-      allRows.forEach(r => {
-        r.classList.remove("paper-row-contributor-highlighted");
-      });
-    });
+els.billingCardBody.addEventListener("mouseover", (event) => {
+  const premiumRow = event.target.closest(".paper-row[data-contributors]");
+  if (!premiumRow || premiumRow.classList.contains("paper-row-premium-hover")) return;
+  const ids = premiumRow.dataset.contributors.split(",");
+  els.billingCardBody.querySelectorAll(".paper-row[data-row-id]").forEach((row) => {
+    row.classList.toggle("paper-row-contributor-highlighted", ids.includes(row.dataset.rowId));
   });
-}
+  premiumRow.classList.add("paper-row-premium-hover");
+});
+
+els.billingCardBody.addEventListener("mouseout", (event) => {
+  const premiumRow = event.target.closest(".paper-row[data-contributors]");
+  if (!premiumRow || premiumRow.contains(event.relatedTarget)) return;
+  premiumRow.classList.remove("paper-row-premium-hover");
+  els.billingCardBody.querySelectorAll(".paper-row-contributor-highlighted").forEach((row) => {
+    row.classList.remove("paper-row-contributor-highlighted");
+  });
+});
 
 function resetBillingCard() {
   state.billingItems = [];

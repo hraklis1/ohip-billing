@@ -396,7 +396,12 @@ tr.just-added,
 }
 
 .paper-row-contributor-highlighted {
-  background: #edf8f2;
+  background: #e0f2e7;
+  box-shadow: inset 3px 0 0 #1f7a4d;
+}
+
+.paper-row-premium-hover {
+  background: var(--accent-soft);
 }
 
 .remove-code-button {
