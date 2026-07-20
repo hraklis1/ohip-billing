@@ -900,6 +900,34 @@ tr.just-added,
   background: var(--accent-soft);
 }
 
+.quick-add-bundles {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+}
+
+.bundle-button {
+  background: #fff;
+  color: var(--accent-strong);
+  font-size: 0.8rem;
+  padding: 7px 10px;
+}
+
+.bundle-button:hover {
+  filter: none;
+  background: var(--accent-soft);
+}
+
+.bundle-button-active {
+  background: var(--accent-strong);
+  color: #fff;
+}
+
+.bundle-button-active:hover {
+  background: var(--accent-strong);
+  filter: brightness(1.08);
+}
+
 .quick-add-summary {
   display: flex;
   flex-wrap: wrap;

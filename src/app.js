@@ -87,6 +87,7 @@ const els = {
   billingSheetBackdrop: document.querySelector("#billingSheetBackdrop"),
   billingQuickAddOpen: document.querySelector("#billingQuickAddOpen"),
   billingQuickAddSummary: document.querySelector("#billingQuickAddSummary"),
+  billingBundles: document.querySelector("#billingBundles"),
   quickAddDialog: document.querySelector("#quickAddDialog"),
   quickAddDialogBody: document.querySelector("#quickAddDialogBody"),
   quickAddDialogClose: document.querySelector("#quickAddDialogClose"),
@@ -270,6 +271,11 @@ const QUICK_ADD_GROUPS = [
       { code: "C997", label: "Next pts seen with C013, 24:00-07:00" }
     ]
   }
+];
+const CODE_BUNDLES = [
+  { id: "thoracic", label: "Thoracic", codes: ["G268", "G489", "Z342", "Z459"] },
+  { id: "artline-piv", label: "Art Line + Peripheral IV", codes: ["G268", "G489"] },
+  { id: "artline-central", label: "Art Line + Central Line", codes: ["G268", "G269"] }
 ];
 const AFTER_HOURS_PROCEDURE_PREMIUM_CODES = new Set([
   "K101", "K102", "K111", "K112",
@@ -1086,6 +1092,34 @@ function hasBillingCode(code) {
   return state.billingItems.some(({ item }) => variants.has(normalizedCode(displayCode(item))) || variants.has(normalizedCode(item.code)));
 }
 
+function isBundleActive(bundle) {
+  return bundle.codes.every((code) => hasBillingCode(code));
+}
+
+function renderBundleButtons() {
+  els.billingBundles.innerHTML = CODE_BUNDLES
+    .filter((bundle) => bundle.codes.every((code) => findCodeItem(code)))
+    .map((bundle) => {
+      const active = isBundleActive(bundle);
+      return `<button type="button" class="quick-add-button bundle-button${active ? " bundle-button-active" : ""}" data-bundle-id="${escapeAttr(bundle.id)}" aria-pressed="${active}">${escapeHtml(bundle.label)}</button>`;
+    }).join("");
+}
+
+function toggleBundle(bundleId) {
+  const bundle = CODE_BUNDLES.find((entry) => entry.id === bundleId);
+  if (!bundle) return;
+  if (isBundleActive(bundle)) {
+    removeBillingCodes(bundle.codes);
+  } else {
+    bundle.codes.forEach((code) => {
+      removeBillingCodes([code]);
+      addBillingCode(code);
+    });
+  }
+  syncBillingQuickControls();
+  renderBillingCard();
+}
+
 function renderQuickAddDialog() {
   els.quickAddDialogBody.innerHTML = QUICK_ADD_GROUPS.map((group, groupIndex) => `
     <section class="quick-add-group">
@@ -1116,6 +1150,7 @@ function syncBillingQuickControls() {
   els.billingQuickAddSummary.innerHTML = selected.length
     ? selected.map((code) => `<span class="quick-add-chip">${escapeHtml(code)}</span>`).join("")
     : `<p class="calc-note">No common codes selected.</p>`;
+  renderBundleButtons();
 }
 
 function openQuickAddDialog() {
@@ -1735,6 +1770,11 @@ els.codeSearchDialogDone.addEventListener("click", closeCodeSearchDialog);
 
 els.codeSearchDialog.addEventListener("click", (event) => {
   if (event.target === els.codeSearchDialog) closeCodeSearchDialog();
+});
+
+els.billingBundles.addEventListener("click", (event) => {
+  const button = event.target.closest("[data-bundle-id]");
+  if (button) toggleBundle(button.dataset.bundleId);
 });
 
 els.quickAddDialogBody.addEventListener("change", (event) => {
