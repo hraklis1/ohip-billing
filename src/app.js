@@ -63,6 +63,13 @@ const els = {
   bmiValue: document.querySelector("#bmiValue"),
   bmiE010: document.querySelector("#bmiE010"),
   bmiNote: document.querySelector("#bmiNote"),
+  eblWeight: document.querySelector("#eblWeight"),
+  eblSex: document.querySelector("#eblSex"),
+  eblHgbStart: document.querySelector("#eblHgbStart"),
+  eblHgbThreshold: document.querySelector("#eblHgbThreshold"),
+  eblVolume: document.querySelector("#eblVolume"),
+  eblResult: document.querySelector("#eblResult"),
+  eblNote: document.querySelector("#eblNote"),
   billingStartTime: document.querySelector("#billingStartTime"),
   billingEndTime: document.querySelector("#billingEndTime"),
   billingUnitFee: document.querySelector("#billingUnitFee"),
@@ -768,7 +775,8 @@ const CALCULATOR_FILTERS = [
   { key: "iss", label: "ISS" },
   { key: "weight", label: "Weight" },
   { key: "height", label: "Height" },
-  { key: "bmi", label: "BMI" }
+  { key: "bmi", label: "BMI" },
+  { key: "ebl", label: "Blood loss" }
 ];
 
 function renderCalculatorFilters() {
@@ -913,6 +921,34 @@ function updateBmiCalculator() {
   els.bmiNote.textContent = eligible
     ? `BMI ${roundToTenth(bmi)} (${bmiCategory(bmi)}). E010 applies: 2 units when BMI is greater than 40.`
     : `BMI ${roundToTenth(bmi)} (${bmiCategory(bmi)}). E010: 2 units when BMI > 40.`;
+}
+
+const EBV_ML_PER_KG = { male: 75, female: 65 };
+const EBL_DEFAULT_NOTE = "ABL = EBV × (start − threshold) ÷ average Hgb. EBV: 75 mL/kg male, 65 mL/kg female.";
+
+function updateEblCalculator() {
+  const weight = Number.parseFloat(els.eblWeight.value);
+  const hgbStart = Number.parseFloat(els.eblHgbStart.value);
+  const hgbThreshold = Number.parseFloat(els.eblHgbThreshold.value);
+  const perKg = EBV_ML_PER_KG[els.eblSex.value] ?? EBV_ML_PER_KG.male;
+
+  const hasWeight = weight > 0;
+  const ebv = weight * perKg;
+  els.eblVolume.textContent = hasWeight ? `${Math.round(ebv)} mL` : "--";
+
+  if (!hasWeight || !(hgbStart > 0) || !(hgbThreshold > 0)) {
+    els.eblResult.textContent = "--";
+    els.eblNote.textContent = EBL_DEFAULT_NOTE;
+    return;
+  }
+  if (hgbStart <= hgbThreshold) {
+    els.eblResult.textContent = "--";
+    els.eblNote.textContent = "Starting Hgb must be above the threshold to estimate allowable blood loss.";
+    return;
+  }
+  const abl = (ebv * (hgbStart - hgbThreshold)) / ((hgbStart + hgbThreshold) / 2);
+  els.eblResult.textContent = `${Math.round(abl)} mL`;
+  els.eblNote.textContent = EBL_DEFAULT_NOTE;
 }
 
 function normalizedCode(value) {
@@ -1623,6 +1659,11 @@ els.weightLbs.addEventListener("input", () => convertWeight("lbs"));
   el.addEventListener("input", updateBmiCalculator);
 });
 
+[els.eblWeight, els.eblHgbStart, els.eblHgbThreshold].forEach((el) => {
+  el.addEventListener("input", updateEblCalculator);
+});
+els.eblSex.addEventListener("change", updateEblCalculator);
+
 els.billingCodeSearch.addEventListener("input", (event) => {
   state.billingQuery = event.target.value.trim().toLowerCase();
   renderBillingSearch();
@@ -1733,6 +1774,7 @@ updateCalculator();
 updateIssCalculator();
 updateHeightConverter();
 updateBmiCalculator();
+updateEblCalculator();
 renderBillingSearch();
 renderQuickAddDialog();
 syncBillingQuickControls();

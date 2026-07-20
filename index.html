@@ -370,6 +370,47 @@
                 </div>
               </details>
             </section>
+
+            <section class="calculator" aria-label="Estimated blood loss calculator" data-calculator="ebl">
+              <div class="calculator-header">
+                <p class="eyebrow">Blood loss</p>
+                <h2>Estimated Blood Loss</h2>
+              </div>
+
+              <div class="converter-inputs">
+                <label>
+                  <span>Weight (kg)</span>
+                  <input id="eblWeight" type="number" inputmode="decimal" min="0" step="any" placeholder="kg" autocomplete="off" />
+                </label>
+                <label>
+                  <span>Sex</span>
+                  <select id="eblSex">
+                    <option value="male">Male</option>
+                    <option value="female">Female</option>
+                  </select>
+                </label>
+                <label>
+                  <span>Starting Hgb (g/L)</span>
+                  <input id="eblHgbStart" type="number" inputmode="decimal" min="0" step="any" placeholder="g/L" autocomplete="off" />
+                </label>
+                <label>
+                  <span>Hgb threshold (g/L)</span>
+                  <input id="eblHgbThreshold" type="number" inputmode="decimal" min="0" step="any" value="70" autocomplete="off" />
+                </label>
+              </div>
+
+              <div class="calc-output iss-output">
+                <div>
+                  <span class="metric-label">Blood volume</span>
+                  <strong id="eblVolume">--</strong>
+                </div>
+                <div>
+                  <span class="metric-label">Allowable loss</span>
+                  <strong id="eblResult">--</strong>
+                </div>
+              </div>
+              <p class="calc-note" id="eblNote">ABL = EBV &times; (start &minus; threshold) &divide; average Hgb. EBV: 75 mL/kg male, 65 mL/kg female.</p>
+            </section>
           </div>
         </section>
       </section>
