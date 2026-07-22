@@ -447,6 +447,18 @@ tr.just-added,
   font-weight: 600;
 }
 
+.common-name {
+  display: inline-block;
+  margin-left: 8px;
+  padding: 1px 8px;
+  border-radius: 999px;
+  background: var(--accent-soft);
+  color: var(--accent-strong);
+  font-size: 0.75rem;
+  font-weight: 600;
+  vertical-align: middle;
+}
+
 .empty-state {
   padding: 26px;
   color: var(--muted);

@@ -2,6 +2,7 @@ import { ohipAnesthesiaData } from "./data/ohipAnesthesiaCodes.js";
 import { generalShortlistGroups } from "./data/generalShortlist.js";
 import { procedureFeeGroups } from "./data/procedureFees.js";
 import { miscShortlistGroups } from "./data/miscShortlist.js";
+import { codeAliases } from "./data/codeAliases.js";
 
 const state = {
   category: "All",
@@ -196,6 +197,10 @@ const miscLookupCodes = miscShortlistGroups.flatMap((group) => group.items.map((
   };
 }));
 const codes = [...generatedCodes, ...generalLookupCodes, ...procedureLookupCodes, ...miscLookupCodes];
+codes.forEach((item) => {
+  const aliases = codeAliases[item.code];
+  if (aliases) item.aliases = aliases;
+});
 const DISPLAY_STEP = 150;
 const VIEWS = new Set(["lookup", "shortlist", "calculators", "billing"]);
 const SHORTLIST_VIEWS = new Set(["general", "procedure", "misc"]);
@@ -310,6 +315,7 @@ function matchesItemQuery(item, query) {
   const haystack = [
     item.code,
     item.description,
+    ...(item.aliases || []),
     ...(item.paymentRules || []),
     ...(item.commentary || []),
     ...(item.medicalRecordRequirements || []),
@@ -399,7 +405,13 @@ function descriptionHtml(item, codeIndex) {
   const infoButton = hasInfo(item)
     ? `<button class="info-button" type="button" data-code-index="${codeIndex}" aria-label="Show payment rules for ${escapeAttr(displayCode(item))}" title="Payment rules">i</button>`
     : "";
-  return `${escapeHtml(item.description)}${infoButton}`;
+  return `${escapeHtml(item.description)}${infoButton}${commonNameHtml(item)}`;
+}
+
+function commonNameHtml(item) {
+  if (!item.aliases || !item.aliases.length) return "";
+  const label = item.aliases.map(escapeHtml).join(" &middot; ");
+  return `<span class="common-name" title="Common name(s)">${label}</span>`;
 }
 
 function addCodeButtonHtml(item, source, index) {
@@ -1331,7 +1343,7 @@ function renderBillingSearch() {
       : "";
     return `<button class="billing-search-row" type="button" data-billing-source="codes" data-billing-index="${index}" title="${escapeAttr(item.description)}">
       <span class="billing-search-code">${escapeHtml(displayCode(item))}</span>
-      <span class="billing-search-description">${escapeHtml(item.description)}</span>
+      <span class="billing-search-description">${escapeHtml(item.description)}${commonNameHtml(item)}</span>
       <span>${valueHtml(item)}</span>
       ${contextLine}
     </button>`;
