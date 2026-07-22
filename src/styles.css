@@ -541,6 +541,15 @@ tr.just-added,
   padding-bottom: 1px;
 }
 
+/* Level-3 category filter band — sits directly under the shortlist tabs */
+.shortlist-panel > .general-filters {
+  flex-wrap: wrap;
+  overflow-x: visible;
+  gap: 6px;
+  margin-top: 12px;
+  padding-bottom: 0;
+}
+
 .general-filter-button {
   display: inline-flex;
   min-height: 32px;
@@ -581,6 +590,7 @@ tr.just-added,
   display: grid;
   grid-template-columns: repeat(2, minmax(0, 1fr));
   gap: 0;
+  padding-top: 4px;
 }
 
 .general-group {
