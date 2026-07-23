@@ -217,6 +217,14 @@ const QUICK_ADD_GROUPS = [
     ]
   },
   {
+    title: "After Hours Premium",
+    exclusive: true,
+    options: [
+      { code: "E400C", label: "Evenings (17:00-24:00) Mon-Fri, or days/evenings Sat/Sun/Hol" },
+      { code: "E401C", label: "Nights (00:00-07:00)" }
+    ]
+  },
+  {
     title: "Extra Units",
     options: [
       { code: "E020C", label: "ASA E - anaesthesia for emergency surgery" },
@@ -225,14 +233,6 @@ const QUICK_ADD_GROUPS = [
       { code: "E024C", label: "Sitting position, greater than 60 degrees upright" },
       { code: "E012C", label: "Known or suspected malignant hyperthermia" },
       { code: "E025C", label: "Unanticipated massive transfusion" }
-    ]
-  },
-  {
-    title: "After Hours Premium",
-    exclusive: true,
-    options: [
-      { code: "E400C", label: "Evenings (17:00-24:00) Mon-Fri, or days/evenings Sat/Sun/Hol" },
-      { code: "E401C", label: "Nights (00:00-07:00)" }
     ]
   },
   {
