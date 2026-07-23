@@ -279,6 +279,7 @@ const QUICK_ADD_GROUPS = [
 ];
 const CODE_BUNDLES = [
   { id: "thoracic", label: "Thoracic", codes: ["G268", "G489", "Z342", "Z459"] },
+  { id: "spine", label: "Spine", codes: ["G268", "G489", "E011"] },
   { id: "artline-piv", label: "Art Line + Peripheral IV", codes: ["G268", "G489"] },
   { id: "artline-central", label: "Art Line + Central Line", codes: ["G268", "G269"] }
 ];
